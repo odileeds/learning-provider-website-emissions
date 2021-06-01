@@ -1,2 +1,3 @@
-# learning-provider-website-emissions
-Measuring the CO2 emissions from the homepages of UK learning providers
+# Learning provider website emissions
+
+Looking at the CO2 emissions of UK learning provider homepages

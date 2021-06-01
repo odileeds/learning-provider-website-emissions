@@ -1,0 +1,1829 @@
+{
+	"orgs": {
+		"10000291": {
+			"active": true,
+			"name": "Anglia Ruskin University",
+			"urls": {
+				"http://www.anglia.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.22, "bytes": 2022088, "green": 0, "imagebytes": 1083243 }
+					}
+				}
+			}
+		},
+		"10000385": {
+			"active": true,
+			"name": "The Arts University College at Bournemouth",
+			"urls": {
+				"http://www.aub.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 5.68, "bytes": 9413959, "green": 0, "imagebytes": 395247 }
+					}
+				}
+			}
+		},
+		"10000571": {
+			"active": true,
+			"name": "Bath Spa University",
+			"urls": {
+				"http://www.bathspa.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.83, "bytes": 1517572, "green": 1, "imagebytes": 794629 }
+					}
+				}
+			}
+		},
+		"10000712": {
+			"active": true,
+			"name": "University College Birmingham",
+			"urls": {
+				"http://www.ucb.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.91, "bytes": 3164031, "green": 0, "imagebytes": 413169 }
+					}
+				}
+			}
+		},
+		"10000824": {
+			"active": true,
+			"name": "Bournemouth University",
+			"urls": {
+				"http://www.bournemouth.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.91, "bytes": 5324565, "green": 1, "imagebytes": 3887248 }
+					}
+				}
+			}
+		},
+		"10000886": {
+			"active": true,
+			"name": "University of Brighton",
+			"urls": {
+				"http://www.brighton.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.97, "bytes": 1602179, "green": 0, "imagebytes": 1012519 }
+					}
+				}
+			}
+		},
+		"10000961": {
+			"active": true,
+			"name": "Brunel University",
+			"urls": {
+				"http://www.brunel.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.87, "bytes": 4767597, "green": 0, "imagebytes": 2058708 }
+					}
+				}
+			}
+		},
+		"10000975": {
+			"active": true,
+			"name": "Buckinghamshire New University",
+			"urls": {
+				"http://www.bucks.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.67, "bytes": 2774369, "green": 0, "imagebytes": 622901 }
+					}
+				}
+			}
+		},
+		"10001143": {
+			"active": true,
+			"name": "Canterbury Christ Church University",
+			"urls": {
+				"http://www.canterbury.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.71, "bytes": 6156856, "green": 0, "imagebytes": 1523154 }
+					}
+				}
+			}
+		},
+		"10001282": {
+			"active": true,
+			"name": "University of Northumbria at Newcastle",
+			"urls": {
+				"http://www.northumbria.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.96, "bytes": 4916256, "green": 0, "imagebytes": 3037794 }
+					}
+				}
+			}
+		},
+		"10001478": {
+			"active": true,
+			"name": "The City University",
+			"urls": {
+				"http://www.city.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 8.81, "bytes": 14611268, "green": 0, "imagebytes": 1314331 }
+					}
+				}
+			}
+		},
+		"10001653": {
+			"active": true,
+			"name": "The Conservatoire for Dance and Drama",
+			"urls": {
+				"http://www.cdd.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 30.21, "bytes": 50114993, "green": 0, "imagebytes": 49603009 }
+					}
+				}
+			}
+		},
+		"10001726": {
+			"active": true,
+			"name": "Coventry University",
+			"urls": {
+				"http://www.coventry.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.85, "bytes": 1561713, "green": 1, "imagebytes": 912129 }
+					}
+				}
+			}
+		},
+		"10001883": {
+			"active": true,
+			"name": "De Montfort University",
+			"urls": {
+				"http://www.dmu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.68, "bytes": 1121392, "green": 0, "imagebytes": 379941 }
+					}
+				}
+			}
+		},
+		"10002681": {
+			"active": true,
+			"name": "Glasgow School of Art",
+			"urls": {
+				"http://www.gsa.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.5, "bytes": 2483304, "green": 0, "imagebytes": 2193539 }
+					}
+				}
+			}
+		},
+		"10002718": {
+			"active": true,
+			"name": "Goldsmiths' College",
+			"urls": {
+				"http://www.gold.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.03, "bytes": 1705658, "green": 0, "imagebytes": 858524 }
+					}
+				}
+			}
+		},
+		"10003270": {
+			"active": true,
+			"name": "Imperial College of Science, Technology and Medicine",
+			"urls": {
+				"http://www.imperial.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.75, "bytes": 2899121, "green": 0, "imagebytes": 2256042 }
+					}
+				}
+			}
+		},
+		"10003324": {
+			"active": true,
+			"name": "Institute of Cancer Research: Royal Cancer Hospital (The)",
+			"urls": {
+				"http://www.icr.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.73, "bytes": 1342322, "green": 1, "imagebytes": 635400 }
+					}
+				}
+			}
+		},
+		"10003614": {
+			"active": true,
+			"name": "University of Winchester",
+			"urls": {
+				"http://www.winchester.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.24, "bytes": 5369801, "green": 0, "imagebytes": 3621286 }
+					}
+				}
+			}
+		},
+		"10003645": {
+			"active": true,
+			"name": "King's College London",
+			"urls": {
+				"http://www.kcl.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.72, "bytes": 2853854, "green": 0, "imagebytes": 1441743 }
+					}
+				}
+			}
+		},
+		"10003678": {
+			"active": true,
+			"name": "Kingston University",
+			"urls": {
+				"http://www.kingston.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.88, "bytes": 1613079, "green": 1, "imagebytes": 865927 }
+					}
+				}
+			}
+		},
+		"10003854": {
+			"active": true,
+			"name": "Leeds College of Art",
+			"urls": {
+				"http://www.leeds-art.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.85, "bytes": 8882495, "green": 1, "imagebytes": 7917040 }
+					}
+				}
+			}
+		},
+		"10003861": {
+			"active": true,
+			"name": "Leeds Metropolitan University",
+			"urls": {
+				"http://www.leedsmet.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.65, "bytes": 4398576, "green": 0, "imagebytes": 1152613 }
+					}
+				}
+			}
+		},
+		"10003863": {
+			"active": true,
+			"name": "Leeds Trinity University College",
+			"urls": {
+				"http://www.leedstrinity.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.94, "bytes": 5373309, "green": 1, "imagebytes": 2984007 }
+					}
+				}
+			}
+		},
+		"10003945": {
+			"active": true,
+			"name": "The Liverpool Institute for Performing Arts",
+			"urls": {
+				"http://www.lipa.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 7.71, "bytes": 12781051, "green": 0, "imagebytes": 1161949 }
+					}
+				}
+			}
+		},
+		"10003956": {
+			"active": true,
+			"name": "Liverpool Hope University",
+			"urls": {
+				"http://www.hope.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.98, "bytes": 4937450, "green": 0, "imagebytes": 3992747 }
+					}
+				}
+			}
+		},
+		"10003957": {
+			"active": true,
+			"name": "Liverpool John Moores University",
+			"urls": {
+				"http://www.ljmu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.49, "bytes": 5783946, "green": 0, "imagebytes": 3854651 }
+					}
+				}
+			}
+		},
+		"10004048": {
+			"active": true,
+			"name": "London Metropolitan University",
+			"urls": {
+				"http://www.londonmet.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.48, "bytes": 5771732, "green": 0, "imagebytes": 5068217 }
+					}
+				}
+			}
+		},
+		"10004063": {
+			"active": true,
+			"name": "London School of Economics & Political Science",
+			"urls": {
+				"http://www.lse.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.72, "bytes": 1201967, "green": 0, "imagebytes": 402354 }
+					}
+				}
+			}
+		},
+		"10004078": {
+			"active": true,
+			"name": "London South Bank University",
+			"urls": {
+				"http://www.lsbu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.55, "bytes": 7545070, "green": 0, "imagebytes": 3301721 }
+					}
+				}
+			}
+		},
+		"10004113": {
+			"active": true,
+			"name": "Loughborough University",
+			"urls": {
+				"http://www.lboro.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.83, "bytes": 4687288, "green": 0, "imagebytes": 4156226 }
+					}
+				}
+			}
+		},
+		"10004180": {
+			"active": true,
+			"name": "The Manchester Metropolitan University",
+			"urls": {
+				"http://www.mmu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.7, "bytes": 3114156, "green": 1, "imagebytes": 848346 }
+					}
+				}
+			}
+		},
+		"10004351": {
+			"active": true,
+			"name": "Middlesex University",
+			"urls": {
+				"http://www.mdx.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.26, "bytes": 5412861, "green": 0, "imagebytes": 1922525 }
+					}
+				}
+			}
+		},
+		"10004775": {
+			"active": true,
+			"name": "Norwich University College of the Arts",
+			"urls": {
+				"http://www.nua.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.96, "bytes": 3578803, "green": 1, "imagebytes": 2334850 }
+					}
+				}
+			}
+		},
+		"10004797": {
+			"active": true,
+			"name": "Nottingham Trent University",
+			"urls": {
+				"http://www.ntu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.36, "bytes": 3922454, "green": 0, "imagebytes": 2520190 }
+					}
+				}
+			}
+		},
+		"10004930": {
+			"active": true,
+			"name": "Oxford Brookes University",
+			"urls": {
+				"http://www.brookes.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.93, "bytes": 4853957, "green": 0, "imagebytes": 3376534 }
+					}
+				}
+			}
+		},
+		"10005337": {
+			"active": true,
+			"name": "Queen Margaret University, Edinburgh",
+			"urls": {
+				"http://www.qmu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.65, "bytes": 4391620, "green": 0, "imagebytes": 3864534 }
+					}
+				}
+			}
+		},
+		"10005343": {
+			"active": true,
+			"name": "The Queen's University of Belfast",
+			"urls": {
+				"http://www.qub.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.58, "bytes": 2626256, "green": 0, "imagebytes": 2045029 }
+					}
+				}
+			}
+		},
+		"10005389": {
+			"active": true,
+			"name": "Ravensbourne Limited",
+			"urls": {
+				"http://www.rave.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.41, "bytes": 677206, "green": 0, "imagebytes": 195625 }
+					}
+				}
+			}
+		},
+		"10005500": {
+			"active": true,
+			"name": "The Robert Gordon University",
+			"urls": {
+				"http://www.rgu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.29, "bytes": 2136003, "green": 0, "imagebytes": 1485183 }
+					}
+				}
+			}
+		},
+		"10005523": {
+			"active": true,
+			"name": "Rose Bruford College",
+			"urls": {
+				"http://www.bruford.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 6.71, "bytes": 11136742, "green": 0, "imagebytes": 9955777 }
+					}
+				}
+			}
+		},
+		"10005545": {
+			"active": true,
+			"name": "Royal Agricultural College",
+			"urls": {
+				"http://www.rac.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.19, "bytes": 3625195, "green": 0, "imagebytes": 2849862 }
+					}
+				}
+			}
+		},
+		"10005553": {
+			"active": true,
+			"name": "Royal Holloway College and Bedford New College",
+			"urls": {
+				"http://www.rhul.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.95, "bytes": 4890494, "green": 0, "imagebytes": 4143010 }
+					}
+				}
+			}
+		},
+		"10005561": {
+			"active": true,
+			"name": "Royal Conservatoire of Scotland",
+			"urls": {
+				"http://www.rcs.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 17.54, "bytes": 29087465, "green": 0, "imagebytes": 11927853 }
+					}
+				}
+			}
+		},
+		"10005700": {
+			"active": true,
+			"name": "Sruc",
+			"urls": {
+				"http://www.sruc.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.66, "bytes": 1093561, "green": 0, "imagebytes": 246078 }
+					}
+				}
+			}
+		},
+		"10005790": {
+			"active": true,
+			"name": "Sheffield Hallam University",
+			"urls": {
+				"http://www.shu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.3, "bytes": 2156157, "green": 0, "imagebytes": 834316 }
+					}
+				}
+			}
+		},
+		"10006022": {
+			"active": true,
+			"name": "Southampton Solent University",
+			"urls": {
+				"http://www.solent.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.09, "bytes": 3471283, "green": 0, "imagebytes": 332988 }
+					}
+				}
+			}
+		},
+		"10006299": {
+			"active": true,
+			"name": "Staffordshire University",
+			"urls": {
+				"http://www.staffs.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.78, "bytes": 1300572, "green": 0, "imagebytes": 844984 }
+					}
+				}
+			}
+		},
+		"10006427": {
+			"active": true,
+			"name": "University for the Creative Arts",
+			"urls": {
+				"http://www.ucreative.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.07, "bytes": 5088147, "green": 0, "imagebytes": 4218303 }
+					}
+				}
+			}
+		},
+		"10006566": {
+			"active": true,
+			"name": "The University of West London",
+			"urls": {
+				"http://www.uwl.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.72, "bytes": 3153866, "green": 1, "imagebytes": 490722 }
+					}
+				}
+			}
+		},
+		"10006840": {
+			"active": true,
+			"name": "University of Birmingham",
+			"urls": {
+				"http://www.birmingham.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.87, "bytes": 1448011, "green": 0, "imagebytes": 872780 }
+					}
+				}
+			}
+		},
+		"10006841": {
+			"active": true,
+			"name": "The University of Bolton",
+			"urls": {
+				"http://www.bolton.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.46, "bytes": 5744872, "green": 0, "imagebytes": 1715541 }
+					}
+				}
+			}
+		},
+		"10006842": {
+			"active": true,
+			"name": "University of Liverpool",
+			"urls": {
+				"http://www.liv.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.05, "bytes": 1734282, "green": 0, "imagebytes": 813960 }
+					}
+				}
+			}
+		},
+		"10007114": {
+			"active": true,
+			"name": "University of the Highlands and Islands",
+			"urls": {
+				"http://www.uhi.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.99, "bytes": 3650396, "green": 1, "imagebytes": 3309873 }
+					}
+				}
+			}
+		},
+		"10007137": {
+			"active": true,
+			"name": "The University of Chichester",
+			"urls": {
+				"http://www.chi.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 7.66, "bytes": 14014299, "green": 1, "imagebytes": 3067121 }
+					}
+				}
+			}
+		},
+		"10007138": {
+			"active": true,
+			"name": "The University of Northampton",
+			"urls": {
+				"http://www.northampton.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.15, "bytes": 1900500, "green": 0, "imagebytes": 673512 }
+					}
+				}
+			}
+		},
+		"10007139": {
+			"active": true,
+			"name": "University of Worcester",
+			"urls": {
+				"http://www.worc.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.08, "bytes": 1792446, "green": 0, "imagebytes": 1347169 }
+					}
+				}
+			}
+		},
+		"10007140": {
+			"active": true,
+			"name": "Birmingham City University",
+			"urls": {
+				"http://www.bcu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.73, "bytes": 6192411, "green": 0, "imagebytes": 4253763 }
+					}
+				}
+			}
+		},
+		"10007141": {
+			"active": true,
+			"name": "University of Central Lancashire",
+			"urls": {
+				"http://www.uclan.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.02, "bytes": 1699903, "green": 0, "imagebytes": 886448 }
+					}
+				}
+			}
+		},
+		"10007143": {
+			"active": true,
+			"name": "University of Durham",
+			"urls": {
+				"http://www.dur.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.06, "bytes": 6735508, "green": 0, "imagebytes": 5594523 }
+					}
+				}
+			}
+		},
+		"10007144": {
+			"active": true,
+			"name": "University of East London",
+			"urls": {
+				"http://www.uel.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.39, "bytes": 3960633, "green": 0, "imagebytes": 2177273 }
+					}
+				}
+			}
+		},
+		"10007145": {
+			"active": true,
+			"name": "University of Gloucestershire",
+			"urls": {
+				"http://www.glos.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.75, "bytes": 1376204, "green": 1, "imagebytes": 659059 }
+					}
+				}
+			}
+		},
+		"10007146": {
+			"active": true,
+			"name": "University of Greenwich",
+			"urls": {
+				"http://www.greenwich.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.7, "bytes": 2820950, "green": 0, "imagebytes": 349293 }
+					}
+				}
+			}
+		},
+		"10007147": {
+			"active": true,
+			"name": "University of Hertfordshire",
+			"urls": {
+				"http://www.herts.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.13, "bytes": 5192816, "green": 0, "imagebytes": 3689003 }
+					}
+				}
+			}
+		},
+		"10007148": {
+			"active": true,
+			"name": "University of Huddersfield",
+			"urls": {
+				"http://www.hud.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.49, "bytes": 2470892, "green": 0, "imagebytes": 1323866 }
+					}
+				}
+			}
+		},
+		"10007149": {
+			"active": true,
+			"name": "University of Hull",
+			"urls": {
+				"http://www.hull.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.47, "bytes": 5752012, "green": 0, "imagebytes": 568534 }
+					}
+				}
+			}
+		},
+		"10007150": {
+			"active": true,
+			"name": "University of Kent",
+			"urls": {
+				"http://www.kent.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.65, "bytes": 4397962, "green": 0, "imagebytes": 2985576 }
+					}
+				}
+			}
+		},
+		"10007151": {
+			"active": true,
+			"name": "University of Lincoln",
+			"urls": {
+				"http://www.lincoln.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 10.24, "bytes": 16986217, "green": 0, "imagebytes": 6764500 }
+					}
+				}
+			}
+		},
+		"10007152": {
+			"active": true,
+			"name": "University of Bedfordshire",
+			"urls": {
+				"http://www.beds.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.93, "bytes": 6516562, "green": 0, "imagebytes": 4882990 }
+					}
+				}
+			}
+		},
+		"10007154": {
+			"active": true,
+			"name": "University of Nottingham",
+			"urls": {
+				"http://www.nottingham.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 8.53, "bytes": 14150436, "green": 0, "imagebytes": 10076316 }
+					}
+				}
+			}
+		},
+		"10007155": {
+			"active": true,
+			"name": "University of Portsmouth",
+			"urls": {
+				"http://www.port.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.47, "bytes": 785861, "green": 0, "imagebytes": 596133 }
+					}
+				}
+			}
+		},
+		"10007156": {
+			"active": true,
+			"name": "University of Salford",
+			"urls": {
+				"http://www.salford.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.55, "bytes": 7550647, "green": 0, "imagebytes": 3983083 }
+					}
+				}
+			}
+		},
+		"10007157": {
+			"active": true,
+			"name": "University of Sheffield",
+			"urls": {
+				"http://www.shef.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.36, "bytes": 2261524, "green": 0, "imagebytes": 1288696 }
+					}
+				}
+			}
+		},
+		"10007158": {
+			"active": true,
+			"name": "University of Southampton",
+			"urls": {
+				"http://www.soton.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.27, "bytes": 2107339, "green": 0, "imagebytes": 1514982 }
+					}
+				}
+			}
+		},
+		"10007159": {
+			"active": true,
+			"name": "University of Sunderland",
+			"urls": {
+				"http://www.sunderland.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.51, "bytes": 4159035, "green": 0, "imagebytes": 2313886 }
+					}
+				}
+			}
+		},
+		"10007160": {
+			"active": true,
+			"name": "University of Surrey",
+			"urls": {
+				"http://www.surrey.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.17, "bytes": 1944780, "green": 0, "imagebytes": 1182614 }
+					}
+				}
+			}
+		},
+		"10007161": {
+			"active": true,
+			"name": "Teesside University",
+			"urls": {
+				"http://www.tees.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.57, "bytes": 2601525, "green": 0, "imagebytes": 1238917 }
+					}
+				}
+			}
+		},
+		"10007162": {
+			"active": true,
+			"name": "University of the Arts, London",
+			"urls": {
+				"http://www.arts.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.05, "bytes": 5062434, "green": 0, "imagebytes": 3079534 }
+					}
+				}
+			}
+		},
+		"10007163": {
+			"active": true,
+			"name": "University of Warwick",
+			"urls": {
+				"http://www.warwick.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.13, "bytes": 1871965, "green": 0, "imagebytes": 616220 }
+					}
+				}
+			}
+		},
+		"10007164": {
+			"active": true,
+			"name": "University of the West of England, Bristol",
+			"urls": {
+				"http://www.uwe.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.63, "bytes": 1041199, "green": 0, "imagebytes": 216129 }
+					}
+				}
+			}
+		},
+		"10007165": {
+			"active": true,
+			"name": "The University of Westminster",
+			"urls": {
+				"http://www.westminster.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.37, "bytes": 674888, "green": 1, "imagebytes": 144552 }
+					}
+				}
+			}
+		},
+		"10007166": {
+			"active": true,
+			"name": "University of Wolverhampton",
+			"urls": {
+				"http://www.wlv.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.96, "bytes": 1765133, "green": 1, "imagebytes": 614504 }
+					}
+				}
+			}
+		},
+		"10007167": {
+			"active": true,
+			"name": "University of York",
+			"urls": {
+				"http://www.york.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.16, "bytes": 1926512, "green": 0, "imagebytes": 1026273 }
+					}
+				}
+			}
+		},
+		"10007657": {
+			"active": true,
+			"name": "Writtle College",
+			"urls": {
+				"http://www.writtle.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 8.34, "bytes": 13837172, "green": 0, "imagebytes": 1329479 }
+					}
+				}
+			}
+		},
+		"10007713": {
+			"active": true,
+			"name": "York St John University",
+			"urls": {
+				"http://www.yorksj.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1, "bytes": 1827528, "green": 1, "imagebytes": 452769 }
+					}
+				}
+			}
+		},
+		"10007759": {
+			"active": true,
+			"name": "Aston University",
+			"urls": {
+				"http://www.aston.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.29, "bytes": 2145182, "green": 0, "imagebytes": 534672 }
+					}
+				}
+			}
+		},
+		"10007760": {
+			"active": true,
+			"name": "Birkbeck College",
+			"urls": {
+				"http://www.bbk.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.96, "bytes": 1597829, "green": 0, "imagebytes": 1270607 }
+					}
+				}
+			}
+		},
+		"10007761": {
+			"active": true,
+			"name": "Courtauld Institute of Art",
+			"urls": {
+				"http://www.courtauld.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.73, "bytes": 1338609, "green": 1, "imagebytes": 619120 }
+					}
+				}
+			}
+		},
+		"10007762": {
+			"active": true,
+			"name": "Glasgow Caledonian University",
+			"urls": {
+				"http://www.gcu.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 5.67, "bytes": 10368698, "green": 1, "imagebytes": 1701715 }
+					}
+				}
+			}
+		},
+		"10007764": {
+			"active": true,
+			"name": "Heriot-Watt University",
+			"urls": {
+				"http://www.hw.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.28, "bytes": 2121458, "green": 0, "imagebytes": 872290 }
+					}
+				}
+			}
+		},
+		"10007765": {
+			"active": true,
+			"name": "Heythrop College",
+			"urls": {
+				"http://www.heythrop.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.34, "bytes": 560707, "green": 0, "imagebytes": 381099 }
+					}
+				}
+			}
+		},
+		"10007766": {
+			"active": true,
+			"name": "Institute of Education, University of London",
+			"urls": {
+				"http://www.ioe.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.01, "bytes": 3330449, "green": 0, "imagebytes": 2502773 }
+					}
+				}
+			}
+		},
+		"10007767": {
+			"active": true,
+			"name": "University of Keele",
+			"urls": {
+				"http://www.keele.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.94, "bytes": 3212273, "green": 0, "imagebytes": 2662607 }
+					}
+				}
+			}
+		},
+		"10007768": {
+			"active": true,
+			"name": "University of Lancaster",
+			"urls": {
+				"http://www.lancs.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.93, "bytes": 1537028, "green": 0, "imagebytes": 378155 }
+					}
+				}
+			}
+		},
+		"10007769": {
+			"active": true,
+			"name": "London Business School",
+			"urls": {
+				"http://www.london.edu/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.59, "bytes": 5957525, "green": 0, "imagebytes": 236099 }
+					}
+				}
+			}
+		},
+		"10007771": {
+			"active": true,
+			"name": "London School of Hygiene and Tropical Medicine",
+			"urls": {
+				"http://www.lshtm.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.95, "bytes": 1730187, "green": 1, "imagebytes": 701547 }
+					}
+				}
+			}
+		},
+		"10007772": {
+			"active": true,
+			"name": "Edinburgh Napier University",
+			"urls": {
+				"http://www.napier.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.62, "bytes": 2680478, "green": 0, "imagebytes": 1958595 }
+					}
+				}
+			}
+		},
+		"10007773": {
+			"active": true,
+			"name": "Open University(The)",
+			"urls": {
+				"http://www.open.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.98, "bytes": 1618622, "green": 0, "imagebytes": 379398 }
+					}
+				}
+			}
+		},
+		"10007774": {
+			"active": true,
+			"name": "University of Oxford",
+			"urls": {
+				"http://www.ox.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.7, "bytes": 2825959, "green": 0, "imagebytes": 1694140 }
+					}
+				}
+			}
+		},
+		"10007775": {
+			"active": true,
+			"name": "Queen Mary and Westfield College, University of London",
+			"urls": {
+				"http://www.qmul.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 6.91, "bytes": 11458439, "green": 0, "imagebytes": 10733059 }
+					}
+				}
+			}
+		},
+		"10007776": {
+			"active": true,
+			"name": "Roehampton University",
+			"urls": {
+				"http://www.roehampton.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.4, "bytes": 6222319, "green": 1, "imagebytes": 4876609 }
+					}
+				}
+			}
+		},
+		"10007777": {
+			"active": true,
+			"name": "Royal College of Art(The)",
+			"urls": {
+				"http://www.rca.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.26, "bytes": 2299047, "green": 1, "imagebytes": 1509074 }
+					}
+				}
+			}
+		},
+		"10007778": {
+			"active": true,
+			"name": "Royal College of Music",
+			"urls": {
+				"http://www.rcm.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.2, "bytes": 3655175, "green": 0, "imagebytes": 2108113 }
+					}
+				}
+			}
+		},
+		"10007779": {
+			"active": true,
+			"name": "The Royal Veterinary College",
+			"urls": {
+				"http://www.rvc.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.75, "bytes": 7874213, "green": 0, "imagebytes": 5469060 }
+					}
+				}
+			}
+		},
+		"10007780": {
+			"active": true,
+			"name": "School of Oriental and African Studies",
+			"urls": {
+				"http://www.soas.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.62, "bytes": 2680843, "green": 0, "imagebytes": 2178227 }
+					}
+				}
+			}
+		},
+		"10007781": {
+			"active": true,
+			"name": "School of Pharmacy University of London(The)",
+			"urls": {
+				"http://www.pharmacy.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.88, "bytes": 3121898, "green": 0, "imagebytes": 2271876 }
+					}
+				}
+			}
+		},
+		"10007782": {
+			"active": true,
+			"name": "St George's Hospital Medical School",
+			"urls": {
+				"http://www.sgul.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.72, "bytes": 4507019, "green": 0, "imagebytes": 2785216 }
+					}
+				}
+			}
+		},
+		"10007783": {
+			"active": true,
+			"name": "University of Aberdeen",
+			"urls": {
+				"http://www.abdn.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.14, "bytes": 6859988, "green": 0, "imagebytes": 2341963 }
+					}
+				}
+			}
+		},
+		"10007784": {
+			"active": true,
+			"name": "University College London",
+			"urls": {
+				"http://www.ucl.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 10.15, "bytes": 18584238, "green": 1, "imagebytes": 4745206 }
+					}
+				}
+			}
+		},
+		"10007785": {
+			"active": true,
+			"name": "University of Bradford",
+			"urls": {
+				"http://www.bradford.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.26, "bytes": 3752567, "green": 0, "imagebytes": 1003177 }
+					}
+				}
+			}
+		},
+		"10007786": {
+			"active": true,
+			"name": "University of Bristol",
+			"urls": {
+				"http://www.bristol.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.15, "bytes": 1913694, "green": 0, "imagebytes": 128725 }
+					}
+				}
+			}
+		},
+		"10007787": {
+			"active": true,
+			"name": "The University of Buckingham",
+			"urls": {
+				"http://www.buckingham.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 5.17, "bytes": 9465499, "green": 1, "imagebytes": 4457760 }
+					}
+				}
+			}
+		},
+		"10007788": {
+			"active": true,
+			"name": "University of Cambridge",
+			"urls": {
+				"http://www.cam.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.43, "bytes": 4032835, "green": 0, "imagebytes": 1107205 }
+					}
+				}
+			}
+		},
+		"10007789": {
+			"active": true,
+			"name": "University of East Anglia",
+			"urls": {
+				"http://www.uea.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 9.5, "bytes": 17389720, "green": 1, "imagebytes": 3913966 }
+					}
+				}
+			}
+		},
+		"10007790": {
+			"active": true,
+			"name": "University of Edinburgh",
+			"urls": {
+				"http://www.ed.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.71, "bytes": 6146489, "green": 0, "imagebytes": 5664351 }
+					}
+				}
+			}
+		},
+		"10007791": {
+			"active": true,
+			"name": "University of Essex",
+			"urls": {
+				"http://www.essex.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.7, "bytes": 6130709, "green": 0, "imagebytes": 512463 }
+					}
+				}
+			}
+		},
+		"10007792": {
+			"active": true,
+			"name": "University of Exeter",
+			"urls": {
+				"http://www.exeter.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.79, "bytes": 2969535, "green": 0, "imagebytes": 1931108 }
+					}
+				}
+			}
+		},
+		"10007793": {
+			"active": true,
+			"name": "University of Glamorgan / Prifysgol Morgannwg",
+			"urls": {
+				"http://www.southwales.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.4, "bytes": 6225257, "green": 1, "imagebytes": 930963 }
+					}
+				}
+			}
+		},
+		"10007794": {
+			"active": true,
+			"name": "University of Glasgow",
+			"urls": {
+				"http://www.gla.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.71, "bytes": 1170009, "green": 0, "imagebytes": 645831 }
+					}
+				}
+			}
+		},
+		"10007795": {
+			"active": true,
+			"name": "University of Leeds",
+			"urls": {
+				"http://www.leeds.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.19, "bytes": 5298193, "green": 0, "imagebytes": 4614131 }
+					}
+				}
+			}
+		},
+		"10007796": {
+			"active": true,
+			"name": "University of Leicester",
+			"urls": {
+				"http://www.le.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.59, "bytes": 2635721, "green": 0, "imagebytes": 1719350 }
+					}
+				}
+			}
+		},
+		"10007797": {
+			"active": true,
+			"name": "University of London",
+			"urls": {
+				"http://www.lon.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 9.2, "bytes": 15259215, "green": 0, "imagebytes": 611575 }
+					}
+				}
+			}
+		},
+		"10007798": {
+			"active": true,
+			"name": "The University of Manchester",
+			"urls": {
+				"http://www.manchester.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.42, "bytes": 692537, "green": 0, "imagebytes": 132287 }
+					}
+				}
+			}
+		},
+		"10007799": {
+			"active": true,
+			"name": "University of Newcastle Upon Tyne",
+			"urls": {
+				"http://www.ncl.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 6.45, "bytes": 10691706, "green": 0, "imagebytes": 8729780 }
+					}
+				}
+			}
+		},
+		"10007800": {
+			"active": true,
+			"name": "University of the West of Scotland",
+			"urls": {
+				"http://www.uws.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.09, "bytes": 6784817, "green": 0, "imagebytes": 6016092 }
+					}
+				}
+			}
+		},
+		"10007801": {
+			"active": true,
+			"name": "University of Plymouth",
+			"urls": {
+				"http://www.plymouth.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.13, "bytes": 3530247, "green": 0, "imagebytes": 2107349 }
+					}
+				}
+			}
+		},
+		"10007802": {
+			"active": true,
+			"name": "University of Reading",
+			"urls": {
+				"http://www.reading.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.18, "bytes": 5281033, "green": 0, "imagebytes": 4041119 }
+					}
+				}
+			}
+		},
+		"10007803": {
+			"active": true,
+			"name": "University of St Andrews",
+			"urls": {
+				"http://www.st-andrews.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.6, "bytes": 987649, "green": 0, "imagebytes": 325275 }
+					}
+				}
+			}
+		},
+		"10007804": {
+			"active": true,
+			"name": "University of Stirling",
+			"urls": {
+				"http://www.stir.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.78, "bytes": 1285964, "green": 0, "imagebytes": 640304 }
+					}
+				}
+			}
+		},
+		"10007805": {
+			"active": true,
+			"name": "University of Strathclyde",
+			"urls": {
+				"http://www.strath.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1, "bytes": 1655888, "green": 0, "imagebytes": 743934 }
+					}
+				}
+			}
+		},
+		"10007806": {
+			"active": true,
+			"name": "University of Sussex",
+			"urls": {
+				"http://www.sussex.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.76, "bytes": 1263934, "green": 0, "imagebytes": 876356 }
+					}
+				}
+			}
+		},
+		"10007807": {
+			"active": true,
+			"name": "University of Ulster",
+			"urls": {
+				"http://www.ulster.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.05, "bytes": 1749525, "green": 0, "imagebytes": 345298 }
+					}
+				}
+			}
+		},
+		"10007811": {
+			"active": true,
+			"name": "Bishop Grosseteste University College Lincoln",
+			"urls": {
+				"http://www.bishopg.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.19, "bytes": 3625982, "green": 0, "imagebytes": 2475480 }
+					}
+				}
+			}
+		},
+		"10007814": {
+			"active": true,
+			"name": "Cardiff University",
+			"urls": {
+				"http://www.cardiff.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.71, "bytes": 1175480, "green": 0, "imagebytes": 613046 }
+					}
+				}
+			}
+		},
+		"10007816": {
+			"active": true,
+			"name": "Central School of Speech and Drama(The)",
+			"urls": {
+				"http://www.cssd.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.51, "bytes": 4600129, "green": 1, "imagebytes": 2210809 }
+					}
+				}
+			}
+		},
+		"10007822": {
+			"active": true,
+			"name": "Cranfield University",
+			"urls": {
+				"http://www.cranfield.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 5, "bytes": 8296228, "green": 0, "imagebytes": 6596438 }
+					}
+				}
+			}
+		},
+		"10007823": {
+			"active": true,
+			"name": "Edge Hill University",
+			"urls": {
+				"http://www.edgehill.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 6.48, "bytes": 10748880, "green": 0, "imagebytes": 8181285 }
+					}
+				}
+			}
+		},
+		"10007825": {
+			"active": true,
+			"name": "Guildhall School of Music and Drama",
+			"urls": {
+				"http://www.gsmd.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.4, "bytes": 8053328, "green": 1, "imagebytes": 7073541 }
+					}
+				}
+			}
+		},
+		"10007832": {
+			"active": true,
+			"name": "Newman University College",
+			"urls": {
+				"http://www.newman.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.24, "bytes": 2273221, "green": 1, "imagebytes": 1487954 }
+					}
+				}
+			}
+		},
+		"10007833": {
+			"active": true,
+			"name": "Glyndwr University",
+			"urls": {
+				"http://www.glyndwr.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.35, "bytes": 3902783, "green": 0, "imagebytes": 2482988 }
+					}
+				}
+			}
+		},
+		"10007835": {
+			"active": true,
+			"name": "Royal Academy of Music",
+			"urls": {
+				"http://www.ram.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 11.11, "bytes": 20326695, "green": 1, "imagebytes": 2488593 }
+					}
+				}
+			}
+		},
+		"10007837": {
+			"active": true,
+			"name": "Royal Northern College of Music",
+			"urls": {
+				"http://www.rncm.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.15, "bytes": 5218133, "green": 0, "imagebytes": 3712409 }
+					}
+				}
+			}
+		},
+		"10007838": {
+			"active": true,
+			"name": "Royal Welsh College of Music and Drama Limited",
+			"urls": {
+				"http://www.rwcmd.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.98, "bytes": 8256667, "green": 0, "imagebytes": 2956941 }
+					}
+				}
+			}
+		},
+		"10007842": {
+			"active": true,
+			"name": "The University of Cumbria",
+			"urls": {
+				"http://www.cumbria.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.69, "bytes": 8577134, "green": 1, "imagebytes": 451336 }
+					}
+				}
+			}
+		},
+		"10007843": {
+			"active": true,
+			"name": "St Mary's University College, Twickenham",
+			"urls": {
+				"http://www.smuc.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.31, "bytes": 5487977, "green": 0, "imagebytes": 3463131 }
+					}
+				}
+			}
+		},
+		"10007846": {
+			"active": false,
+			"name": "Swansea Metropolitan University",
+			"replacedBy": { "date": "2013-08-01", "id": "10007858" },
+			"urls": {
+				"http://www.smu.ac.uk/": {
+					"values": {}
+				}
+			}
+		},
+		"10007848": {
+			"active": true,
+			"name": "University of Chester",
+			"urls": {
+				"http://www.chester.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.91, "bytes": 6483116, "green": 0, "imagebytes": 5712555 }
+					}
+				}
+			}
+		},
+		"10007849": {
+			"active": true,
+			"name": "University of Abertay Dundee",
+			"urls": {
+				"http://www.abertay.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.78, "bytes": 2950108, "green": 0, "imagebytes": 2049763 }
+					}
+				}
+			}
+		},
+		"10007850": {
+			"active": true,
+			"name": "University of Bath (The)",
+			"urls": {
+				"http://www.bath.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.58, "bytes": 4275780, "green": 0, "imagebytes": 3191802 }
+					}
+				}
+			}
+		},
+		"10007851": {
+			"active": true,
+			"name": "University of Derby",
+			"urls": {
+				"http://www.derby.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 3.59, "bytes": 6564374, "green": 1, "imagebytes": 4839777 }
+					}
+				}
+			}
+		},
+		"10007852": {
+			"active": true,
+			"name": "University of Dundee",
+			"urls": {
+				"http://www.dundee.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.05, "bytes": 1740731, "green": 0, "imagebytes": 1131270 }
+					}
+				}
+			}
+		},
+		"10007854": {
+			"active": true,
+			"name": "Cardiff Metropolitan University",
+			"urls": {
+				"http://www.cardiffmet.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.68, "bytes": 4448411, "green": 0, "imagebytes": 1476774 }
+					}
+				}
+			}
+		},
+		"10007855": {
+			"active": true,
+			"name": "Swansea University",
+			"urls": {
+				"http://www.swan.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.32, "bytes": 2197601, "green": 0, "imagebytes": 751429 }
+					}
+				}
+			}
+		},
+		"10007856": {
+			"active": true,
+			"name": "Prifysgol Aberystwyth",
+			"urls": {
+				"http://www.aber.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.97, "bytes": 1610401, "green": 0, "imagebytes": 1201928 }
+					}
+				}
+			}
+		},
+		"10007857": {
+			"active": true,
+			"name": "Bangor University",
+			"urls": {
+				"http://www.bangor.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.75, "bytes": 8689962, "green": 1, "imagebytes": 1972053 }
+					}
+				}
+			}
+		},
+		"10007858": {
+			"active": true,
+			"name": "University of Wales: Trinity Saint David",
+			"urls": {
+				"http://www.trinitysaintdavid.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.57, "bytes": 2609311, "green": 0, "imagebytes": 1286188 }
+					}
+				}
+			}
+		},
+		"10008010": {
+			"active": true,
+			"name": "Stranmillis University College",
+			"urls": {
+				"http://www.stran.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.93, "bytes": 4864609, "green": 0, "imagebytes": 4417736 }
+					}
+				}
+			}
+		},
+		"10008017": {
+			"active": true,
+			"name": "Trinity Laban Conservatoire of Music and Dance Ltd",
+			"urls": {
+				"http://www.trinitylaban.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.09, "bytes": 2000119, "green": 1, "imagebytes": 1105183 }
+					}
+				}
+			}
+		},
+		"10008026": {
+			"active": true,
+			"name": "St Mary's University College",
+			"urls": {
+				"http://www.stmarys-belfast.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 1.99, "bytes": 3303764, "green": 0, "imagebytes": 3286798 }
+					}
+				}
+			}
+		},
+		"10008574": {
+			"active": true,
+			"name": "University of Wales Prifysgol Cymru",
+			"urls": {
+				"https://www.wales.ac.uk/cy/Hafan.aspx": {
+					"values": {
+						"2021-06-01": { "CO2": 0.51, "bytes": 840797, "green": 0, "imagebytes": 629636 }
+					}
+				}
+			}
+		},
+		"10008640": {
+			"active": true,
+			"name": "University College Falmouth",
+			"urls": {
+				"http://www.falmouth.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 4.43, "bytes": 8108162, "green": 1, "imagebytes": 1509205 }
+					}
+				}
+			}
+		},
+		"10008816": {
+			"active": true,
+			"name": "Northern School of Contemporary Dance",
+			"urls": {
+				"http://www.nscd.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.27, "bytes": 3772234, "green": 0, "imagebytes": 786408 }
+					}
+				}
+			}
+		},
+		"10014001": {
+			"active": true,
+			"name": "University Campus Suffolk Ltd",
+			"urls": {
+				"http://www.ucs.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2.72, "bytes": 4515122, "green": 0, "imagebytes": 2990940 }
+					}
+				}
+			}
+		},
+		"10034449": {
+			"active": true,
+			"name": "Leeds College of Music",
+			"urls": {
+				"http://www.lcm.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 5.43, "bytes": 9937150, "green": 1, "imagebytes": 3231906 }
+					}
+				}
+			}
+		},
+		"10037449": {
+			"active": true,
+			"name": "Plymouth Marjon University",
+			"urls": {
+				"https://www.marjon.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 0.63, "bytes": 1149362, "green": 1, "imagebytes": 677803 }
+					}
+				}
+			}
+		},
+		"10040812": {
+			"active": true,
+			"name": "Harper Adams University",
+			"urls": {
+				"http://www.harper-adams.ac.uk/": {
+					"values": {
+						"2021-06-01": { "CO2": 2, "bytes": 3316494, "green": 0, "imagebytes": 2337938 }
+					}
+				}
+			}
+		}
+	}
+}
