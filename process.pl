@@ -1,8 +1,10 @@
 #!/usr/bin/perl
+# Website CO2 emissions calculator v 1.1.1
 
 use lib "lib/";
 use JSON::XS;
 use Data::Dumper;
+use POSIX qw(strftime);
 use ODILeeds::CarbonAPI;
 
 
@@ -41,6 +43,7 @@ $data = JSON::XS->new->utf8->decode(join("",@lines));
 %org;
 $avco2 = 1.76;
 $monthlyvisits = 10000;
+$mostrecent = "2000-00-00";
 
 # Make the CSV
 $tsv = "$config{'Code'}\t$type name\tWebsite\tStatus\tCO2 emissions (g)\tWebsite carbon link\tDate last checked\n";
@@ -75,6 +78,7 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 			}
 		}
 	}
+	if($recent gt $mostrecent){ $mostrecent = $recent; }
 
 	if($data->{'orgs'}{$id}{'active'}){
 		$tsv .= "$id\t$data->{'orgs'}{$id}{'name'}\t$url";
@@ -105,8 +109,21 @@ open(FILE,">",$cfile);
 print FILE $csv;
 close(FILE);
 
-
-
+open(FILE,"index.html");
+@lines = <FILE>;
+close(FILE);
+$str = join("",@lines);
+if($str =~ /<time datetime="([^\"]*)">([^\<]*)<\/time>/){
+	$lastupdate = $1;
+	if($mostrecent gt $lastupdate){
+		print "Updating timestamp from $lastupdate to $mostrecent\n";
+		$mostrecentnice = ISO2String("%d %B %Y",$mostrecent);
+		$str =~ s/<time datetime="([^\"]*)">([^\<]*)<\/time>/<time datetime="$mostrecent">$mostrecentnice<\/time>/;
+		open(FILE,">","index.html");
+		print FILE $str;
+		close(FILE);
+	}
+}
 
 @order = reverse(sort{$org{$a}{'CO2'} <=> $org{$b}{'CO2'} || $org{$a}{'name'} cmp $org{$b}{'name'}}(keys(%org)));
 
@@ -256,7 +273,7 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 		$body .= "$indent\t\t<table>\n$indent\t\t\t<tr><th>Date checked</th><th class=\"cen\">CO2 / grams</th><th class=\"cen\">Page size</th><th class=\"cen\"><a href=\"https://www.thegreenwebfoundation.org/directory/\">Energy</a></th></tr>\n";
 		@dates = reverse(sort(keys(%{$data->{'orgs'}{$id}{'urls'}{$url}{'values'}})));
 		for($d = 0; $d < @dates; $d++){
-			$body .= "$indent\t\t\t<tr><td>$dates[$d]</td><td class=\"cen\"><a href=\"$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'ref'}\">".sprintf("%0.2f",$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'CO2'})."</a></td><td class=\"cen\" data=\"$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'bytes'}\">".niceSize($data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'bytes'})."</td><td class=\"cen ".($data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'green'} ? "c5-bg":"")."\">".($data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'green'} ? "GREEN":"GRID?")."</td></tr>\n";
+			$body .= "$indent\t\t\t<tr><td>$dates[$d]</td><td class=\"cen\">".sprintf("%0.2f",$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'CO2'})."</td><td class=\"cen\" data=\"$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'bytes'}\">".niceSize($data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'bytes'})."</td><td class=\"cen ".($data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'green'} ? "c5-bg":"")."\">".($data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$dates[$d]}{'green'} ? "GREEN":"GRID?")."</td></tr>\n";
 		}
 		$body .= "$indent\t\t</table>\n";
 
@@ -277,7 +294,7 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 			for($j = 0; $j < @{$details->{'weight'}{'details'}{'items'}}; $j++){
 				$u = $details->{'weight'}{'details'}{'items'}[$j]{'url'};
 				$biggestfiles{$u} = {'bytes'=>$details->{'weight'}{'details'}{'items'}[$j]{'totalBytes'},'id'=>$id};
-				if($u =~ /\.(png|jpg|jpeg|webp)$/ || $u =~ /\.(png|jpg|jpeg|webp)\?/ || $u =~ /format=(png|jpg|jpeg|webp)\&/){
+				if($u =~ /\.(png|jpg|jpeg|webp)($|[\?\.\:])/ || $u =~ /format=(png|jpg|jpeg|webp)\&/){
 					if($details->{'weight'}{'details'}{'items'}[$j]{'totalBytes'} >= $large){
 						if(!$doneimages{$u}){
 							$doneimages{$u} = {};
@@ -294,7 +311,7 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 					$body .= "$indent\t\t\t<p>We estimate potential to save at least ".niceSize($imsaving)."* by optimising images:</p>\n";
 				}
 				$body .= "$indent\t\t\t<ol>\n";
-				for $j (reverse(sort{ $doneimages{$a}{'bytes'} <=> $doneimages{$b}{'bytes'} || $a cmp $b }keys((%doneimages)))){
+				for $j (reverse(sort{ $doneimages{$a}{'bytes'} <=> $doneimages{$b}{'bytes'} || $b cmp $a }keys((%doneimages)))){
 					# Estimate savings for large images that Google hasn't estimated
 					if(!$doneimages{$j}{'saving'}){
 						if($doneimages{$j}{'bytes'} >= 1e6){
@@ -387,7 +404,7 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 		$body .= "$indent\t</div>\n";
 		$body .= "$indent\t<div>\n";
 		if($details->{'screenshot'}){
-			$body .= "$indent<a href=\"$url\"><img src=\"$details->{'screenshot'}\" alt=\"Screenshot\" class=\"screenshot\" /></a>";
+			$body .= "$indent\t\t<a href=\"$url\"><img src=\"$id.webp\" alt=\"Screenshot\" class=\"screenshot\" /></a>\n";
 		}
 		$body .= "$indent\t</div>\n";
 		$body .= "$indent\t</li>\n";
@@ -455,4 +472,14 @@ sub getDetails {
 		}
 	}
 	return $rtn;	
+}
+
+sub ISO2String {
+	my $fmt = $_[0];
+	my $str = $_[1];
+	my $o = $str;
+	if($str =~ /(^|\D)([0-9]{4})-([0-9]{2})-([0-9]{2})(\D|$)/){
+		$o = strftime($fmt,(0,0,12,$4,$3-1,$2-1900));
+	}
+	return $o;
 }
