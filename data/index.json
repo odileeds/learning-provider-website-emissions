@@ -1024,7 +1024,7 @@
 			"active": true,
 			"name": "University of Bedfordshire",
 			"urls": {
-				"http://www.beds.ac.uk/": {
+				"https://www.beds.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.93, "bytes": 6516562, "green": 0, "imagebytes": 4882990 },
 						"2021-06-30": { "CO2": 6.79, "bytes": 11264015, "green": 0, "imagebytes": 9610952 },
