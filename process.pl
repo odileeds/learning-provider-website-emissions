@@ -278,7 +278,7 @@ foreach $rating (keys(%{$ratings})){
 	if($ratings->{$rating} > $ratingnmax){ $ratingnmax = $ratings->{$rating}; }
 }
 $tablerate = "<ul class=\"ratings\">";
-$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'A+'}/$ratingnmax)."%\" class=\"rate-aplus\">A+</div> $ratings->{'A+'}</li>";
+$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'A+'}/$ratingnmax)."%\" class=\"rate-aplus\">A+</div> ".($ratings->{'A+'} > 0 ? $ratings->{'A+'} : "")."</li>";
 $tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'A'}/$ratingnmax)."%\" class=\"rate-a\">A</div> $ratings->{'A'}</li>";
 $tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'B'}/$ratingnmax)."%\" class=\"rate-b\">B</div> $ratings->{'B'}</li>";
 $tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'C'}/$ratingnmax)."%\" class=\"rate-c\">C</div> $ratings->{'C'}</li>";
@@ -296,6 +296,7 @@ if($av > 0.5*$avco2){ $howwell = "well"; }
 if($av > 0.75*$avco2){ $howwell = "better"; }
 if($av > 1*$avco2){ $howwell = "OK"; }
 if($av > 1.25*$avco2){ $howwell = "badly"; }
+if($av > 3*$avco2){ $howwell = "very badly"; }
 $results = "The average emissions from a $type homepage are <strong class=\"bold\">".sprintf("%.2f",$av)."g</strong> (median of <strong class=\"bold\">".sprintf("%.2f",$median)."g</strong>) which is ".($better ? "better than":"worse than")." an average website (".$avco2."g). Overall, ".$typeplural." are doing <strong class=\"bold\">$howwell</strong>.";
 if($missing > 0){
 	$results .= " We were unable to calculate emissions for <strong class=\"bold\">$missing out of $tot</strong> ".$typeplural." possibly due to their sites blocking automated requests.";
