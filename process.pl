@@ -5,8 +5,9 @@ use lib "lib/";
 use JSON::XS;
 use Data::Dumper;
 use POSIX qw(strftime);
-use ODILeeds::CarbonAPI;
+use OpenInnovations::CarbonAPI;
 
+require "lib.pl";
 
 %config;
 
@@ -32,7 +33,7 @@ $file = $config{'JSON'}||"data/index.json";
 $cfile = $config{'CSV'}||"data/index.csv";
 $tfile = $config{'TSV'}||"data/index.tsv";
 
-$carbon = ODILeeds::CarbonAPI->new();
+$carbon = OpenInnovations::CarbonAPI->new(("raw"=>$config{'raw'},"CC_GPSAPI_KEY"=>$ENV{'CC_GPSAPI_KEY'}));
 
 
 
@@ -51,7 +52,9 @@ close(FILE);
 $data = JSON::XS->new->utf8->decode(join("",@lines));
 
 %org;
-$avco2 = 1.76;
+$ratings = {'A+'=>0,'A'=>0,'B'=>0,'C'=>0,'D'=>0,'E'=>0,'F'=>0};
+
+$avco2 = 0.5;	# Previously 1.76 in v2
 $monthlyvisits = 10000;
 $mostrecent = "2000-00-00";
 
@@ -95,14 +98,58 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 		$nm = $data->{'orgs'}{$id}{'name'};
 		$co2 = $data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$recent}{'CO2'}||"";
 		$lnk = $data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$recent}{'ref'};
+		$byt = $data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$recent}{'bytes'};
 		if($co2){
 			$tsv .= "\t\t".sprintf("%0.2f",$co2)."\t$lnk";
 		}else{
 			$tsv .= "\tFAIL\t\t"
 		}
 		$tsv .= "\t$recent\n";
-		$org{$id} = {'name'=>$nm,'url'=>$url,'CO2'=>$co2,'link'=>$lnk,'date'=>$recent};
+		$org{$id} = {'name'=>$nm,'url'=>$url,'CO2'=>$co2,'link'=>$lnk,'date'=>$recent,'bytes'=>$byt};
 	}
+}
+# Now go through everything again and compare the overall most recent date with data from a year before
+if($mostrecent =~ /^([0-9]{4})\-([0-9]{2})/){
+	$y = $1-1;
+	$m = $2;
+	$yearago = "$y-$m";
+	$values = {'size'=>{'yearago'=>[],'now'=>[]},'co2'=>{'yearago'=>[],'now'=>[]}};
+	for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(%{$data->{'orgs'}}))){
+		$url = "";
+		@urls = keys(%{$data->{'orgs'}{$id}{'urls'}});
+		# Find the default URL (if there is only one URL this is it)
+		if(@urls == 1){
+			$url = $urls[0];
+		}elsif(@urls > 1){
+			for($i = 0; $i < @urls; $i++){
+				if($data->{'orgs'}{$id}{'urls'}{$urls[$i]}{'default'}){
+					$url = $urls[$i];
+				}
+			}
+			if(!$def){
+				print "No default URL provided for $id so using $urls[0]";
+				$url = $urls[0];
+			}
+		}
+		@dates = reverse(sort(keys(%{$data->{'orgs'}{$id}{'urls'}{$url}{'values'}})));
+		$yearago = "";
+		if($data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$mostrecent}){
+			for($d = 0; $d < @dates; $d++){
+				if($dates[$d] =~ /$y-$m/){ $yearago = $dates[$d]; }
+			}
+			if($yearago){
+				#print "A year ago $mostrecent to $yearago ($id)\n";
+				push(@{$values->{'co2'}{'yearago'}},$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$yearago}{'CO2'});
+				push(@{$values->{'co2'}{'now'}},$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$mostrecent}{'CO2'});
+				push(@{$values->{'size'}{'yearago'}},$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$yearago}{'bytes'});
+				push(@{$values->{'size'}{'now'}},$data->{'orgs'}{$id}{'urls'}{$url}{'values'}{$mostrecent}{'bytes'});
+			}
+		}
+	}
+	$n = @{$values->{'co2'}{'yearago'}};
+	msg("Based on <yellow>".$n."<none> entries, since last year\n");
+	msg("\t- the median CO2 has changed from <yellow>".median(@{$values->{'co2'}{'yearago'}})."g<none> to <yellow>".median(@{$values->{'co2'}{'now'}})."g<none>\n");
+	msg("\t- the median homepage size has changed from <yellow>".sprintf("%0.1f",median(@{$values->{'size'}{'yearago'}})/1e6)."MB<none> to <yellow>".sprintf("%0.1f",median(@{$values->{'size'}{'now'}})/1e6)."MB<none>\n");
 }
 @vals = split(/\t/,$tsv);
 $csv = "";
@@ -138,9 +185,9 @@ if($str =~ /<time datetime="([^\"]*)">([^\<]*)<\/time>/){
 @order = reverse(sort{$org{$a}{'CO2'} <=> $org{$b}{'CO2'} || $org{$a}{'name'} cmp $org{$b}{'name'}}(keys(%org)));
 
 $idt = "				";
-$table = "\n$idt<table class=\"table-sort\">\n$idt\t<tr><th>Rank</th><th>$type</th><th>$config{'Code'}</th><th>CO2 / grams</th><th>Last checked</th></tr>\n";
-$tablebest = "\n$idt<table class=\"top top-best\">\n$idt\t<tr><th>$type</th><th>CO2 / grams</th></tr>\n";
-$tableworst = "\n$idt<table class=\"top top-worst\">\n$idt\t<tr><th>$type</th><th>CO2 / grams</th></tr>\n";
+$table = "\n$idt<table class=\"table-sort\">\n$idt\t<tr><th>Rank</th><th>$type</th><th>$config{'Code'}</th><th>CO2 (g)</th><th>Rating</th><th>MB</th><th>Updated</th></tr>\n";
+$tablebest = "\n$idt<table class=\"top top-best\">\n$idt\t<tr><th>$type</th><th>CO2 (g)</th><th><a href=\"https://www.websitecarbon.com/introducing-the-website-carbon-rating-system/\">Rating</a></th></tr>\n";
+$tableworst = "\n$idt<table class=\"top top-worst\">\n$idt\t<tr><th>$type</th><th>CO2 (g)</th><th><a href=\"https://www.websitecarbon.com/introducing-the-website-carbon-rating-system/\">Rating</a></th></tr>\n";
 $rank = 1;
 $av = 0;
 $tot = @order;
@@ -170,11 +217,36 @@ for($i = 0; $i < $tot; $i++){
 	if($i==$half){
 		$median = $org{$id}{'CO2'};
 	}
+	$rating = "?";
 	if(!$org{$id}{'CO2'}){
 		$missing++;
+	}else{
+		if($org{$id}{'CO2'} <= 0.095){
+			$rating = "A+";
+			$rcls = "rate-aplus";
+		}elsif($org{$id}{'CO2'} > 0.095 && $org{$id}{'CO2'} <= 0.186){
+			$rating = "A";
+			$rcls = "rate-a";
+		}elsif($org{$id}{'CO2'} > 0.186 && $org{$id}{'CO2'} <= 0.341){
+			$rating = "B";
+			$rcls = "rate-b";
+		}elsif($org{$id}{'CO2'} > 0.341 && $org{$id}{'CO2'} <= 0.493){
+			$rating = "C";
+			$rcls = "rate-c";
+		}elsif($org{$id}{'CO2'} > 0.493 && $org{$id}{'CO2'} <= 0.656){
+			$rating = "D";
+			$rcls = "rate-d";
+		}elsif($org{$id}{'CO2'} > 0.656 && $org{$id}{'CO2'} <= 0.846){
+			$rating = "E";
+			$rcls = "rate-e";
+		}elsif($org{$id}{'CO2'} > 0.846){
+			$rating = "F";
+			$rcls = "rate-f";
+		}
 	}
-	$tr = "$idt\t<tr><td class=\"cen\">$rank</td><td><a href=\"$odir$id.html\">".$org{$id}{'name'}.($org{$id}{'url'} ? "</a>":"")."</td><td class=\"cen\">$id</td><td class=\"cen\">".($org{$id}{'link'} ? "<a href=\"$org{$id}{'link'}\">":"").($org{$id}{'CO2'} ? sprintf("%0.2f",$org{$id}{'CO2'}) : "?").($org{$id}{'link'} ? "</a>":"")."</td><td class=\"cen\">$org{$id}{'date'}</td></tr>\n";
-	$tr2 = "$idt\t<tr><td><a href=\"$odir$id.html\">".$org{$id}{'name'}.($org{$id}{'url'} ? "</a>":"")."</td><td class=\"cen\">".($org{$id}{'CO2'} ? sprintf("%0.2f",$org{$id}{'CO2'}) : "?")."</td></tr>\n";
+	$ratings->{$rating}++;
+	$tr = "$idt\t<tr><td class=\"cen\">$rank</td><td><a href=\"$odir$id.html\">".$org{$id}{'name'}.($org{$id}{'url'} ? "</a>":"")."</td><td class=\"cen\">$id</td><td class=\"cen\">".($org{$id}{'link'} ? "<a href=\"$org{$id}{'link'}\">":"").($org{$id}{'CO2'} ? sprintf("%0.2f",$org{$id}{'CO2'}) : "?").($org{$id}{'link'} ? "</a>":"")."</td><td class=\"cen rating $rcls\">$rating</td><td class=\"cen\">".sprintf("%0.1f",$org{$id}{'bytes'}/1e6)."</td><td class=\"cen\">$org{$id}{'date'}</td></tr>\n";
+	$tr2 = "$idt\t<tr><td><a href=\"$odir$id.html\">".$org{$id}{'name'}.($org{$id}{'url'} ? "</a>":"")."</td><td class=\"cen\">".($org{$id}{'CO2'} ? sprintf("%0.2f",$org{$id}{'CO2'}) : "?")."</td><td class=\"cen rating $rcls\">$rating</td></tr>\n";
 	$table .= $tr;
 	if($org{$id}{'CO2'} > 0){
 		$n = @worst;
@@ -200,6 +272,21 @@ $table .= "$idt</table>\n";
 $tablebest .= "$idt</table>\n";
 $tableworst .= "$idt</table>\n";
 
+
+$ratingnmax = 0;
+foreach $rating (keys(%{$ratings})){
+	if($ratings->{$rating} > $ratingnmax){ $ratingnmax = $ratings->{$rating}; }
+}
+$tablerate = "<ul class=\"ratings\">";
+$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'A+'}/$ratingnmax)."%\" class=\"rate-aplus\">A+</div> $ratings->{'A+'}</li>";
+$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'A'}/$ratingnmax)."%\" class=\"rate-a\">A</div> $ratings->{'A'}</li>";
+$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'B'}/$ratingnmax)."%\" class=\"rate-b\">B</div> $ratings->{'B'}</li>";
+$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'C'}/$ratingnmax)."%\" class=\"rate-c\">C</div> $ratings->{'C'}</li>";
+$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'D'}/$ratingnmax)."%\" class=\"rate-d\">D</div> $ratings->{'D'}</li>";
+$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'E'}/$ratingnmax)."%\" class=\"rate-e\">E</div> $ratings->{'E'}</li>";
+$tablerate .= "<li><div style=\"width:".sprintf("%0.1f",90*$ratings->{'F'}/$ratingnmax)."%\" class=\"rate-f\">F</div> $ratings->{'F'}</li>";
+$tablerate .= "</ul>";
+print "$ratingnmax\n";
 print "nn = $nn\n";
 $av /= $nn;
 
@@ -209,7 +296,7 @@ if($av > 0.5*$avco2){ $howwell = "well"; }
 if($av > 0.75*$avco2){ $howwell = "better"; }
 if($av > 1*$avco2){ $howwell = "OK"; }
 if($av > 1.25*$avco2){ $howwell = "badly"; }
-$results = "The average emissions from a $type homepage are <strong class=\"bold\">".sprintf("%.2f",$av)."g</strong> (median of <strong class=\"bold\">".sprintf("%.2f",$median)."g</strong>) which is ".($better ? "better than":"worse than")." an average website (".$avco2."g). So, overall, ".$typeplural." are doing <strong class=\"bold\">$howwell</strong>.";
+$results = "The average emissions from a $type homepage are <strong class=\"bold\">".sprintf("%.2f",$av)."g</strong> (median of <strong class=\"bold\">".sprintf("%.2f",$median)."g</strong>) which is ".($better ? "better than":"worse than")." an average website (".$avco2."g). Overall, ".$typeplural." are doing <strong class=\"bold\">$howwell</strong>.";
 if($missing > 0){
 	$results .= " We were unable to calculate emissions for <strong class=\"bold\">$missing out of $tot</strong> ".$typeplural." possibly due to their sites blocking automated requests.";
 }
@@ -229,6 +316,7 @@ $str =~ s/(<\!-- Start best -->).*(<\!-- End best -->)/$1$tablebest$2/;
 $str =~ s/(<\!-- Start worst -->).*(<\!-- End worst -->)/$1$tableworst$2/;
 $str =~ s/(<\!-- Start table -->).*(<\!-- End table -->)/$1$table$2/;
 $str =~ s/(<\!-- Start results -->).*(<\!-- End results -->)/$1$results$2/;
+$str =~ s/(<\!-- Start ratings -->).*(<\!-- End ratings -->)/$1$tablerate$2/;
 # Replace our temporary newlines
 $str =~ s/=NEWLINE=/\n/g;
 
@@ -251,14 +339,58 @@ $indent = "\t\t\t\t";
 $fullsavings = 0;
 $co2savings = 0;
 $jqueryorg = 0;
+%cookie = ('civiccomputing.com'=>{'total'=>0,'n'=>0},'freeprivacypolicy.com'=>{'total'=>0,'n'=>0},'cookiepro.com'=>{'total'=>0,'n'=>0},'cookiebot.com'=>{'total'=>0,'n'=>0},'cookielaw.org'=>{'total'=>0,'n'=>0},'cookiereports.com'=>{'total'=>0,'n'=>0},'privacypolicies.com'=>{'total'=>0,'n'=>0});
 
+
+# Create a "replaces" structure for each org using the "replacedBy" structures
+for $id (keys(%{$data->{'orgs'}})){
+	if($data->{'orgs'}{$id}{'replacedBy'}){
+		if(ref($data->{'orgs'}{$id}{'replacedBy'}{'id'}) eq "ARRAY"){
+			for($r = 0; $r < @{$data->{'orgs'}{$id}{'replacedBy'}{'id'}}; $r++){
+				$rid = $data->{'orgs'}{$id}{'replacedBy'}{'id'}[$r];
+				if(!$data->{'orgs'}{$rid}{'replaces'}){ $data->{'orgs'}{$rid}{'replaces'} = {}; }
+				$data->{'orgs'}{$rid}{'replaces'}{$id} = 1;
+			}
+		}else{
+			$rid = $data->{'orgs'}{$id}{'replacedBy'}{'id'};
+			if(!$data->{'orgs'}{$rid}{'replaces'}){ $data->{'orgs'}{$rid}{'replaces'} = {}; }
+			$data->{'orgs'}{$rid}{'replaces'}{$id} = 1;
+		}
+	}
+}
 # Make a page for each org
 for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(%{$data->{'orgs'}}))){
+
 	$txt = $html;
 	$body = "<h1>$data->{'orgs'}{$id}{'name'} - <code>$id</code>".($data->{'orgs'}{$id}{'active'} ? "<span class=\"c5-bg code\">ACTIVE</span>":"<span class=\"c12-bg code\">INACTIVE</span>")."</h1>\n";
+
+	# Create any "replaced by" links
 	if($data->{'orgs'}{$id}{'replacedBy'}){
-		$rid = $data->{'orgs'}{$id}{'replacedBy'}{'id'};
-		$body .= "$indent<p>Replaced by <a href=\"$rid\.html\">$data->{'orgs'}{$rid}{'name'}</a> on $data->{'orgs'}{$id}{'replacedBy'}{'date'}.</p>";
+		$replaces = "";
+		if(ref($data->{'orgs'}{$id}{'replacedBy'}{'id'}) eq "ARRAY"){
+			for($r = 0; $r < @{$data->{'orgs'}{$id}{'replacedBy'}{'id'}}; $r++){
+				$rid = $data->{'orgs'}{$id}{'replacedBy'}{'id'}[$r];
+				$replaces .= ($r > 0 ? ", " : "")."<a href=\"$rid\.html\">$data->{'orgs'}{$rid}{'name'}</a>";
+			}
+			$replaces .= " on $data->{'orgs'}{$id}{'replacedBy'}{'date'}";
+		}else{
+			$rid = $data->{'orgs'}{$id}{'replacedBy'}{'id'};
+			$replaces = "<a href=\"$rid\.html\">$data->{'orgs'}{$rid}{'name'}</a> on $data->{'orgs'}{$id}{'replacedBy'}{'date'}";
+		}
+
+		$body .= "$indent<p>Replaced by $replaces.</p>";
+	}
+
+	# Create any "replaces" links
+	if($data->{'orgs'}{$id}{'replaces'}){
+		@rids = sort(keys(%{$data->{'orgs'}{$id}{'replaces'}}));
+		$replaces = "";
+		for($r = 0; $r < @rids; $r++){
+			$rid = $rids[$r];
+			msg("<yellow>$id<none> ($data->{'orgs'}{$id}{'name'}) => <yellow>$rid<none> - $data->{'orgs'}{$rid}{'name'}\n");
+			$replaces .= ($replaces ? ", " : "")."<a href=\"$rid\.html\">$data->{'orgs'}{$rid}{'name'}</a>";
+		}
+		$body .= "$indent<p>Replaced $replaces.</p>";
 	}
 
 
@@ -369,12 +501,26 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 			$fonts = 0;
 			$ttf = 0;
 			$jquery = 0;
+			$civiccomputing = 0;
+			$privacypolicy = 0;
+			for $src (keys(%cookie)){
+				$cookie{$src}{'n'} = 0;
+			}
 			for($j = 0; $j < @{$details->{'weight'}{'details'}{'items'}}; $j++){
 				$file = "File";
+				for $src (keys(%cookie)){
+					if($details->{'weight'}{'details'}{'items'}[$j]{'url'} =~ $src){
+						$cookie{$src}{'n'}++;
+					}
+				}
+				#if($details->{'weight'}{'details'}{'items'}[$j]{'url'} =~ /cookie/ || $details->{'weight'}{'details'}{'items'}[$j]{'url'} =~ /consent/){
+				#	print "$details->{'weight'}{'details'}{'items'}[$j]{'url'}\n";
+				#}
 				if($details->{'weight'}{'details'}{'items'}[$j]{'url'} =~ /([^\/]*)$/){
 					$file = $1;
 					if($file =~ /jquery/){ $jquery++; }
 				}
+				if(!$file){ $file = "Page"; }
 				$u = $details->{'weight'}{'details'}{'items'}[$j]{'url'};
 				if(!$doneimages{$u} && $details->{'weight'}{'details'}{'items'}[$j]{'totalBytes'} > $large){
 					if(!$duplicates{$u}){
@@ -392,6 +538,9 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 				}
 			}
 			if($jquery > 0){ $jqueryorg++; }
+			for $src (keys(%cookie)){
+				if($cookie{$src}{'n'} > 0){ $cookie{$src}{'total'}++; }
+			}
 			$dup = 0;
 			for $u (reverse(sort{ $duplicates{$a}{'bytes'} <=> $duplicates{$b}{'bytes'} }keys((%duplicates)))){
 				if($u){
@@ -413,6 +562,44 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 				if($fontweight > 100000){
 					$body .= "$indent\t\t\t<p>The page uses $fonts font".($fonts==1 ? "":"s")." which require".($fonts==1 ? "s":"")." ".niceSize($fontweight).". Could system fonts be used instead?".($ttf > 0 ? " There are $ttf TTF/OTF fonts on the page - WOFF2 versions of these fonts may be smaller.":"")."</p>\n";
 				}
+				$body .= "$indent\t\t</div>\n";
+			}
+		}
+		if($details->{'third-party'}){
+			$thirdparties = 0;
+			$list = "";
+			$note = "";
+			for($j = 0; $j < @{$details->{'third-party'}{'details'}{'items'}}; $j++){
+				$weight = $details->{'third-party'}{'details'}{'items'}[$j]{'transferSize'};
+				if($weight > $large){
+					$thirdname = "";
+					if(ref($details->{'third-party'}{'details'}{'items'}[$j]{'entity'}) eq "HASH"){
+						$thirdname = $details->{'third-party'}{'details'}{'items'}[$j]{'entity'}{'text'};
+					}else{
+						$thirdname = $details->{'third-party'}{'details'}{'items'}[$j]{'entity'};
+					}
+					if($thirdname){
+						$list .= "$indent\t\t\t\t<li>".$details->{'third-party'}{'details'}{'items'}[$j]{'entity'}." uses ".niceSize($details->{'third-party'}{'details'}{'items'}[$j]{'transferSize'})."</li>";
+						$thirdparties++;
+						if($details->{'third-party'}{'details'}{'items'}[$j]{'entity'} =~ /Twitter/i){
+							$note .= " If you use the Twitter widget to load a timeline it may be loading as many as 100 of your recent tweets which may contain lots of images. Try setting '<a href=\"https://developer.twitter.com/en/docs/twitter-for-websites/timelines/overview\">data-tweet-limit</a>' to the most recent 3.";
+						}
+					}else{
+						error("Unexpected value for third party entity.\n");
+						print Dumper $details->{'third-party'}{'details'}{'items'}[$j]{'entity'};
+						exit;
+					}
+				}
+			}
+			if($list){
+				$body .= "$indent\t\t<div class=\"tip\">\n";
+				$body .= "$indent\t\t\t<h4>Tip: Limit third-party code</h4>\n";
+				$body .= "$indent\t\t\t<p>Here are the largest sources of third-party code:</p>\n";
+				$body .= "$indent\t\t\t<ol>\n";
+				$body .= $list;
+				$body .= "$indent\t\t\t</ol>\n";
+				$body .= "$indent\t\t\t<p>Third-party code can significantly impact load performance. Limit the number of redundant third-party providers and try to load third-party code after your page has primarily finished loading.</p>\n";
+				if($note){ $body .= "$indent\t\t\t<p>$note</p>\n"; }
 				$body .= "$indent\t\t</div>\n";
 			}
 		}
@@ -439,15 +626,19 @@ for $id (sort{$data->{'orgs'}{$a}{'name'} cmp $data->{'orgs'}{$b}{'name'}}(keys(
 	close(FILE);
 }
 
-print "Biggest files:\n";
+msg("Biggest files:\n");
 @big = reverse(sort{ $biggestfiles{$a}{'bytes'} <=> $biggestfiles{$b}{'bytes'} }(keys(%biggestfiles)));
 for($i = 0; $i < @big; $i++){
 	if($biggestfiles{$big[$i]}{'bytes'} > 5e6){
-		print "  ".($i+1).". ".niceSize($biggestfiles{$big[$i]}{'bytes'})." - $biggestfiles{$big[$i]}{'id'} - $big[$i]\n";
+		msg("  <green>".($i+1)."<none>. <yellow>".niceSize($biggestfiles{$big[$i]}{'bytes'})."<none> - <yellow>$biggestfiles{$big[$i]}{'id'}<none> - <cyan>$big[$i]<none>\n");
 	}
 }
-print "Yearly image savings of ".niceSize($fullsavings*$monthlyvisits*12)." (".sprintf("%0.1f",($co2savings*$monthlyvisits*12)/1e3)."kg CO2) if $monthlyvisits visitors per month\n";
-print "jQuery usage: $jqueryorg/$tot orgs.\n";
+msg("Yearly image savings of <yellow>".niceSize($fullsavings*$monthlyvisits*12)."<none> (<green>".sprintf("%0.1f",($co2savings*$monthlyvisits*12)/1e3)."kg<none> CO2) if $monthlyvisits visitors per month\n");
+msg("jQuery usage: <yellow>$jqueryorg/$tot<none> orgs.\n");
+msg("Cookie settings:\n");
+for $src (reverse(sort{$cookie{$a}{'total'} <=> $cookie{$b}{'total'}}(keys(%cookie)))){
+	msg("\t<cyan>$src<none>: $cookie{$src}{'total'}\n");
+}
 
 sub niceSize {
 	my $b = $_[0];
@@ -472,6 +663,7 @@ sub getDetails {
 		@lines = <FILE>;
 		close(FILE);
 		$str = join("",@lines);
+		if(!$str){ $str = "{}"; }
 		$json = JSON::XS->new->utf8->decode($str);
 		$rtn->{'file'} = 1;
 		if($json->{'lighthouseResult'}{'audits'}{'first-contentful-paint'}){
@@ -486,10 +678,27 @@ sub getDetails {
 		if($json->{'lighthouseResult'}{'audits'}{'total-byte-weight'}{'details'}){
 			$rtn->{'weight'} = $json->{'lighthouseResult'}{'audits'}{'total-byte-weight'};
 		}
+		if($json->{'lighthouseResult'}{'audits'}{'third-party-summary'}{'details'}){
+			$rtn->{'third-party'} = $json->{'lighthouseResult'}{'audits'}{'third-party-summary'};
+		}
 	}
 	return $rtn;	
 }
 
+sub median {
+	my @data = @_;
+	@data = sort(@data);
+	my $count = @data;
+	my $med = 0;
+	my $pos = int($count / 2);
+	if( $count % 2 == 1){
+		return $data[$pos];
+	}else{
+		my $med2 = $med - 1;
+		return ($data[$pos] + $data[$pos-1]) / 2;
+	}
+	return "";
+}
 sub ISO2String {
 	my $fmt = $_[0];
 	my $str = $_[1];

@@ -51,6 +51,7 @@
 	OI.ready(function(){
 		var tables = document.querySelectorAll('.emissions li table');
 		tables.forEach(function(t){
+			var tr,typ,r,d,td,tm,tabbed,graphs,y,gap,gapstr,prec,monthNames,smonth,m;
 			tr = t.querySelectorAll('tr');
 			tr.forEach(function(row){
 				row.addEventListener('mouseover',function(e){
@@ -58,72 +59,186 @@
 				});
 			});
 			if(tr.length > 3){
-				data = [];
-				sdate = 0;
-				edate = 0;
-				xlabels = {};
-				ylabels = {};
-				min = 0;
-				max = -1e100;
-				for(r = 1; r < tr.length; r++){
-					td = tr[r].querySelectorAll('td');
-					d = new Date(td[0].innerHTML);
-					tm = d.getTime();
-					if(r==1) edate = d;
-					if(r==tr.length-1) sdate = d;
-					y = parseFloat(td[1].innerText);
-					max = Math.max(max,y);
-					data.unshift({x:tm,y:y,'label':d.toLocaleString('en-GB',{ year: 'numeric', month: 'long', day: 'numeric' })});
-				}
-				// Build y-axis labels
-				gap = defaultSpacing(min,max,3);
-				// Work out precision of the gap and limit our labels to the same precision
-				gapstr = gap+"";
-				prec = (gapstr.indexOf(".") > 0 ? gapstr.split('.')[1].length : 0);
-				for(y = min; y <= max; y+=gap) ylabels[y] = {'label':(prec > 0 ? y.toPrecision(prec) : y)};
+				tabbed = document.createElement('div');
+				tabbed.classList.add('panes');
+				tabbed.classList.add('tabbed');
+				t.insertAdjacentElement('beforebegin', tabbed);
+				tabbed.innerHTML = '<div class="pane"><span class="tab-title">CO2 estimate</span><div class="graph" id="graph-carbon"></div><div class="warning" style="padding:0.25em 0.5em;line-height: 1em;"><span class="small">Note: from 1st November 2022 we adopted <a href=\"https://sustainablewebdesign.org/calculating-digital-emissions/\">version 3 of the methodology for estimating CO2 emissions</a>. This will tend to lower CO2 estimates for a given size.</span></div></div><div class="pane"><span class="tab-title">Page size</span><div class="graph" id="graph-size"></div></div>';
 
-				// Build x-axis labels
-				monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-				for(d = sdate; d <= edate; d.setDate(d.getDate() + 1)){
-					smonth = (new Date(d.getFullYear(),d.getMonth(),1)).getTime();
-					m = d.getMonth();
-					if(!xlabels[smonth]) xlabels[smonth] = {'label':(m==0 ? '' : monthNames[m].substr(0,1))+(m==0 ? ' '+d.getFullYear():'')};
+				graphs = {
+					'carbon': new Graph(document.getElementById('graph-carbon'),tr,{
+						'column': 1,
+						'title': 'CO2 / grams',
+						'tooltip': function(d,opt){ return d.data.label+':\n'+d.data.y.toFixed(2)+' grams of CO2'; }
+					}),
+					'size': new Graph(document.getElementById('graph-size'),tr,{
+						'column': 2,
+						'scale': 1e-6,
+						'title': 'Size / MB',
+						'tooltip': function(d,opt){ return d.data.label+':\n'+d.data.y.toFixed(1)+'MB'; }
+					})
 				}
-				
-				div = document.createElement('div');
-				div.classList.add('graph');
-				t.insertAdjacentElement('beforebegin', div);
-				
-				graph = OI.linechart(div,{
-					'left':50,
-					'right':10,
-					'top':10,
-					'bottom':30,
-					'axis':{
-						'x':{
-							'labels':xlabels
-						},
-						'y':{
-							'title':{ 'label':'CO2 / grams' },
-							'grid': {'show':true,'stroke':'#bbb'},
-							'min': 0,
-							'labels':ylabels
-						}
-					}
-				});
-				graph.addSeries(data,{
-					'points':{'color':'#1DD3A7','size': 4},
-					'line':{'color':'#1DD3A7'},
-					'tooltip':{
-						'label': function(d){
-							return d.data.label+':\n'+d.data.y+' grams of CO2';
-						}
-					}
-				});
-				graph.draw();				
+				OI.TabbedInterface(tabbed);
+
 			}
 		});
 	});
-	
+	function Graph(el,tr,opt){
+		if(!el){
+			console.error('No element to attach to');
+			return this;
+		}
+		if(!opt) opt = {};
+		if(typeof opt.sdate!=="number") opt.sdate = 0;
+		if(typeof opt.edate!=="number") opt.edate = 0;
+		if(typeof opt.min!=="number") opt.min = 0;
+		if(typeof opt.max!=="number") opt.max = -Infinity;
+		var r,td,d,tm,data=[],xlabels={},ylabels={};
+		for(r = 1; r < tr.length; r++){
+			td = tr[r].querySelectorAll('td');
+			d = new Date(td[0].innerHTML);
+			tm = d.getTime();
+			if(r==1) opt.edate = d;
+			if(r==tr.length-1) opt.sdate = d;
+			y = parseFloat(td[opt.column].getAttribute('data')||td[opt.column].innerText);
+			if(typeof opt.scale==="number") y *= opt.scale;
+			if(!isNaN(y)){
+				opt.max = Math.max(opt.max,y);
+				data.unshift({x:tm,y:y,'label':d.toLocaleString('en-GB',{ year: 'numeric', month: 'long', day: 'numeric' })});
+			}
+		}
+		// Build y-axis labels
+		gap = defaultSpacing(opt.min,opt.max,3);
+		// Work out precision of the gap and limit our labels to the same precision
+		gapstr = gap+"";
+		prec = (gapstr.indexOf(".") > 0 ? gapstr.split('.')[1].length : 0);
+		for(y = opt.min; y <= opt.max; y+=gap) ylabels[y] = {'label':(prec > 0 ? y.toPrecision(prec) : y)};
+
+		// Build x-axis labels
+		monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		for(d = opt.sdate; d <= opt.edate; d.setDate(d.getDate() + 1)){
+			smonth = (new Date(d.getFullYear(),d.getMonth(),1)).getTime();
+			m = d.getMonth();
+			if(!xlabels[smonth]) xlabels[smonth] = {'label':(m==0 ? '' : (m%3==0 ? monthNames[m].substr(0,0) : ""))+(m==0 ? ' '+d.getFullYear():'')};
+		}
+		this.graph = OI.linechart(el,{
+			'left':50,
+			'right':10,
+			'top':10,
+			'bottom':30,
+			'axis':{
+				'x':{
+					'labels':xlabels
+				},
+				'y':{
+					'title':{ 'label':opt.title },
+					'grid': {'show':true,'stroke':'#bbb'},
+					'min': 0,
+					'labels':ylabels
+				}
+			}
+		});
+		var _obj = this;
+		this.graph.addSeries(data,{
+			'points':{'color':'#1DD3A7','size': 4},
+			'line':{'color':'#1DD3A7'},
+			'tooltip':{
+				'label': (typeof opt.tooltip==="function" ? opt.tooltip : function(d){ return d.data.label+':\n'+d.data.y; })
+			}
+		});
+		this.graph.draw();
+		return this;
+	}
+
+	function TabbedInterface(el){
+		var tabs,panes,p,h,b,l;
+		this.selectTab = function(t,focusIt){
+			var tab,pane;
+			tab = tabs[t].tab;
+			pane = tabs[t].pane;
+
+			// Remove existing selection and set all tabindex values to -1
+			tab.parentNode.querySelectorAll('button').forEach(function(el){ el.removeAttribute('aria-selected'); el.setAttribute('tabindex',-1); });
+
+			// Update the selected tab
+			tab.setAttribute('aria-selected','true');
+			tab.setAttribute('tabindex',0);
+			if(focusIt) tab.focus();
+
+			pane.closest('.panes').querySelectorAll('.pane').forEach(function(el){ el.style.display = "none"; el.setAttribute('hidden',true); });
+			pane.style.display = "";
+			pane.removeAttribute('hidden');
+			// Loop over any potentially visible leaflet maps that haven't been sized and set the bounds
+			if(OI.maps){
+				for(var m = 0; m < OI.maps.length; m++){
+					if(OI.maps[m].map._container==pane.querySelector('.leaflet')){
+						OI.maps[m].map.invalidateSize(true);
+						if(!OI.maps[m].set){
+							if(OI.maps[m].bounds) OI.maps[m].map.fitBounds(OI.maps[m].bounds);
+							OI.maps[m].set = true;
+						}
+					}
+				}
+					 
+			}
+			return this;
+		};
+		this.enableTab = function(tab,t){
+			var _obj = this;
+
+			// Set the tabindex of the tab panel
+			panes[t].setAttribute('tabindex',0);
+
+			// Add a click/focus event
+			tab.addEventListener('click',function(e){ e.preventDefault(); var t = parseInt((e.target.tagName.toUpperCase()==="BUTTON" ? e.target : e.target.closest('button')).getAttribute('data-tab')); _obj.selectTab(t,true); });
+			tab.addEventListener('focus',function(e){ e.preventDefault(); var t = parseInt(e.target.getAttribute('data-tab')); _obj.selectTab(t,true); });
+
+			// Store the tab number in the tab (for use in the keydown event)
+			tab.setAttribute('data-tab',t);
+
+			// Add keyboard navigation to arrow keys following https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role
+			tab.addEventListener('keydown',function(e){
+
+				// Get the tab number from the attribute we set
+				t = parseInt(e.target.getAttribute('data-tab'));
+
+				if(e.keyCode === 39 || e.keyCode === 40){
+					e.preventDefault();
+					// Move right or down
+					t++;
+					if(t >= tabs.length) t = 0;
+					_obj.selectTab(t,true);
+				}else if(e.keyCode === 37 || e.keyCode === 38){
+					e.preventDefault();
+					// Move left or up
+					t--;
+					if(t < 0) t = tabs.length-1;
+					_obj.selectTab(t,true);
+				}
+			});
+		};
+		tabs = [];
+
+		l = document.createElement('div');
+		l.classList.add('grid','tabs');
+		l.setAttribute('role','tablist');
+		l.setAttribute('aria-label','Visualisations');
+		panes = el.querySelectorAll('.pane');
+		for(p = 0; p < panes.length; p++){
+			h = panes[p].querySelector('.tab-title');
+			b = document.createElement('button');
+			b.classList.add('tab');
+			b.setAttribute('role','tab');
+			if(h) b.appendChild(h);
+			l.appendChild(b);
+			tabs[p] = {'tab':b,'pane':panes[p]};
+			this.enableTab(b,p);
+		}
+		el.insertAdjacentElement('beforebegin', l);
+		this.selectTab(0);
+
+		return this;
+	}
 	root.OI = OI;
+	root.OI.TabbedInterface = function(el){ return new TabbedInterface(el); };
 })(window || this);
