@@ -4,7 +4,7 @@
 			"active": true,
 			"name": "Anglia Ruskin University",
 			"urls": {
-				"http://www.anglia.ac.uk/": {
+				"https://www.aru.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.22, "bytes": 2022088, "green": 0, "imagebytes": 1083243 },
 						"2021-06-30": { "CO2": 1.4, "bytes": 2325855, "green": 0, "imagebytes": 1357083 },
@@ -15,7 +15,8 @@
 						"2022-02-01": { "CO2": 1.23, "bytes": 2032357, "green": 0, "imagebytes": 844772 },
 						"2022-04-12": { "CO2": 1.35, "bytes": 2234631, "green": 0, "imagebytes": 1020254 },
 						"2022-06-09": { "CO2": 2.28, "bytes": 3785198, "green": 0, "imagebytes": 2148854 },
-						"2022-09-06": { "CO2": 1.52, "bytes": 2515831, "green": 0, "imagebytes": 806297 }
+						"2022-09-06": { "CO2": 1.52, "bytes": 2515831, "green": 0, "imagebytes": 806297 },
+						"2023-12-07": { "CO2": 0.71, "bytes": 2818013, "green": 0, "imagebytes": 1082804 }
 					}
 				}
 			}
@@ -24,7 +25,7 @@
 			"active": true,
 			"name": "The Arts University College at Bournemouth",
 			"urls": {
-				"http://www.aub.ac.uk/": {
+				"https://aub.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 5.68, "bytes": 9413959, "green": 0, "imagebytes": 395247 },
 						"2021-06-30": { "CO2": 5.68, "bytes": 9420882, "green": 0, "imagebytes": 395253 },
@@ -35,7 +36,8 @@
 						"2022-02-01": { "CO2": 5.75, "bytes": 9544048, "green": 0, "imagebytes": 397497 },
 						"2022-04-12": { "CO2": 5.73, "bytes": 9507729, "green": 0, "imagebytes": 405114 },
 						"2022-06-09": { "CO2": 8.63, "bytes": 14318041, "green": 0, "imagebytes": 531074 },
-						"2022-09-06": { "CO2": 8.68, "bytes": 14392956, "green": 0, "imagebytes": 531030 }
+						"2022-09-06": { "CO2": 8.68, "bytes": 14392956, "green": 0, "imagebytes": 531030 },
+						"2023-12-07": { "CO2": 5.81, "bytes": 23094942, "green": 0, "imagebytes": 22055633 }
 					}
 				}
 			}
@@ -44,7 +46,7 @@
 			"active": true,
 			"name": "Bath Spa University",
 			"urls": {
-				"http://www.bathspa.ac.uk/": {
+				"https://www.bathspa.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.83, "bytes": 1517572, "green": 1, "imagebytes": 794629 },
 						"2021-06-30": { "CO2": 1.3, "bytes": 2383024, "green": 1, "imagebytes": 1642276 },
@@ -55,7 +57,8 @@
 						"2022-02-01": { "CO2": 1.31, "bytes": 2400541, "green": 1, "imagebytes": 1441796 },
 						"2022-04-12": { "CO2": 1.06, "bytes": 1935880, "green": 1, "imagebytes": 956946 },
 						"2022-06-09": { "CO2": 0.98, "bytes": 1795235, "green": 1, "imagebytes": 806397 },
-						"2022-09-06": { "CO2": 2.44, "bytes": 4460211, "green": 1, "imagebytes": 3419166 }
+						"2022-09-06": { "CO2": 2.44, "bytes": 4460211, "green": 1, "imagebytes": 3419166 },
+						"2023-12-07": { "CO2": 0.42, "bytes": 1916294, "green": 1, "imagebytes": 1231692 }
 					}
 				}
 			}
@@ -64,7 +67,7 @@
 			"active": true,
 			"name": "University College Birmingham",
 			"urls": {
-				"http://www.ucb.ac.uk/": {
+				"https://www.ucb.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.91, "bytes": 3164031, "green": 0, "imagebytes": 413169 },
 						"2021-06-30": { "CO2": 0.62, "bytes": 1028574, "green": 0, "imagebytes": 264039 },
@@ -75,7 +78,8 @@
 						"2022-02-01": { "CO2": 1.03, "bytes": 1710338, "green": 0, "imagebytes": 147823 },
 						"2022-04-12": { "CO2": 1.65, "bytes": 2735000, "green": 0, "imagebytes": 2007893 },
 						"2022-06-09": { "CO2": 0.65, "bytes": 1073390, "green": 0, "imagebytes": 329317 },
-						"2022-09-06": { "CO2": 0.62, "bytes": 1027038, "green": 0, "imagebytes": 351456 }
+						"2022-09-06": { "CO2": 0.62, "bytes": 1027038, "green": 0, "imagebytes": 351456 },
+						"2023-12-07": { "CO2": 0.54, "bytes": 2141737, "green": 0, "imagebytes": 1490754 }
 					}
 				}
 			}
@@ -84,7 +88,7 @@
 			"active": true,
 			"name": "Bournemouth University",
 			"urls": {
-				"http://www.bournemouth.ac.uk/": {
+				"https://www.bournemouth.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.91, "bytes": 5324565, "green": 1, "imagebytes": 3887248 },
 						"2021-06-30": { "CO2": 2.78, "bytes": 5086402, "green": 1, "imagebytes": 3927077 },
@@ -95,7 +99,8 @@
 						"2022-02-01": { "CO2": 2.81, "bytes": 5134422, "green": 1, "imagebytes": 3899474 },
 						"2022-04-12": { "CO2": 2.01, "bytes": 3687737, "green": 1, "imagebytes": 2375232 },
 						"2022-06-09": { "CO2": 2.66, "bytes": 4861707, "green": 1, "imagebytes": 2832633 },
-						"2022-09-06": { "CO2": 2.77, "bytes": 5066922, "green": 1, "imagebytes": 3348826 }
+						"2022-09-06": { "CO2": 2.77, "bytes": 5066922, "green": 1, "imagebytes": 3348826 },
+						"2023-12-07": { "CO2": 1.01, "bytes": 4636841, "green": 1, "imagebytes": 2780306 }
 					}
 				}
 			}
@@ -104,7 +109,7 @@
 			"active": true,
 			"name": "University of Brighton",
 			"urls": {
-				"http://www.brighton.ac.uk/": {
+				"https://www.brighton.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.97, "bytes": 1602179, "green": 0, "imagebytes": 1012519 },
 						"2021-06-30": { "CO2": 1.03, "bytes": 1701627, "green": 0, "imagebytes": 1005394 },
@@ -115,7 +120,8 @@
 						"2022-02-01": { "CO2": 0.93, "bytes": 1545391, "green": 0, "imagebytes": 820921 },
 						"2022-04-12": { "CO2": 1.08, "bytes": 1795893, "green": 0, "imagebytes": 730939 },
 						"2022-06-09": { "CO2": 1.23, "bytes": 2032183, "green": 0, "imagebytes": 929221 },
-						"2022-09-06": { "CO2": 1.07, "bytes": 1780117, "green": 0, "imagebytes": 662644 }
+						"2022-09-06": { "CO2": 1.07, "bytes": 1780117, "green": 0, "imagebytes": 662644 },
+						"2023-12-07": { "CO2": 0.68, "bytes": 2704773, "green": 0, "imagebytes": 1786795 }
 					}
 				}
 			}
@@ -124,7 +130,7 @@
 			"active": true,
 			"name": "Brunel University",
 			"urls": {
-				"http://www.brunel.ac.uk/": {
+				"https://www.brunel.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.87, "bytes": 4767597, "green": 0, "imagebytes": 2058708 },
 						"2021-06-30": { "CO2": 2.8, "bytes": 4652565, "green": 0, "imagebytes": 1929215 },
@@ -135,7 +141,8 @@
 						"2022-02-01": { "CO2": 2.1, "bytes": 3479289, "green": 0, "imagebytes": 653294 },
 						"2022-04-12": { "CO2": 2.07, "bytes": 3440573, "green": 0, "imagebytes": 674022 },
 						"2022-06-09": { "CO2": 2.07, "bytes": 3436227, "green": 0, "imagebytes": 662276 },
-						"2022-09-06": { "CO2": 2.14, "bytes": 3549832, "green": 0, "imagebytes": 639738 }
+						"2022-09-06": { "CO2": 2.14, "bytes": 3549832, "green": 0, "imagebytes": 639738 },
+						"2023-12-07": { "CO2": 0.27, "bytes": 1087177, "green": 0, "imagebytes": 530794 }
 					}
 				}
 			}
@@ -144,7 +151,7 @@
 			"active": true,
 			"name": "Buckinghamshire New University",
 			"urls": {
-				"http://www.bucks.ac.uk/": {
+				"https://www.bucks.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.67, "bytes": 2774369, "green": 0, "imagebytes": 622901 },
 						"2021-06-30": { "CO2": 1.36, "bytes": 2253696, "green": 0, "imagebytes": 440849 },
@@ -155,7 +162,8 @@
 						"2022-02-01": { "CO2": 1.91, "bytes": 3172741, "green": 0, "imagebytes": 645085 },
 						"2022-04-12": { "CO2": 1.84, "bytes": 3047919, "green": 0, "imagebytes": 859119 },
 						"2022-06-09": { "CO2": 1.94, "bytes": 3222356, "green": 0, "imagebytes": 877050 },
-						"2022-09-06": { "CO2": 2.33, "bytes": 3857898, "green": 0, "imagebytes": 739659 }
+						"2022-09-06": { "CO2": 2.33, "bytes": 3857898, "green": 0, "imagebytes": 739659 },
+						"2023-12-07": { "CO2": 0.57, "bytes": 2263449, "green": 0, "imagebytes": 682932 }
 					}
 				}
 			}
@@ -164,7 +172,7 @@
 			"active": true,
 			"name": "Canterbury Christ Church University",
 			"urls": {
-				"http://www.canterbury.ac.uk/": {
+				"https://www.canterbury.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.71, "bytes": 6156856, "green": 0, "imagebytes": 1523154 },
 						"2021-06-30": { "CO2": 4.29, "bytes": 7118590, "green": 0, "imagebytes": 1540155 },
@@ -175,7 +183,8 @@
 						"2022-02-01": { "CO2": 1.61, "bytes": 2664100, "green": 0, "imagebytes": 1563346 },
 						"2022-04-12": { "CO2": 1.78, "bytes": 2958751, "green": 0, "imagebytes": 1556734 },
 						"2022-06-09": { "CO2": 2.57, "bytes": 4257903, "green": 0, "imagebytes": 921257 },
-						"2022-09-06": { "CO2": 1.11, "bytes": 1839098, "green": 0, "imagebytes": 316325 }
+						"2022-09-06": { "CO2": 1.11, "bytes": 1839098, "green": 0, "imagebytes": 316325 },
+						"2023-12-07": { "CO2": 0.75, "bytes": 2964877, "green": 0, "imagebytes": 684689 }
 					}
 				}
 			}
@@ -184,7 +193,7 @@
 			"active": true,
 			"name": "University of Northumbria at Newcastle",
 			"urls": {
-				"http://www.northumbria.ac.uk/": {
+				"https://www.northumbria.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.96, "bytes": 4916256, "green": 0, "imagebytes": 3037794 },
 						"2021-06-30": { "CO2": 2.98, "bytes": 4947418, "green": 0, "imagebytes": 3501959 },
@@ -195,7 +204,8 @@
 						"2022-02-01": { "CO2": 1.21, "bytes": 1999693, "green": 0, "imagebytes": 406928 },
 						"2022-04-12": { "CO2": 0.99, "bytes": 1644601, "green": 0, "imagebytes": 504233 },
 						"2022-06-09": { "CO2": 1.29, "bytes": 2139289, "green": 0, "imagebytes": 433603 },
-						"2022-09-06": { "CO2": 1.19, "bytes": 1971543, "green": 0, "imagebytes": 384530 }
+						"2022-09-06": { "CO2": 1.19, "bytes": 1971543, "green": 0, "imagebytes": 384530 },
+						"2023-12-07": { "CO2": 0.59, "bytes": 2329826, "green": 0, "imagebytes": 586953 }
 					}
 				}
 			}
@@ -204,7 +214,7 @@
 			"active": true,
 			"name": "The City University",
 			"urls": {
-				"http://www.city.ac.uk/": {
+				"https://www.city.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 8.81, "bytes": 14611268, "green": 0, "imagebytes": 1314331 },
 						"2021-06-30": { "CO2": 9.27, "bytes": 15379521, "green": 0, "imagebytes": 1758072 },
@@ -215,16 +225,17 @@
 						"2022-02-01": { "CO2": 9.05, "bytes": 15005591, "green": 0, "imagebytes": 1071731 },
 						"2022-04-12": { "CO2": 9.24, "bytes": 15334787, "green": 0, "imagebytes": 1389417 },
 						"2022-06-09": { "CO2": 8.84, "bytes": 14657614, "green": 0, "imagebytes": 1343629 },
-						"2022-09-06": { "CO2": 9.47, "bytes": 15711988, "green": 0, "imagebytes": 1497778 }
+						"2022-09-06": { "CO2": 9.47, "bytes": 15711988, "green": 0, "imagebytes": 1497778 },
+						"2023-12-07": { "CO2": 5.13, "bytes": 20359168, "green": 0, "imagebytes": 11512752 }
 					}
 				}
 			}
 		},
 		"10001653": {
-			"active": true,
+			"active": false,
 			"name": "The Conservatoire for Dance and Drama",
 			"urls": {
-				"http://www.cdd.ac.uk/": {
+				"https://www.cdd.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 30.21, "bytes": 50114993, "green": 0, "imagebytes": 49603009 },
 						"2021-06-30": { "CO2": 30.27, "bytes": 50215566, "green": 0, "imagebytes": 49697820 },
@@ -243,7 +254,7 @@
 			"active": true,
 			"name": "Coventry University",
 			"urls": {
-				"http://www.coventry.ac.uk/": {
+				"https://www.coventry.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.85, "bytes": 1561713, "green": 1, "imagebytes": 912129 },
 						"2021-06-30": { "CO2": 1.01, "bytes": 1840340, "green": 1, "imagebytes": 1093139 },
@@ -254,7 +265,8 @@
 						"2022-02-01": { "CO2": 1.49, "bytes": 2719739, "green": 1, "imagebytes": 1707916 },
 						"2022-04-12": { "CO2": 1.42, "bytes": 2602467, "green": 1, "imagebytes": 1741208 },
 						"2022-06-09": { "CO2": 1.41, "bytes": 2584664, "green": 1, "imagebytes": 1724187 },
-						"2022-09-06": { "CO2": 1.51, "bytes": 2761644, "green": 1, "imagebytes": 1906369 }
+						"2022-09-06": { "CO2": 1.51, "bytes": 2761644, "green": 1, "imagebytes": 1906369 },
+						"2023-12-07": { "CO2": 0.41, "bytes": 1886568, "green": 1, "imagebytes": 1064738 }
 					}
 				}
 			}
@@ -263,7 +275,7 @@
 			"active": true,
 			"name": "De Montfort University",
 			"urls": {
-				"http://www.dmu.ac.uk/": {
+				"https://www.dmu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.68, "bytes": 1121392, "green": 0, "imagebytes": 379941 },
 						"2021-06-30": { "CO2": 10.11, "bytes": 16775560, "green": 0, "imagebytes": 623983 },
@@ -274,7 +286,8 @@
 						"2022-02-01": { "CO2": 0.77, "bytes": 1275772, "green": 0, "imagebytes": 633456 },
 						"2022-04-12": { "CO2": 0.75, "bytes": 1237042, "green": 0, "imagebytes": 587834 },
 						"2022-06-09": { "CO2": 0.78, "bytes": 1295289, "green": 0, "imagebytes": 589039 },
-						"2022-09-06": { "CO2": 0.83, "bytes": 1369142, "green": 0, "imagebytes": 644296 }
+						"2022-09-06": { "CO2": 0.83, "bytes": 1369142, "green": 0, "imagebytes": 644296 },
+						"2023-12-07": { "CO2": 0.3, "bytes": 1179265, "green": 0, "imagebytes": 285060 }
 					}
 				}
 			}
@@ -283,7 +296,7 @@
 			"active": true,
 			"name": "Glasgow School of Art",
 			"urls": {
-				"http://www.gsa.ac.uk/": {
+				"https://www.gsa.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.5, "bytes": 2483304, "green": 0, "imagebytes": 2193539 },
 						"2021-06-30": { "CO2": 2.11, "bytes": 3501132, "green": 0, "imagebytes": 3235024 },
@@ -294,7 +307,8 @@
 						"2022-02-01": { "CO2": 1.75, "bytes": 2899032, "green": 0, "imagebytes": 2641706 },
 						"2022-04-12": { "CO2": 1.99, "bytes": 3297396, "green": 0, "imagebytes": 3007897 },
 						"2022-06-09": { "CO2": 3.88, "bytes": 6444109, "green": 0, "imagebytes": 5952036 },
-						"2022-09-06": { "CO2": 4.89, "bytes": 8103855, "green": 0, "imagebytes": 7846364 }
+						"2022-09-06": { "CO2": 4.89, "bytes": 8103855, "green": 0, "imagebytes": 7846364 },
+						"2023-12-07": { "CO2": 0.42, "bytes": 1667779, "green": 0, "imagebytes": 1247850 }
 					}
 				}
 			}
@@ -303,7 +317,7 @@
 			"active": true,
 			"name": "Goldsmiths' College",
 			"urls": {
-				"http://www.gold.ac.uk/": {
+				"https://www.gold.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.03, "bytes": 1705658, "green": 0, "imagebytes": 858524 },
 						"2021-06-30": { "CO2": 1.19, "bytes": 1979333, "green": 0, "imagebytes": 1124430 },
@@ -314,7 +328,8 @@
 						"2022-02-01": { "CO2": 1.19, "bytes": 1975893, "green": 0, "imagebytes": 787672 },
 						"2022-04-12": { "CO2": 1.52, "bytes": 2524220, "green": 0, "imagebytes": 1325402 },
 						"2022-06-09": { "CO2": 1.54, "bytes": 2557708, "green": 0, "imagebytes": 1316205 },
-						"2022-09-06": { "CO2": 1.31, "bytes": 2178251, "green": 0, "imagebytes": 1229272 }
+						"2022-09-06": { "CO2": 1.31, "bytes": 2178251, "green": 0, "imagebytes": 1229272 },
+						"2023-12-07": { "CO2": 0.51, "bytes": 2011203, "green": 0, "imagebytes": 836332 }
 					}
 				}
 			}
@@ -323,7 +338,7 @@
 			"active": true,
 			"name": "Imperial College of Science, Technology and Medicine",
 			"urls": {
-				"http://www.imperial.ac.uk/": {
+				"https://www.imperial.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.75, "bytes": 2899121, "green": 0, "imagebytes": 2256042 },
 						"2021-06-30": { "CO2": 1.78, "bytes": 2944464, "green": 0, "imagebytes": 2207613 },
@@ -334,7 +349,8 @@
 						"2022-02-01": { "CO2": 1.69, "bytes": 2810869, "green": 0, "imagebytes": 2304524 },
 						"2022-04-12": { "CO2": 1.7, "bytes": 2812424, "green": 0, "imagebytes": 2306081 },
 						"2022-06-09": { "CO2": 1.08, "bytes": 1787268, "green": 0, "imagebytes": 1247728 },
-						"2022-09-06": { "CO2": 1.14, "bytes": 1889013, "green": 0, "imagebytes": 1349941 }
+						"2022-09-06": { "CO2": 1.14, "bytes": 1889013, "green": 0, "imagebytes": 1349941 },
+						"2023-12-07": { "CO2": 0.39, "bytes": 1551483, "green": 0, "imagebytes": 986913 }
 					}
 				}
 			}
@@ -343,7 +359,7 @@
 			"active": true,
 			"name": "Institute of Cancer Research: Royal Cancer Hospital (The)",
 			"urls": {
-				"http://www.icr.ac.uk/": {
+				"https://www.icr.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.73, "bytes": 1342322, "green": 1, "imagebytes": 635400 },
 						"2021-06-30": { "CO2": 0.77, "bytes": 1412529, "green": 1, "imagebytes": 703589 },
@@ -354,7 +370,8 @@
 						"2022-02-01": { "CO2": 0.79, "bytes": 1449834, "green": 1, "imagebytes": 630842 },
 						"2022-04-12": { "CO2": 0.98, "bytes": 1786807, "green": 1, "imagebytes": 919834 },
 						"2022-06-09": { "CO2": 1.27, "bytes": 2328634, "green": 1, "imagebytes": 1523695 },
-						"2022-09-06": { "CO2": 1.35, "bytes": 2469333, "green": 1, "imagebytes": 1662503 }
+						"2022-09-06": { "CO2": 1.35, "bytes": 2469333, "green": 1, "imagebytes": 1662503 },
+						"2023-12-07": { "CO2": 0.5, "bytes": 2294004, "green": 1, "imagebytes": 1461835 }
 					}
 				}
 			}
@@ -363,7 +380,7 @@
 			"active": true,
 			"name": "University of Winchester",
 			"urls": {
-				"http://www.winchester.ac.uk/": {
+				"https://www.winchester.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.24, "bytes": 5369801, "green": 0, "imagebytes": 3621286 },
 						"2021-06-30": { "CO2": 3.39, "bytes": 5621573, "green": 0, "imagebytes": 3936150 },
@@ -374,7 +391,8 @@
 						"2022-02-01": { "CO2": 21.77, "bytes": 36106174, "green": 0, "imagebytes": 3627997 },
 						"2022-04-12": { "CO2": 12.79, "bytes": 21219714, "green": 0, "imagebytes": 4364529 },
 						"2022-06-09": { "CO2": 21.73, "bytes": 36036970, "green": 0, "imagebytes": 4287128 },
-						"2022-09-06": { "CO2": 12.79, "bytes": 21218644, "green": 0, "imagebytes": 4461463 }
+						"2022-09-06": { "CO2": 12.79, "bytes": 21218644, "green": 0, "imagebytes": 4461463 },
+						"2023-12-07": { "CO2": 2.01, "bytes": 7967500, "green": 0, "imagebytes": 6197677 }
 					}
 				}
 			}
@@ -383,7 +401,7 @@
 			"active": true,
 			"name": "King's College London",
 			"urls": {
-				"http://www.kcl.ac.uk/": {
+				"https://www.kcl.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.72, "bytes": 2853854, "green": 0, "imagebytes": 1441743 },
 						"2021-06-30": { "CO2": 1.43, "bytes": 2379488, "green": 0, "imagebytes": 950879 },
@@ -394,7 +412,8 @@
 						"2022-02-01": { "CO2": 1.23, "bytes": 2041330, "green": 0, "imagebytes": 1333944 },
 						"2022-04-12": { "CO2": 0.93, "bytes": 1548437, "green": 0, "imagebytes": 837805 },
 						"2022-06-09": { "CO2": 1.42, "bytes": 2347655, "green": 0, "imagebytes": 1632139 },
-						"2022-09-06": { "CO2": 0.89, "bytes": 1468379, "green": 0, "imagebytes": 744563 }
+						"2022-09-06": { "CO2": 0.89, "bytes": 1468379, "green": 0, "imagebytes": 744563 },
+						"2023-12-07": { "CO2": 0.28, "bytes": 1124460, "green": 0, "imagebytes": 476090 }
 					}
 				}
 			}
@@ -403,7 +422,7 @@
 			"active": true,
 			"name": "Kingston University",
 			"urls": {
-				"http://www.kingston.ac.uk/": {
+				"https://www.kingston.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.88, "bytes": 1613079, "green": 1, "imagebytes": 865927 },
 						"2021-06-30": { "CO2": 0.97, "bytes": 1782184, "green": 1, "imagebytes": 1025829 },
@@ -414,7 +433,8 @@
 						"2022-02-01": { "CO2": 1.03, "bytes": 1876296, "green": 1, "imagebytes": 1077400 },
 						"2022-04-12": { "CO2": 1.06, "bytes": 1935967, "green": 1, "imagebytes": 1093062 },
 						"2022-06-09": { "CO2": 1.71, "bytes": 3132542, "green": 1, "imagebytes": 1499460 },
-						"2022-09-06": { "CO2": 1.68, "bytes": 3067503, "green": 1, "imagebytes": 1351946 }
+						"2022-09-06": { "CO2": 1.68, "bytes": 3067503, "green": 1, "imagebytes": 1351946 },
+						"2023-12-07": { "CO2": 0.47, "bytes": 2162714, "green": 1, "imagebytes": 1028978 }
 					}
 				}
 			}
@@ -423,7 +443,7 @@
 			"active": true,
 			"name": "Leeds College of Art",
 			"urls": {
-				"http://www.leeds-art.ac.uk/": {
+				"https://www.leeds-art.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.85, "bytes": 8882495, "green": 1, "imagebytes": 7917040 },
 						"2021-06-30": { "CO2": 5.32, "bytes": 9739644, "green": 1, "imagebytes": 8786576 },
@@ -434,16 +454,17 @@
 						"2022-02-01": { "CO2": 4.81, "bytes": 8799686, "green": 1, "imagebytes": 7534129 },
 						"2022-04-12": { "CO2": 2.89, "bytes": 5286944, "green": 1, "imagebytes": 4038047 },
 						"2022-06-09": { "CO2": 2.92, "bytes": 5342319, "green": 1, "imagebytes": 4081618 },
-						"2022-09-06": { "CO2": 3.16, "bytes": 5775444, "green": 1, "imagebytes": 3919292 }
+						"2022-09-06": { "CO2": 3.16, "bytes": 5775444, "green": 1, "imagebytes": 3919292 },
+						"2023-12-07": { "CO2": 2.53, "bytes": 11589117, "green": 1, "imagebytes": 532812 }
 					}
 				}
 			}
 		},
 		"10003861": {
 			"active": true,
-			"name": "Leeds Metropolitan University",
+			"name": "Leeds Beckett University",
 			"urls": {
-				"http://www.leedsmet.ac.uk/": {
+				"https://www.leedsbeckett.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.65, "bytes": 4398576, "green": 0, "imagebytes": 1152613 },
 						"2021-06-30": { "CO2": 3.03, "bytes": 5032261, "green": 0, "imagebytes": 1445650 },
@@ -454,7 +475,8 @@
 						"2022-02-01": { "CO2": 3.49, "bytes": 5791764, "green": 0, "imagebytes": 1184177 },
 						"2022-04-12": { "CO2": 2.64, "bytes": 4372145, "green": 0, "imagebytes": 770065 },
 						"2022-06-09": { "CO2": 1.5, "bytes": 2480634, "green": 0, "imagebytes": 522329 },
-						"2022-09-06": { "CO2": 0.68, "bytes": 1131156, "green": 0, "imagebytes": 317637 }
+						"2022-09-06": { "CO2": 0.68, "bytes": 1131156, "green": 0, "imagebytes": 317637 },
+						"2023-12-07": { "CO2": 0.52, "bytes": 2062251, "green": 0, "imagebytes": 317326 }
 					}
 				}
 			}
@@ -463,7 +485,7 @@
 			"active": true,
 			"name": "Leeds Trinity University College",
 			"urls": {
-				"http://www.leedstrinity.ac.uk/": {
+				"https://www.leedstrinity.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.94, "bytes": 5373309, "green": 1, "imagebytes": 2984007 },
 						"2021-06-30": { "CO2": 5.8, "bytes": 10609466, "green": 1, "imagebytes": 8112840 },
@@ -474,7 +496,8 @@
 						"2022-02-01": { "CO2": 2.76, "bytes": 5051743, "green": 1, "imagebytes": 2656248 },
 						"2022-04-12": { "CO2": 3.05, "bytes": 5574677, "green": 1, "imagebytes": 2416366 },
 						"2022-06-09": { "CO2": 3.53, "bytes": 6455781, "green": 1, "imagebytes": 2273749 },
-						"2022-09-06": { "CO2": 3.3, "bytes": 6045906, "green": 1, "imagebytes": 1619203 }
+						"2022-09-06": { "CO2": 3.3, "bytes": 6045906, "green": 1, "imagebytes": 1619203 },
+						"2023-12-07": { "CO2": 0.86, "bytes": 3949889, "green": 1, "imagebytes": 1400404 }
 					}
 				}
 			}
@@ -483,7 +506,7 @@
 			"active": true,
 			"name": "The Liverpool Institute for Performing Arts",
 			"urls": {
-				"http://www.lipa.ac.uk/": {
+				"https://www.lipa.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 7.71, "bytes": 12781051, "green": 0, "imagebytes": 1161949 },
 						"2021-06-30": { "CO2": 7.69, "bytes": 12759953, "green": 0, "imagebytes": 1118192 },
@@ -494,7 +517,8 @@
 						"2022-02-01": { "CO2": 7.73, "bytes": 12825996, "green": 0, "imagebytes": 1171839 },
 						"2022-04-12": { "CO2": 7.71, "bytes": 12789746, "green": 0, "imagebytes": 1134077 },
 						"2022-06-09": { "CO2": 8.22, "bytes": 13641081, "green": 0, "imagebytes": 1914418 },
-						"2022-09-06": { "CO2": 6.76, "bytes": 11215750, "green": 0, "imagebytes": 1928987 }
+						"2022-09-06": { "CO2": 6.76, "bytes": 11215750, "green": 0, "imagebytes": 1928987 },
+						"2023-12-07": { "CO2": 3.31, "bytes": 13147421, "green": 0, "imagebytes": 3899021 }
 					}
 				}
 			}
@@ -503,7 +527,7 @@
 			"active": true,
 			"name": "Liverpool Hope University",
 			"urls": {
-				"http://www.hope.ac.uk/": {
+				"https://www.hope.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.98, "bytes": 4937450, "green": 0, "imagebytes": 3992747 },
 						"2021-06-30": { "CO2": 2.32, "bytes": 3856320, "green": 0, "imagebytes": 2902311 },
@@ -514,7 +538,8 @@
 						"2022-02-01": { "CO2": 2.77, "bytes": 4598454, "green": 0, "imagebytes": 3415521 },
 						"2022-04-12": { "CO2": 2.66, "bytes": 4414462, "green": 0, "imagebytes": 3231109 },
 						"2022-06-09": { "CO2": 2.69, "bytes": 4463766, "green": 0, "imagebytes": 3017856 },
-						"2022-09-06": { "CO2": 2.49, "bytes": 4137748, "green": 0, "imagebytes": 2640882 }
+						"2022-09-06": { "CO2": 2.49, "bytes": 4137748, "green": 0, "imagebytes": 2640882 },
+						"2023-12-07": { "CO2": 0.85, "bytes": 3359382, "green": 0, "imagebytes": 1924030 }
 					}
 				}
 			}
@@ -523,7 +548,7 @@
 			"active": true,
 			"name": "Liverpool John Moores University",
 			"urls": {
-				"http://www.ljmu.ac.uk/": {
+				"https://www.ljmu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.49, "bytes": 5783946, "green": 0, "imagebytes": 3854651 },
 						"2021-06-30": { "CO2": 2.14, "bytes": 3552411, "green": 0, "imagebytes": 1602579 },
@@ -534,7 +559,8 @@
 						"2022-02-01": { "CO2": 3.2, "bytes": 5304821, "green": 0, "imagebytes": 3609796 },
 						"2022-04-12": { "CO2": 2.34, "bytes": 3874122, "green": 0, "imagebytes": 2044033 },
 						"2022-06-09": { "CO2": 2.6, "bytes": 4310927, "green": 0, "imagebytes": 2598131 },
-						"2022-09-06": { "CO2": 4.97, "bytes": 8237591, "green": 0, "imagebytes": 6505267 }
+						"2022-09-06": { "CO2": 4.97, "bytes": 8237591, "green": 0, "imagebytes": 6505267 },
+						"2023-12-07": { "CO2": 1.59, "bytes": 6298025, "green": 0, "imagebytes": 2987957 }
 					}
 				}
 			}
@@ -543,7 +569,7 @@
 			"active": true,
 			"name": "London Metropolitan University",
 			"urls": {
-				"http://www.londonmet.ac.uk/": {
+				"https://www.londonmet.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.48, "bytes": 5771732, "green": 0, "imagebytes": 5068217 },
 						"2021-06-30": { "CO2": 3.57, "bytes": 5927818, "green": 0, "imagebytes": 5218675 },
@@ -554,7 +580,8 @@
 						"2022-02-01": { "CO2": 3.4, "bytes": 5639264, "green": 0, "imagebytes": 4447112 },
 						"2022-04-12": { "CO2": 3.51, "bytes": 5827385, "green": 0, "imagebytes": 4625525 },
 						"2022-06-09": { "CO2": 4.66, "bytes": 7730077, "green": 0, "imagebytes": 6639691 },
-						"2022-09-06": { "CO2": 4.13, "bytes": 6853796, "green": 0, "imagebytes": 5323010 }
+						"2022-09-06": { "CO2": 4.13, "bytes": 6853796, "green": 0, "imagebytes": 5323010 },
+						"2023-12-07": { "CO2": 3.09, "bytes": 12270419, "green": 0, "imagebytes": 10854500 }
 					}
 				}
 			}
@@ -563,7 +590,7 @@
 			"active": true,
 			"name": "London School of Economics & Political Science",
 			"urls": {
-				"http://www.lse.ac.uk/": {
+				"https://www.lse.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.72, "bytes": 1201967, "green": 0, "imagebytes": 402354 },
 						"2021-06-30": { "CO2": 0.73, "bytes": 1210114, "green": 0, "imagebytes": 401138 },
@@ -574,7 +601,8 @@
 						"2022-02-01": { "CO2": 2.03, "bytes": 3373463, "green": 0, "imagebytes": 2435334 },
 						"2022-04-12": { "CO2": 2.3, "bytes": 3815055, "green": 0, "imagebytes": 2832898 },
 						"2022-06-09": { "CO2": 4.87, "bytes": 8078934, "green": 0, "imagebytes": 7117880 },
-						"2022-09-06": { "CO2": 5.69, "bytes": 9432872, "green": 0, "imagebytes": 8462798 }
+						"2022-09-06": { "CO2": 5.69, "bytes": 9432872, "green": 0, "imagebytes": 8462798 },
+						"2023-12-07": { "CO2": 1.17, "bytes": 4637963, "green": 0, "imagebytes": 3617494 }
 					}
 				}
 			}
@@ -583,7 +611,7 @@
 			"active": true,
 			"name": "London South Bank University",
 			"urls": {
-				"http://www.lsbu.ac.uk/": {
+				"https://www.lsbu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.55, "bytes": 7545070, "green": 0, "imagebytes": 3301721 },
 						"2021-06-30": { "CO2": 5.17, "bytes": 8571122, "green": 0, "imagebytes": 4083295 },
@@ -594,7 +622,8 @@
 						"2022-02-01": { "CO2": 6.52, "bytes": 10819934, "green": 0, "imagebytes": 7465120 },
 						"2022-04-12": { "CO2": 6.6, "bytes": 10945463, "green": 0, "imagebytes": 7495964 },
 						"2022-06-09": { "CO2": 7.07, "bytes": 11720805, "green": 0, "imagebytes": 8258737 },
-						"2022-09-06": { "CO2": 6.59, "bytes": 10937546, "green": 0, "imagebytes": 7384335 }
+						"2022-09-06": { "CO2": 6.59, "bytes": 10937546, "green": 0, "imagebytes": 7384335 },
+						"2023-12-07": { "CO2": 2, "bytes": 7945758, "green": 0, "imagebytes": 6044318 }
 					}
 				}
 			}
@@ -603,7 +632,7 @@
 			"active": true,
 			"name": "Loughborough University",
 			"urls": {
-				"http://www.lboro.ac.uk/": {
+				"https://www.lboro.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.83, "bytes": 4687288, "green": 0, "imagebytes": 4156226 },
 						"2021-06-30": { "CO2": 3.18, "bytes": 5267740, "green": 0, "imagebytes": 4727051 },
@@ -614,7 +643,8 @@
 						"2022-02-01": { "CO2": 3.56, "bytes": 5900819, "green": 0, "imagebytes": 5516656 },
 						"2022-04-12": { "CO2": 4.9, "bytes": 8121376, "green": 0, "imagebytes": 7321698 },
 						"2022-06-09": { "CO2": 3.89, "bytes": 6456524, "green": 0, "imagebytes": 5640694 },
-						"2022-09-06": { "CO2": 4.54, "bytes": 7528483, "green": 0, "imagebytes": 6646709 }
+						"2022-09-06": { "CO2": 4.54, "bytes": 7528483, "green": 0, "imagebytes": 6646709 },
+						"2023-12-07": { "CO2": 1.16, "bytes": 4627705, "green": 0, "imagebytes": 3606597 }
 					}
 				}
 			}
@@ -623,7 +653,7 @@
 			"active": true,
 			"name": "The Manchester Metropolitan University",
 			"urls": {
-				"http://www.mmu.ac.uk/": {
+				"https://www.mmu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.7, "bytes": 3114156, "green": 1, "imagebytes": 848346 },
 						"2021-06-30": { "CO2": 1.7, "bytes": 3108760, "green": 1, "imagebytes": 840129 },
@@ -634,7 +664,8 @@
 						"2022-02-01": { "CO2": 1.2, "bytes": 2197246, "green": 1, "imagebytes": 1046162 },
 						"2022-04-12": { "CO2": 1.24, "bytes": 2272288, "green": 1, "imagebytes": 1007681 },
 						"2022-06-09": { "CO2": 1.26, "bytes": 2313279, "green": 1, "imagebytes": 997270 },
-						"2022-09-06": { "CO2": 1.34, "bytes": 2458505, "green": 1, "imagebytes": 1039246 }
+						"2022-09-06": { "CO2": 1.34, "bytes": 2458505, "green": 1, "imagebytes": 1039246 },
+						"2023-12-07": { "CO2": 0.57, "bytes": 2593802, "green": 1, "imagebytes": 1271167 }
 					}
 				}
 			}
@@ -643,7 +674,7 @@
 			"active": true,
 			"name": "Middlesex University",
 			"urls": {
-				"http://www.mdx.ac.uk/": {
+				"https://www.mdx.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.26, "bytes": 5412861, "green": 0, "imagebytes": 1922525 },
 						"2021-06-30": { "CO2": 3.37, "bytes": 5584944, "green": 0, "imagebytes": 2004095 },
@@ -654,7 +685,8 @@
 						"2022-02-01": { "CO2": 3.46, "bytes": 5746186, "green": 0, "imagebytes": 2068574 },
 						"2022-04-12": { "CO2": 3.42, "bytes": 5674734, "green": 0, "imagebytes": 1921883 },
 						"2022-06-09": { "CO2": 3.61, "bytes": 5984980, "green": 0, "imagebytes": 2227516 },
-						"2022-09-06": { "CO2": 3.17, "bytes": 5266432, "green": 0, "imagebytes": 3287321 }
+						"2022-09-06": { "CO2": 3.17, "bytes": 5266432, "green": 0, "imagebytes": 3287321 },
+						"2023-12-07": { "CO2": 1.11, "bytes": 4391328, "green": 0, "imagebytes": 1928797 }
 					}
 				}
 			}
@@ -663,7 +695,7 @@
 			"active": true,
 			"name": "Norwich University College of the Arts",
 			"urls": {
-				"http://www.nua.ac.uk/": {
+				"https://www.nua.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.96, "bytes": 3578803, "green": 1, "imagebytes": 2334850 },
 						"2021-06-30": { "CO2": 2.19, "bytes": 4002744, "green": 1, "imagebytes": 2751120 },
@@ -674,7 +706,8 @@
 						"2022-02-01": { "CO2": 4.42, "bytes": 8083308, "green": 1, "imagebytes": 6371439 },
 						"2022-04-12": { "CO2": 4.63, "bytes": 8475933, "green": 1, "imagebytes": 6780461 },
 						"2022-06-09": { "CO2": 4.35, "bytes": 7966270, "green": 1, "imagebytes": 6254825 },
-						"2022-09-06": { "CO2": 4.32, "bytes": 7905758, "green": 1, "imagebytes": 6098853 }
+						"2022-09-06": { "CO2": 4.32, "bytes": 7905758, "green": 1, "imagebytes": 6098853 },
+						"2023-12-07": { "CO2": 0.21, "bytes": 940211, "green": 1, "imagebytes": 263092 }
 					}
 				}
 			}
@@ -683,7 +716,7 @@
 			"active": true,
 			"name": "Nottingham Trent University",
 			"urls": {
-				"http://www.ntu.ac.uk/": {
+				"https://www.ntu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.36, "bytes": 3922454, "green": 0, "imagebytes": 2520190 },
 						"2021-06-30": { "CO2": 2.17, "bytes": 3601937, "green": 0, "imagebytes": 2161370 },
@@ -694,7 +727,8 @@
 						"2022-02-01": { "CO2": 2.12, "bytes": 3519727, "green": 0, "imagebytes": 2035475 },
 						"2022-04-12": { "CO2": 2.21, "bytes": 3658449, "green": 0, "imagebytes": 1916888 },
 						"2022-06-09": { "CO2": 2.26, "bytes": 3749168, "green": 0, "imagebytes": 2172993 },
-						"2022-09-06": { "CO2": 2.56, "bytes": 4252359, "green": 0, "imagebytes": 2484429 }
+						"2022-09-06": { "CO2": 2.56, "bytes": 4252359, "green": 0, "imagebytes": 2484429 },
+						"2023-12-07": { "CO2": 1.26, "bytes": 5011632, "green": 0, "imagebytes": 3521579 }
 					}
 				}
 			}
@@ -703,7 +737,7 @@
 			"active": true,
 			"name": "Oxford Brookes University",
 			"urls": {
-				"http://www.brookes.ac.uk/": {
+				"https://www.brookes.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.93, "bytes": 4853957, "green": 0, "imagebytes": 3376534 },
 						"2021-06-30": { "CO2": 1.66, "bytes": 2747624, "green": 0, "imagebytes": 2188026 },
@@ -714,7 +748,8 @@
 						"2022-02-01": { "CO2": 1.42, "bytes": 2361670, "green": 0, "imagebytes": 1784547 },
 						"2022-04-12": { "CO2": 1.25, "bytes": 2065223, "green": 0, "imagebytes": 1487460 },
 						"2022-06-09": { "CO2": 1.67, "bytes": 2763976, "green": 0, "imagebytes": 2186632 },
-						"2022-09-06": { "CO2": 1.16, "bytes": 1920257, "green": 0, "imagebytes": 1341627 }
+						"2022-09-06": { "CO2": 1.16, "bytes": 1920257, "green": 0, "imagebytes": 1341627 },
+						"2023-12-07": { "CO2": 1.05, "bytes": 4154506, "green": 0, "imagebytes": 2072015 }
 					}
 				}
 			}
@@ -723,7 +758,7 @@
 			"active": true,
 			"name": "Queen Margaret University, Edinburgh",
 			"urls": {
-				"http://www.qmu.ac.uk/": {
+				"https://www.qmu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.65, "bytes": 4391620, "green": 0, "imagebytes": 3864534 },
 						"2021-06-30": { "CO2": 2.56, "bytes": 4239396, "green": 0, "imagebytes": 3687502 },
@@ -734,7 +769,8 @@
 						"2022-02-01": { "CO2": 3, "bytes": 4976509, "green": 0, "imagebytes": 4413446 },
 						"2022-04-12": { "CO2": 1.79, "bytes": 2968218, "green": 0, "imagebytes": 2468215 },
 						"2022-06-09": { "CO2": 1.8, "bytes": 2983570, "green": 0, "imagebytes": 2482337 },
-						"2022-09-06": { "CO2": 2.02, "bytes": 3356415, "green": 0, "imagebytes": 2846604 }
+						"2022-09-06": { "CO2": 2.02, "bytes": 3356415, "green": 0, "imagebytes": 2846604 },
+						"2023-12-07": { "CO2": 0.62, "bytes": 2454975, "green": 0, "imagebytes": 1864347 }
 					}
 				}
 			}
@@ -743,7 +779,7 @@
 			"active": true,
 			"name": "The Queen's University of Belfast",
 			"urls": {
-				"http://www.qub.ac.uk/": {
+				"https://www.qub.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.58, "bytes": 2626256, "green": 0, "imagebytes": 2045029 },
 						"2021-06-30": { "CO2": 3.31, "bytes": 5494034, "green": 0, "imagebytes": 4912524 },
@@ -754,7 +790,8 @@
 						"2022-02-01": { "CO2": 2.4, "bytes": 3989296, "green": 0, "imagebytes": 3095235 },
 						"2022-04-12": { "CO2": 1.7, "bytes": 2827525, "green": 0, "imagebytes": 1924346 },
 						"2022-06-09": { "CO2": 1.64, "bytes": 2722537, "green": 0, "imagebytes": 1813090 },
-						"2022-09-06": { "CO2": 2.03, "bytes": 3371748, "green": 0, "imagebytes": 2452791 }
+						"2022-09-06": { "CO2": 2.03, "bytes": 3371748, "green": 0, "imagebytes": 2452791 },
+						"2023-12-07": { "CO2": 0.72, "bytes": 2879302, "green": 0, "imagebytes": 1549953 }
 					}
 				}
 			}
@@ -763,7 +800,7 @@
 			"active": true,
 			"name": "Ravensbourne Limited",
 			"urls": {
-				"http://www.rave.ac.uk/": {
+				"https://www.rave.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.41, "bytes": 677206, "green": 0, "imagebytes": 195625 },
 						"2021-06-30": { "CO2": 0.45, "bytes": 740873, "green": 0, "imagebytes": 176517 },
@@ -774,7 +811,8 @@
 						"2022-02-01": { "CO2": 1.04, "bytes": 1731793, "green": 0, "imagebytes": 1115269 },
 						"2022-04-12": { "CO2": 1.07, "bytes": 1771347, "green": 0, "imagebytes": 1115449 },
 						"2022-06-09": { "CO2": 0.52, "bytes": 866738, "green": 0, "imagebytes": 188752 },
-						"2022-09-06": { "CO2": 0.72, "bytes": 1188533, "green": 0, "imagebytes": 171168 }
+						"2022-09-06": { "CO2": 0.72, "bytes": 1188533, "green": 0, "imagebytes": 171168 },
+						"2023-12-07": { "CO2": 0.31, "bytes": 1241048, "green": 0, "imagebytes": 190652 }
 					}
 				}
 			}
@@ -783,7 +821,7 @@
 			"active": true,
 			"name": "The Robert Gordon University",
 			"urls": {
-				"http://www.rgu.ac.uk/": {
+				"https://www.rgu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.29, "bytes": 2136003, "green": 0, "imagebytes": 1485183 },
 						"2021-06-30": { "CO2": 1.31, "bytes": 2170069, "green": 0, "imagebytes": 1518863 },
@@ -794,7 +832,8 @@
 						"2022-02-01": { "CO2": 1.1, "bytes": 1827188, "green": 0, "imagebytes": 1177643 },
 						"2022-04-12": { "CO2": 1.2, "bytes": 1989992, "green": 0, "imagebytes": 1340408 },
 						"2022-06-09": { "CO2": 1.35, "bytes": 2236335, "green": 0, "imagebytes": 1586674 },
-						"2022-09-06": { "CO2": 1.53, "bytes": 2542558, "green": 0, "imagebytes": 1070587 }
+						"2022-09-06": { "CO2": 1.53, "bytes": 2542558, "green": 0, "imagebytes": 1070587 },
+						"2023-12-07": { "CO2": 0.88, "bytes": 3484137, "green": 0, "imagebytes": 1484989 }
 					}
 				}
 			}
@@ -803,7 +842,7 @@
 			"active": true,
 			"name": "Rose Bruford College",
 			"urls": {
-				"http://www.bruford.ac.uk/": {
+				"https://www.bruford.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 6.71, "bytes": 11136742, "green": 0, "imagebytes": 9955777 },
 						"2021-06-30": { "CO2": 6.71, "bytes": 11137830, "green": 0, "imagebytes": 9942801 },
@@ -814,16 +853,17 @@
 						"2022-02-01": { "CO2": 3.65, "bytes": 6062445, "green": 0, "imagebytes": 4904493 },
 						"2022-04-12": { "CO2": 3.48, "bytes": 5773396, "green": 0, "imagebytes": 4605374 },
 						"2022-06-09": { "CO2": 2.85, "bytes": 4725678, "green": 0, "imagebytes": 4046706 },
-						"2022-09-06": { "CO2": 2.64, "bytes": 4386561, "green": 0, "imagebytes": 3511510 }
+						"2022-09-06": { "CO2": 2.64, "bytes": 4386561, "green": 0, "imagebytes": 3511510 },
+						"2023-12-07": { "CO2": 1.15, "bytes": 4560307, "green": 0, "imagebytes": 2883898 }
 					}
 				}
 			}
 		},
 		"10005545": {
 			"active": true,
-			"name": "Royal Agricultural College",
+			"name": "Royal Agricultural University",
 			"urls": {
-				"http://www.rac.ac.uk/": {
+				"https://www.rau.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.19, "bytes": 3625195, "green": 0, "imagebytes": 2849862 },
 						"2021-06-30": { "CO2": 2.26, "bytes": 3754480, "green": 0, "imagebytes": 2908590 },
@@ -834,7 +874,8 @@
 						"2022-02-01": { "CO2": 1.91, "bytes": 3175307, "green": 0, "imagebytes": 2315326 },
 						"2022-04-12": { "CO2": 1.91, "bytes": 3164170, "green": 0, "imagebytes": 2293948 },
 						"2022-06-09": { "CO2": 1.82, "bytes": 3025959, "green": 0, "imagebytes": 2177962 },
-						"2022-09-06": { "CO2": 1.91, "bytes": 3164753, "green": 0, "imagebytes": 2299862 }
+						"2022-09-06": { "CO2": 1.91, "bytes": 3164753, "green": 0, "imagebytes": 2299862 },
+						"2023-12-07": { "CO2": 0.98, "bytes": 4486224, "green": 1, "imagebytes": 3257360 }
 					}
 				}
 			}
@@ -843,7 +884,7 @@
 			"active": true,
 			"name": "Royal Holloway College and Bedford New College",
 			"urls": {
-				"http://www.rhul.ac.uk/": {
+				"https://www.rhul.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.95, "bytes": 4890494, "green": 0, "imagebytes": 4143010 },
 						"2021-06-30": { "CO2": 2.97, "bytes": 4931638, "green": 0, "imagebytes": 4179022 },
@@ -854,7 +895,8 @@
 						"2022-02-01": { "CO2": 3.05, "bytes": 5058455, "green": 0, "imagebytes": 4407041 },
 						"2022-04-12": { "CO2": 3.04, "bytes": 5044164, "green": 0, "imagebytes": 4385303 },
 						"2022-06-09": { "CO2": 3.12, "bytes": 5176500, "green": 0, "imagebytes": 4438554 },
-						"2022-09-06": { "CO2": 3.25, "bytes": 5390081, "green": 0, "imagebytes": 4643999 }
+						"2022-09-06": { "CO2": 3.25, "bytes": 5390081, "green": 0, "imagebytes": 4643999 },
+						"2023-12-07": { "CO2": 3.56, "bytes": 14127589, "green": 0, "imagebytes": 11812860 }
 					}
 				}
 			}
@@ -863,7 +905,7 @@
 			"active": true,
 			"name": "Royal Conservatoire of Scotland",
 			"urls": {
-				"http://www.rcs.ac.uk/": {
+				"https://www.rcs.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 17.54, "bytes": 29087465, "green": 0, "imagebytes": 11927853 },
 						"2021-06-30": { "CO2": 17.72, "bytes": 29387188, "green": 0, "imagebytes": 12179791 },
@@ -874,7 +916,8 @@
 						"2022-02-01": { "CO2": 22.26, "bytes": 36920464, "green": 0, "imagebytes": 19629976 },
 						"2022-04-12": { "CO2": 20.94, "bytes": 34739407, "green": 0, "imagebytes": 20215140 },
 						"2022-06-09": { "CO2": 16.8, "bytes": 27864463, "green": 0, "imagebytes": 13176478 },
-						"2022-09-06": { "CO2": 16.6, "bytes": 27531394, "green": 0, "imagebytes": 15556747 }
+						"2022-09-06": { "CO2": 16.6, "bytes": 27531394, "green": 0, "imagebytes": 15556747 },
+						"2023-12-07": { "CO2": 8.72, "bytes": 34634569, "green": 0, "imagebytes": 15740020 }
 					}
 				}
 			}
@@ -883,7 +926,7 @@
 			"active": true,
 			"name": "Sruc",
 			"urls": {
-				"http://www.sruc.ac.uk/": {
+				"https://www.sruc.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.66, "bytes": 1093561, "green": 0, "imagebytes": 246078 },
 						"2021-06-30": { "CO2": 0.64, "bytes": 1067705, "green": 0, "imagebytes": 213814 },
@@ -894,7 +937,8 @@
 						"2022-02-01": { "CO2": 0.67, "bytes": 1111846, "green": 0, "imagebytes": 233745 },
 						"2022-04-12": { "CO2": 0.74, "bytes": 1220443, "green": 0, "imagebytes": 383860 },
 						"2022-06-09": { "CO2": 0.85, "bytes": 1403235, "green": 0, "imagebytes": 621403 },
-						"2022-09-06": { "CO2": 0.76, "bytes": 1264374, "green": 0, "imagebytes": 496693 }
+						"2022-09-06": { "CO2": 0.76, "bytes": 1264374, "green": 0, "imagebytes": 496693 },
+						"2023-12-07": { "CO2": 0.53, "bytes": 2100879, "green": 0, "imagebytes": 259023 }
 					}
 				}
 			}
@@ -913,7 +957,8 @@
 						"2021-11-03": { "CO2": 1.56, "bytes": 2591852, "green": 0, "imagebytes": 956638 },
 						"2022-02-01": { "CO2": 1.75, "bytes": 2905530, "green": 0, "imagebytes": 1245399 },
 						"2022-04-12": { "CO2": 1.74, "bytes": 2890819, "green": 0, "imagebytes": 1217069 },
-						"2022-06-09": { "CO2": 0.14, "bytes": 234396, "green": 0, "imagebytes": 17584 }
+						"2022-06-09": { "CO2": 0.14, "bytes": 234396, "green": 0, "imagebytes": 17584 },
+						"2023-12-07": { "CO2": 0.74, "bytes": 2958421, "green": 0, "imagebytes": 1067132 }
 					}
 				}
 			}
@@ -922,7 +967,7 @@
 			"active": true,
 			"name": "Southampton Solent University",
 			"urls": {
-				"http://www.solent.ac.uk/": {
+				"https://www.solent.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.09, "bytes": 3471283, "green": 0, "imagebytes": 332988 },
 						"2021-06-30": { "CO2": 2.07, "bytes": 3441446, "green": 0, "imagebytes": 354053 },
@@ -933,7 +978,8 @@
 						"2022-02-01": { "CO2": 2.13, "bytes": 3536915, "green": 0, "imagebytes": 299687 },
 						"2022-04-12": { "CO2": 2.15, "bytes": 3570798, "green": 0, "imagebytes": 303655 },
 						"2022-06-09": { "CO2": 2.15, "bytes": 3565137, "green": 0, "imagebytes": 314685 },
-						"2022-09-06": { "CO2": 2.67, "bytes": 4430875, "green": 0, "imagebytes": 615510 }
+						"2022-09-06": { "CO2": 2.67, "bytes": 4430875, "green": 0, "imagebytes": 615510 },
+						"2023-12-07": { "CO2": 1.01, "bytes": 4026817, "green": 0, "imagebytes": 1566541 }
 					}
 				}
 			}
@@ -942,7 +988,7 @@
 			"active": true,
 			"name": "Staffordshire University",
 			"urls": {
-				"http://www.staffs.ac.uk/": {
+				"https://www.staffs.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.78, "bytes": 1300572, "green": 0, "imagebytes": 844984 },
 						"2021-06-30": { "CO2": 0.78, "bytes": 1296162, "green": 0, "imagebytes": 837497 },
@@ -953,7 +999,8 @@
 						"2022-02-01": { "CO2": 0.97, "bytes": 1609466, "green": 0, "imagebytes": 1034420 },
 						"2022-04-12": { "CO2": 0.94, "bytes": 1560948, "green": 0, "imagebytes": 979923 },
 						"2022-06-09": { "CO2": 1.12, "bytes": 1861575, "green": 0, "imagebytes": 891488 },
-						"2022-09-06": { "CO2": 1.19, "bytes": 1966957, "green": 0, "imagebytes": 982571 }
+						"2022-09-06": { "CO2": 1.19, "bytes": 1966957, "green": 0, "imagebytes": 982571 },
+						"2023-12-07": { "CO2": 0.52, "bytes": 2056064, "green": 0, "imagebytes": 912737 }
 					}
 				}
 			}
@@ -962,7 +1009,7 @@
 			"active": true,
 			"name": "University for the Creative Arts",
 			"urls": {
-				"http://www.ucreative.ac.uk/": {
+				"https://www.uca.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.07, "bytes": 5088147, "green": 0, "imagebytes": 4218303 },
 						"2021-06-30": { "CO2": 5.5, "bytes": 9126449, "green": 0, "imagebytes": 8241923 },
@@ -973,7 +1020,8 @@
 						"2022-02-01": { "CO2": 4.52, "bytes": 7499902, "green": 0, "imagebytes": 6609024 },
 						"2022-04-12": { "CO2": 3.06, "bytes": 5069295, "green": 0, "imagebytes": 4007700 },
 						"2022-06-09": { "CO2": 3.47, "bytes": 5762038, "green": 0, "imagebytes": 4664822 },
-						"2022-09-06": { "CO2": 3.14, "bytes": 5202159, "green": 0, "imagebytes": 4129065 }
+						"2022-09-06": { "CO2": 3.14, "bytes": 5202159, "green": 0, "imagebytes": 4129065 },
+						"2023-12-07": { "CO2": 0.78, "bytes": 3576221, "green": 1, "imagebytes": 2478452 }
 					}
 				}
 			}
@@ -982,7 +1030,7 @@
 			"active": true,
 			"name": "The University of West London",
 			"urls": {
-				"http://www.uwl.ac.uk/": {
+				"https://www.uwl.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.72, "bytes": 3153866, "green": 1, "imagebytes": 490722 },
 						"2021-06-30": { "CO2": 1.59, "bytes": 2903989, "green": 1, "imagebytes": 480774 },
@@ -993,7 +1041,8 @@
 						"2022-02-01": { "CO2": 1.82, "bytes": 3324714, "green": 1, "imagebytes": 595401 },
 						"2022-04-12": { "CO2": 2.26, "bytes": 4134400, "green": 1, "imagebytes": 2911061 },
 						"2022-06-09": { "CO2": 1.12, "bytes": 2057840, "green": 1, "imagebytes": 706478 },
-						"2022-09-06": { "CO2": 1.07, "bytes": 1951081, "green": 1, "imagebytes": 552993 }
+						"2022-09-06": { "CO2": 1.07, "bytes": 1951081, "green": 1, "imagebytes": 552993 },
+						"2023-12-07": { "CO2": 0.35, "bytes": 1599100, "green": 1, "imagebytes": 741385 }
 					}
 				}
 			}
@@ -1002,7 +1051,7 @@
 			"active": true,
 			"name": "University of Birmingham",
 			"urls": {
-				"http://www.birmingham.ac.uk/": {
+				"https://www.birmingham.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.87, "bytes": 1448011, "green": 0, "imagebytes": 872780 },
 						"2021-06-30": { "CO2": 0.88, "bytes": 1457826, "green": 0, "imagebytes": 847117 },
@@ -1013,7 +1062,8 @@
 						"2022-02-01": { "CO2": 0.83, "bytes": 1373014, "green": 0, "imagebytes": 623001 },
 						"2022-04-12": { "CO2": 1.3, "bytes": 2163888, "green": 0, "imagebytes": 1396904 },
 						"2022-06-09": { "CO2": 1.29, "bytes": 2147053, "green": 0, "imagebytes": 1356388 },
-						"2022-09-06": { "CO2": 0.77, "bytes": 1283184, "green": 0, "imagebytes": 860307 }
+						"2022-09-06": { "CO2": 0.77, "bytes": 1283184, "green": 0, "imagebytes": 860307 },
+						"2023-12-07": { "CO2": 0.34, "bytes": 1363592, "green": 0, "imagebytes": 921564 }
 					}
 				}
 			}
@@ -1022,7 +1072,7 @@
 			"active": true,
 			"name": "The University of Bolton",
 			"urls": {
-				"http://www.bolton.ac.uk/": {
+				"https://www.bolton.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.46, "bytes": 5744872, "green": 0, "imagebytes": 1715541 },
 						"2021-06-30": { "CO2": 3.44, "bytes": 5699702, "green": 0, "imagebytes": 1660573 },
@@ -1033,7 +1083,8 @@
 						"2022-02-01": { "CO2": 3.83, "bytes": 6352887, "green": 0, "imagebytes": 2172288 },
 						"2022-04-12": { "CO2": 3.81, "bytes": 6315351, "green": 0, "imagebytes": 1945828 },
 						"2022-06-09": { "CO2": 4.26, "bytes": 7073071, "green": 0, "imagebytes": 2548588 },
-						"2022-09-06": { "CO2": 4.15, "bytes": 6877739, "green": 0, "imagebytes": 2067777 }
+						"2022-09-06": { "CO2": 4.15, "bytes": 6877739, "green": 0, "imagebytes": 2067777 },
+						"2023-12-07": { "CO2": 0.88, "bytes": 3505778, "green": 0, "imagebytes": 1861569 }
 					}
 				}
 			}
@@ -1042,7 +1093,7 @@
 			"active": true,
 			"name": "University of Liverpool",
 			"urls": {
-				"http://www.liv.ac.uk/": {
+				"https://www.liv.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.05, "bytes": 1734282, "green": 0, "imagebytes": 813960 },
 						"2021-06-30": { "CO2": 1, "bytes": 1655424, "green": 0, "imagebytes": 808616 },
@@ -1053,7 +1104,8 @@
 						"2022-02-01": { "CO2": 1.26, "bytes": 2081872, "green": 0, "imagebytes": 1107927 },
 						"2022-04-12": { "CO2": 1.25, "bytes": 2073328, "green": 0, "imagebytes": 1091899 },
 						"2022-06-09": { "CO2": 1.18, "bytes": 1949598, "green": 0, "imagebytes": 840547 },
-						"2022-09-06": { "CO2": 1.24, "bytes": 2058887, "green": 0, "imagebytes": 851705 }
+						"2022-09-06": { "CO2": 1.24, "bytes": 2058887, "green": 0, "imagebytes": 851705 },
+						"2023-12-07": { "CO2": 0.46, "bytes": 1813330, "green": 0, "imagebytes": 399847 }
 					}
 				}
 			}
@@ -1062,7 +1114,7 @@
 			"active": true,
 			"name": "University of the Highlands and Islands",
 			"urls": {
-				"http://www.uhi.ac.uk/": {
+				"https://www.uhi.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.99, "bytes": 3650396, "green": 1, "imagebytes": 3309873 },
 						"2021-06-30": { "CO2": 1.97, "bytes": 3602531, "green": 1, "imagebytes": 3260800 },
@@ -1073,7 +1125,8 @@
 						"2022-02-01": { "CO2": 0.86, "bytes": 1574427, "green": 1, "imagebytes": 1219669 },
 						"2022-04-12": { "CO2": 0.94, "bytes": 1725737, "green": 1, "imagebytes": 1125439 },
 						"2022-06-09": { "CO2": 1.11, "bytes": 2022981, "green": 1, "imagebytes": 1318502 },
-						"2022-09-06": { "CO2": 1.73, "bytes": 3172198, "green": 1, "imagebytes": 2461430 }
+						"2022-09-06": { "CO2": 1.73, "bytes": 3172198, "green": 1, "imagebytes": 2461430 },
+						"2023-12-07": { "CO2": 1.02, "bytes": 4657018, "green": 1, "imagebytes": 4098371 }
 					}
 				}
 			}
@@ -1082,7 +1135,7 @@
 			"active": true,
 			"name": "The University of Chichester",
 			"urls": {
-				"http://www.chi.ac.uk/": {
+				"https://www.chi.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 7.66, "bytes": 14014299, "green": 1, "imagebytes": 3067121 },
 						"2021-06-30": { "CO2": 7.51, "bytes": 13743616, "green": 1, "imagebytes": 2751924 },
@@ -1093,7 +1146,8 @@
 						"2022-02-01": { "CO2": 1.62, "bytes": 2956599, "green": 1, "imagebytes": 2028595 },
 						"2022-04-12": { "CO2": 2.39, "bytes": 4381068, "green": 1, "imagebytes": 2291204 },
 						"2022-06-09": { "CO2": 2.52, "bytes": 4618851, "green": 1, "imagebytes": 2483430 },
-						"2022-09-06": { "CO2": 1.81, "bytes": 3319059, "green": 1, "imagebytes": 2350931 }
+						"2022-09-06": { "CO2": 1.81, "bytes": 3319059, "green": 1, "imagebytes": 2350931 },
+						"2023-12-07": { "CO2": 0.19, "bytes": 881720, "green": 1, "imagebytes": 418285 }
 					}
 				}
 			}
@@ -1102,7 +1156,7 @@
 			"active": true,
 			"name": "The University of Northampton",
 			"urls": {
-				"http://www.northampton.ac.uk/": {
+				"https://www.northampton.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.15, "bytes": 1900500, "green": 0, "imagebytes": 673512 },
 						"2021-06-30": { "CO2": 1.26, "bytes": 2081778, "green": 0, "imagebytes": 847127 },
@@ -1113,7 +1167,8 @@
 						"2022-02-01": { "CO2": 1.25, "bytes": 2080565, "green": 0, "imagebytes": 721029 },
 						"2022-04-12": { "CO2": 1.3, "bytes": 2159040, "green": 0, "imagebytes": 756742 },
 						"2022-06-09": { "CO2": 1.37, "bytes": 2276666, "green": 0, "imagebytes": 871762 },
-						"2022-09-06": { "CO2": 1.47, "bytes": 2437217, "green": 0, "imagebytes": 983681 }
+						"2022-09-06": { "CO2": 1.47, "bytes": 2437217, "green": 0, "imagebytes": 983681 },
+						"2023-12-07": { "CO2": 0.52, "bytes": 2081549, "green": 0, "imagebytes": 393637 }
 					}
 				}
 			}
@@ -1122,7 +1177,7 @@
 			"active": true,
 			"name": "University of Worcester",
 			"urls": {
-				"http://www.worc.ac.uk/": {
+				"https://www.worc.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.08, "bytes": 1792446, "green": 0, "imagebytes": 1347169 },
 						"2021-06-30": { "CO2": 0.95, "bytes": 1572548, "green": 0, "imagebytes": 1121532 },
@@ -1133,7 +1188,8 @@
 						"2022-02-01": { "CO2": 0.93, "bytes": 1541755, "green": 0, "imagebytes": 1039534 },
 						"2022-04-12": { "CO2": 1.02, "bytes": 1687998, "green": 0, "imagebytes": 1173632 },
 						"2022-06-09": { "CO2": 0.87, "bytes": 1449677, "green": 0, "imagebytes": 939320 },
-						"2022-09-06": { "CO2": 0.95, "bytes": 1582430, "green": 0, "imagebytes": 906014 }
+						"2022-09-06": { "CO2": 0.95, "bytes": 1582430, "green": 0, "imagebytes": 906014 },
+						"2023-12-07": { "CO2": 1.25, "bytes": 4969940, "green": 0, "imagebytes": 4310476 }
 					}
 				}
 			}
@@ -1142,7 +1198,7 @@
 			"active": true,
 			"name": "Birmingham City University",
 			"urls": {
-				"http://www.bcu.ac.uk/": {
+				"https://www.bcu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.73, "bytes": 6192411, "green": 0, "imagebytes": 4253763 },
 						"2021-06-30": { "CO2": 3.69, "bytes": 6118874, "green": 0, "imagebytes": 3791577 },
@@ -1153,7 +1209,8 @@
 						"2022-02-01": { "CO2": 0.81, "bytes": 1345774, "green": 0, "imagebytes": 625195 },
 						"2022-04-12": { "CO2": 1.05, "bytes": 1739515, "green": 0, "imagebytes": 1007530 },
 						"2022-06-09": { "CO2": 1.35, "bytes": 2241640, "green": 0, "imagebytes": 1517022 },
-						"2022-09-06": { "CO2": 1.07, "bytes": 1776166, "green": 0, "imagebytes": 1035304 }
+						"2022-09-06": { "CO2": 1.07, "bytes": 1776166, "green": 0, "imagebytes": 1035304 },
+						"2023-12-07": { "CO2": 0.61, "bytes": 2415844, "green": 0, "imagebytes": 1162965 }
 					}
 				}
 			}
@@ -1162,7 +1219,7 @@
 			"active": true,
 			"name": "University of Central Lancashire",
 			"urls": {
-				"http://www.uclan.ac.uk/": {
+				"https://www.uclan.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.02, "bytes": 1699903, "green": 0, "imagebytes": 886448 },
 						"2021-06-30": { "CO2": 1.03, "bytes": 1704670, "green": 0, "imagebytes": 1000560 },
@@ -1173,7 +1230,8 @@
 						"2022-02-01": { "CO2": 0.94, "bytes": 1551564, "green": 0, "imagebytes": 670584 },
 						"2022-04-12": { "CO2": 0.96, "bytes": 1595240, "green": 0, "imagebytes": 829475 },
 						"2022-06-09": { "CO2": 0.88, "bytes": 1458734, "green": 0, "imagebytes": 725170 },
-						"2022-09-06": { "CO2": 0.74, "bytes": 1232099, "green": 0, "imagebytes": 441536 }
+						"2022-09-06": { "CO2": 0.74, "bytes": 1232099, "green": 0, "imagebytes": 441536 },
+						"2023-12-07": { "CO2": 0.42, "bytes": 1656739, "green": 0, "imagebytes": 965908 }
 					}
 				}
 			}
@@ -1182,7 +1240,7 @@
 			"active": true,
 			"name": "University of Durham",
 			"urls": {
-				"http://www.dur.ac.uk/": {
+				"https://www.dur.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.06, "bytes": 6735508, "green": 0, "imagebytes": 5594523 },
 						"2021-06-30": { "CO2": 10.57, "bytes": 17532400, "green": 0, "imagebytes": 7814445 },
@@ -1193,7 +1251,8 @@
 						"2022-02-01": { "CO2": 8.39, "bytes": 13919562, "green": 0, "imagebytes": 8214131 },
 						"2022-04-12": { "CO2": 12.68, "bytes": 21038163, "green": 0, "imagebytes": 4170971 },
 						"2022-06-09": { "CO2": 16.28, "bytes": 26999699, "green": 0, "imagebytes": 5708855 },
-						"2022-09-06": { "CO2": 3.63, "bytes": 6029381, "green": 0, "imagebytes": 3322745 }
+						"2022-09-06": { "CO2": 3.63, "bytes": 6029381, "green": 0, "imagebytes": 3322745 },
+						"2023-12-07": { "CO2": 1.05, "bytes": 4176822, "green": 0, "imagebytes": 1394971 }
 					}
 				}
 			}
@@ -1202,7 +1261,7 @@
 			"active": true,
 			"name": "University of East London",
 			"urls": {
-				"http://www.uel.ac.uk/": {
+				"https://www.uel.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.39, "bytes": 3960633, "green": 0, "imagebytes": 2177273 },
 						"2021-06-30": { "CO2": 3.25, "bytes": 5393377, "green": 0, "imagebytes": 3377441 },
@@ -1212,7 +1271,8 @@
 						"2021-11-03": { "CO2": 1.24, "bytes": 2060266, "green": 0, "imagebytes": 854175 },
 						"2022-02-01": { "CO2": 1.06, "bytes": 1932141, "green": 1, "imagebytes": 716099 },
 						"2022-04-12": { "CO2": 1.33, "bytes": 2432274, "green": 1, "imagebytes": 1065782 },
-						"2022-06-09": { "CO2": 1.27, "bytes": 2322353, "green": 1, "imagebytes": 922325 }
+						"2022-06-09": { "CO2": 1.27, "bytes": 2322353, "green": 1, "imagebytes": 922325 },
+						"2023-12-07": { "CO2": 0.4, "bytes": 1815382, "green": 1, "imagebytes": 439095 }
 					}
 				}
 			}
@@ -1221,7 +1281,7 @@
 			"active": true,
 			"name": "University of Gloucestershire",
 			"urls": {
-				"http://www.glos.ac.uk/": {
+				"https://www.glos.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.75, "bytes": 1376204, "green": 1, "imagebytes": 659059 },
 						"2021-06-30": { "CO2": 0.78, "bytes": 1436160, "green": 1, "imagebytes": 658265 },
@@ -1232,7 +1292,8 @@
 						"2022-02-01": { "CO2": 1.15, "bytes": 2100513, "green": 1, "imagebytes": 660747 },
 						"2022-04-12": { "CO2": 1.52, "bytes": 2789077, "green": 1, "imagebytes": 652346 },
 						"2022-06-09": { "CO2": 3.03, "bytes": 5547782, "green": 1, "imagebytes": 1722291 },
-						"2022-09-06": { "CO2": 2.95, "bytes": 5395452, "green": 1, "imagebytes": 1675393 }
+						"2022-09-06": { "CO2": 2.95, "bytes": 5395452, "green": 1, "imagebytes": 1675393 },
+						"2023-12-07": { "CO2": 0.9, "bytes": 4134806, "green": 1, "imagebytes": 1180719 }
 					}
 				}
 			}
@@ -1241,7 +1302,7 @@
 			"active": true,
 			"name": "University of Greenwich",
 			"urls": {
-				"http://www.greenwich.ac.uk/": {
+				"https://www.greenwich.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.7, "bytes": 2820950, "green": 0, "imagebytes": 349293 },
 						"2021-06-30": { "CO2": 1.5, "bytes": 2483892, "green": 0, "imagebytes": 356547 },
@@ -1252,7 +1313,8 @@
 						"2022-02-01": { "CO2": 1.96, "bytes": 3244787, "green": 0, "imagebytes": 752882 },
 						"2022-04-12": { "CO2": 3.71, "bytes": 6151358, "green": 0, "imagebytes": 3515963 },
 						"2022-06-09": { "CO2": 3.66, "bytes": 6076707, "green": 0, "imagebytes": 3496396 },
-						"2022-09-06": { "CO2": 1.79, "bytes": 2972863, "green": 0, "imagebytes": 1072533 }
+						"2022-09-06": { "CO2": 1.79, "bytes": 2972863, "green": 0, "imagebytes": 1072533 },
+						"2023-12-07": { "CO2": 1.21, "bytes": 4803356, "green": 0, "imagebytes": 2641356 }
 					}
 				}
 			}
@@ -1261,7 +1323,7 @@
 			"active": true,
 			"name": "University of Hertfordshire",
 			"urls": {
-				"http://www.herts.ac.uk/": {
+				"https://www.herts.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.13, "bytes": 5192816, "green": 0, "imagebytes": 3689003 },
 						"2021-06-30": { "CO2": 3.5, "bytes": 5803897, "green": 0, "imagebytes": 4295071 },
@@ -1272,7 +1334,8 @@
 						"2022-02-01": { "CO2": 2.75, "bytes": 4554227, "green": 0, "imagebytes": 3154837 },
 						"2022-04-12": { "CO2": 2.81, "bytes": 4655539, "green": 0, "imagebytes": 3127919 },
 						"2022-06-09": { "CO2": 1.76, "bytes": 2927360, "green": 0, "imagebytes": 1272804 },
-						"2022-09-06": { "CO2": 2.67, "bytes": 4434825, "green": 0, "imagebytes": 2636441 }
+						"2022-09-06": { "CO2": 2.67, "bytes": 4434825, "green": 0, "imagebytes": 2636441 },
+						"2023-12-07": { "CO2": 1.26, "bytes": 5002870, "green": 0, "imagebytes": 3409762 }
 					}
 				}
 			}
@@ -1281,7 +1344,7 @@
 			"active": true,
 			"name": "University of Huddersfield",
 			"urls": {
-				"http://www.hud.ac.uk/": {
+				"https://www.hud.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.49, "bytes": 2470892, "green": 0, "imagebytes": 1323866 },
 						"2021-06-30": { "CO2": 1.53, "bytes": 2532966, "green": 0, "imagebytes": 1405155 },
@@ -1292,7 +1355,8 @@
 						"2022-02-01": { "CO2": 1.73, "bytes": 2871332, "green": 0, "imagebytes": 1566277 },
 						"2022-04-12": { "CO2": 1.74, "bytes": 2888171, "green": 0, "imagebytes": 1600427 },
 						"2022-06-09": { "CO2": 1.66, "bytes": 2750897, "green": 0, "imagebytes": 1446682 },
-						"2022-09-06": { "CO2": 1.8, "bytes": 2991868, "green": 0, "imagebytes": 1507495 }
+						"2022-09-06": { "CO2": 1.8, "bytes": 2991868, "green": 0, "imagebytes": 1507495 },
+						"2023-12-07": { "CO2": 0.74, "bytes": 2939984, "green": 0, "imagebytes": 1616980 }
 					}
 				}
 			}
@@ -1301,7 +1365,7 @@
 			"active": true,
 			"name": "University of Hull",
 			"urls": {
-				"http://www.hull.ac.uk/": {
+				"https://www.hull.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.47, "bytes": 5752012, "green": 0, "imagebytes": 568534 },
 						"2021-06-30": { "CO2": 3.49, "bytes": 5794775, "green": 0, "imagebytes": 606044 },
@@ -1312,7 +1376,8 @@
 						"2022-02-01": { "CO2": 3.19, "bytes": 5297171, "green": 0, "imagebytes": 562680 },
 						"2022-04-12": { "CO2": 3.32, "bytes": 5501801, "green": 0, "imagebytes": 562687 },
 						"2022-06-09": { "CO2": 3.37, "bytes": 5586492, "green": 0, "imagebytes": 562701 },
-						"2022-09-06": { "CO2": 3.49, "bytes": 5780936, "green": 0, "imagebytes": 683817 }
+						"2022-09-06": { "CO2": 3.49, "bytes": 5780936, "green": 0, "imagebytes": 683817 },
+						"2023-12-07": { "CO2": 1.63, "bytes": 6468113, "green": 0, "imagebytes": 941509 }
 					}
 				}
 			}
@@ -1321,7 +1386,7 @@
 			"active": true,
 			"name": "University of Kent",
 			"urls": {
-				"http://www.kent.ac.uk/": {
+				"https://www.kent.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.65, "bytes": 4397962, "green": 0, "imagebytes": 2985576 },
 						"2021-06-30": { "CO2": 2.47, "bytes": 4102300, "green": 0, "imagebytes": 2967862 },
@@ -1332,7 +1397,8 @@
 						"2022-02-01": { "CO2": 1.95, "bytes": 3241048, "green": 0, "imagebytes": 1976229 },
 						"2022-04-12": { "CO2": 2.47, "bytes": 4094288, "green": 0, "imagebytes": 2796235 },
 						"2022-06-09": { "CO2": 1.99, "bytes": 3293864, "green": 0, "imagebytes": 1990542 },
-						"2022-09-06": { "CO2": 5.77, "bytes": 9567793, "green": 0, "imagebytes": 8237084 }
+						"2022-09-06": { "CO2": 5.77, "bytes": 9567793, "green": 0, "imagebytes": 8237084 },
+						"2023-12-07": { "CO2": 0.44, "bytes": 1745446, "green": 0, "imagebytes": 691814 }
 					}
 				}
 			}
@@ -1341,7 +1407,7 @@
 			"active": true,
 			"name": "University of Lincoln",
 			"urls": {
-				"http://www.lincoln.ac.uk/": {
+				"https://www.lincoln.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 10.24, "bytes": 16986217, "green": 0, "imagebytes": 6764500 },
 						"2021-06-30": { "CO2": 2.95, "bytes": 4896960, "green": 0, "imagebytes": 2145815 },
@@ -1352,7 +1418,8 @@
 						"2022-02-01": { "CO2": 3.11, "bytes": 5152929, "green": 0, "imagebytes": 3817918 },
 						"2022-04-12": { "CO2": 1.79, "bytes": 2975279, "green": 0, "imagebytes": 1565331 },
 						"2022-06-09": { "CO2": 2.5, "bytes": 4147650, "green": 0, "imagebytes": 2709369 },
-						"2022-09-06": { "CO2": 1.9, "bytes": 3156578, "green": 0, "imagebytes": 2515787 }
+						"2022-09-06": { "CO2": 1.9, "bytes": 3156578, "green": 0, "imagebytes": 2515787 },
+						"2023-12-07": { "CO2": 0.65, "bytes": 2582621, "green": 0, "imagebytes": 1410388 }
 					}
 				}
 			}
@@ -1371,7 +1438,8 @@
 						"2022-02-01": { "CO2": 4.25, "bytes": 7049036, "green": 0, "imagebytes": 5169326 },
 						"2022-04-12": { "CO2": 4.24, "bytes": 7038222, "green": 0, "imagebytes": 5152742 },
 						"2022-06-09": { "CO2": 4.16, "bytes": 6905868, "green": 0, "imagebytes": 5021201 },
-						"2022-09-06": { "CO2": 3.01, "bytes": 4996269, "green": 0, "imagebytes": 3256537 }
+						"2022-09-06": { "CO2": 3.01, "bytes": 4996269, "green": 0, "imagebytes": 3256537 },
+						"2023-12-07": { "CO2": 1.94, "bytes": 7695507, "green": 0, "imagebytes": 6284121 }
 					}
 				}
 			}
@@ -1380,7 +1448,7 @@
 			"active": true,
 			"name": "University of Nottingham",
 			"urls": {
-				"http://www.nottingham.ac.uk/": {
+				"https://www.nottingham.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 8.53, "bytes": 14150436, "green": 0, "imagebytes": 10076316 },
 						"2021-06-30": { "CO2": 8.16, "bytes": 13539551, "green": 0, "imagebytes": 9466970 },
@@ -1391,7 +1459,8 @@
 						"2022-02-01": { "CO2": 7.66, "bytes": 12704572, "green": 0, "imagebytes": 10191249 },
 						"2022-04-12": { "CO2": 8.49, "bytes": 14080949, "green": 0, "imagebytes": 11541117 },
 						"2022-06-09": { "CO2": 8.49, "bytes": 14086947, "green": 0, "imagebytes": 11524545 },
-						"2022-09-06": { "CO2": 10.62, "bytes": 17623041, "green": 0, "imagebytes": 15172199 }
+						"2022-09-06": { "CO2": 10.62, "bytes": 17623041, "green": 0, "imagebytes": 15172199 },
+						"2023-12-07": { "CO2": 1.98, "bytes": 7879212, "green": 0, "imagebytes": 4699779 }
 					}
 				}
 			}
@@ -1400,7 +1469,7 @@
 			"active": true,
 			"name": "University of Portsmouth",
 			"urls": {
-				"http://www.port.ac.uk/": {
+				"https://www.port.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.47, "bytes": 785861, "green": 0, "imagebytes": 596133 },
 						"2021-06-30": { "CO2": 0.52, "bytes": 870263, "green": 0, "imagebytes": 583446 },
@@ -1411,7 +1480,8 @@
 						"2022-02-01": { "CO2": 0.55, "bytes": 905596, "green": 0, "imagebytes": 611703 },
 						"2022-04-12": { "CO2": 0.65, "bytes": 1081343, "green": 0, "imagebytes": 769087 },
 						"2022-06-09": { "CO2": 0.67, "bytes": 1111447, "green": 0, "imagebytes": 731525 },
-						"2022-09-06": { "CO2": 0.52, "bytes": 868511, "green": 0, "imagebytes": 503948 }
+						"2022-09-06": { "CO2": 0.52, "bytes": 868511, "green": 0, "imagebytes": 503948 },
+						"2023-12-07": { "CO2": 0.7, "bytes": 2774264, "green": 0, "imagebytes": 1168417 }
 					}
 				}
 			}
@@ -1420,7 +1490,7 @@
 			"active": true,
 			"name": "University of Salford",
 			"urls": {
-				"http://www.salford.ac.uk/": {
+				"https://www.salford.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.55, "bytes": 7550647, "green": 0, "imagebytes": 3983083 },
 						"2021-06-30": { "CO2": 4.38, "bytes": 7273328, "green": 0, "imagebytes": 3941208 },
@@ -1431,7 +1501,8 @@
 						"2022-02-01": { "CO2": 5.56, "bytes": 9216762, "green": 0, "imagebytes": 5186724 },
 						"2022-04-12": { "CO2": 6.69, "bytes": 11093311, "green": 0, "imagebytes": 6992679 },
 						"2022-06-09": { "CO2": 6.73, "bytes": 11156593, "green": 0, "imagebytes": 6939770 },
-						"2022-09-06": { "CO2": 8.63, "bytes": 14314409, "green": 0, "imagebytes": 7261733 }
+						"2022-09-06": { "CO2": 8.63, "bytes": 14314409, "green": 0, "imagebytes": 7261733 },
+						"2023-12-07": { "CO2": 2.36, "bytes": 9387596, "green": 0, "imagebytes": 4490536 }
 					}
 				}
 			}
@@ -1440,7 +1511,7 @@
 			"active": true,
 			"name": "University of Sheffield",
 			"urls": {
-				"http://www.shef.ac.uk/": {
+				"https://www.shef.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.36, "bytes": 2261524, "green": 0, "imagebytes": 1288696 },
 						"2021-06-30": { "CO2": 1.27, "bytes": 2109904, "green": 0, "imagebytes": 1128159 },
@@ -1451,7 +1522,8 @@
 						"2022-02-01": { "CO2": 0.92, "bytes": 1520968, "green": 0, "imagebytes": 1090325 },
 						"2022-04-12": { "CO2": 1.55, "bytes": 2564927, "green": 0, "imagebytes": 2123078 },
 						"2022-06-09": { "CO2": 0.97, "bytes": 1614795, "green": 0, "imagebytes": 1171056 },
-						"2022-09-06": { "CO2": 0.95, "bytes": 1571407, "green": 0, "imagebytes": 1108158 }
+						"2022-09-06": { "CO2": 0.95, "bytes": 1571407, "green": 0, "imagebytes": 1108158 },
+						"2023-12-07": { "CO2": 0.47, "bytes": 1881777, "green": 0, "imagebytes": 1397675 }
 					}
 				}
 			}
@@ -1460,7 +1532,7 @@
 			"active": true,
 			"name": "University of Southampton",
 			"urls": {
-				"http://www.soton.ac.uk/": {
+				"https://www.soton.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.27, "bytes": 2107339, "green": 0, "imagebytes": 1514982 },
 						"2021-06-30": { "CO2": 1.38, "bytes": 2286076, "green": 0, "imagebytes": 1646514 },
@@ -1471,7 +1543,8 @@
 						"2022-02-01": { "CO2": 1.4, "bytes": 2329758, "green": 0, "imagebytes": 1695847 },
 						"2022-04-12": { "CO2": 3.04, "bytes": 5048005, "green": 0, "imagebytes": 4363997 },
 						"2022-06-09": { "CO2": 2.84, "bytes": 4708835, "green": 0, "imagebytes": 4013127 },
-						"2022-09-06": { "CO2": 0.88, "bytes": 1453961, "green": 0, "imagebytes": 550651 }
+						"2022-09-06": { "CO2": 0.88, "bytes": 1453961, "green": 0, "imagebytes": 550651 },
+						"2023-12-07": { "CO2": 0.29, "bytes": 1137920, "green": 0, "imagebytes": 278372 }
 					}
 				}
 			}
@@ -1480,7 +1553,7 @@
 			"active": true,
 			"name": "University of Sunderland",
 			"urls": {
-				"http://www.sunderland.ac.uk/": {
+				"https://www.sunderland.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.51, "bytes": 4159035, "green": 0, "imagebytes": 2313886 },
 						"2021-06-30": { "CO2": 2.23, "bytes": 3701338, "green": 0, "imagebytes": 2534853 },
@@ -1491,7 +1564,8 @@
 						"2022-02-01": { "CO2": 12.96, "bytes": 21502175, "green": 0, "imagebytes": 18131736 },
 						"2022-04-12": { "CO2": 11.01, "bytes": 18267078, "green": 0, "imagebytes": 3162569 },
 						"2022-06-09": { "CO2": 10.61, "bytes": 17597924, "green": 0, "imagebytes": 3866237 },
-						"2022-09-06": { "CO2": 8.76, "bytes": 14529187, "green": 0, "imagebytes": 3271705 }
+						"2022-09-06": { "CO2": 8.76, "bytes": 14529187, "green": 0, "imagebytes": 3271705 },
+						"2023-12-07": { "CO2": 5.71, "bytes": 22690520, "green": 0, "imagebytes": 2678027 }
 					}
 				}
 			}
@@ -1500,7 +1574,7 @@
 			"active": true,
 			"name": "University of Surrey",
 			"urls": {
-				"http://www.surrey.ac.uk/": {
+				"https://www.surrey.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.17, "bytes": 1944780, "green": 0, "imagebytes": 1182614 },
 						"2021-06-30": { "CO2": 1.21, "bytes": 1998924, "green": 0, "imagebytes": 1164906 },
@@ -1511,7 +1585,8 @@
 						"2022-02-01": { "CO2": 0.45, "bytes": 746001, "green": 0, "imagebytes": 307802 },
 						"2022-04-12": { "CO2": 0.41, "bytes": 686861, "green": 0, "imagebytes": 363909 },
 						"2022-06-09": { "CO2": 0.41, "bytes": 681327, "green": 0, "imagebytes": 356856 },
-						"2022-09-06": { "CO2": 0.4, "bytes": 669805, "green": 0, "imagebytes": 350076 }
+						"2022-09-06": { "CO2": 0.4, "bytes": 669805, "green": 0, "imagebytes": 350076 },
+						"2023-12-07": { "CO2": 0.24, "bytes": 934645, "green": 0, "imagebytes": 438691 }
 					}
 				}
 			}
@@ -1520,7 +1595,7 @@
 			"active": true,
 			"name": "Teesside University",
 			"urls": {
-				"http://www.tees.ac.uk/": {
+				"https://www.tees.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.57, "bytes": 2601525, "green": 0, "imagebytes": 1238917 },
 						"2021-06-30": { "CO2": 1.51, "bytes": 2503965, "green": 0, "imagebytes": 1125861 },
@@ -1531,7 +1606,8 @@
 						"2022-02-01": { "CO2": 1.64, "bytes": 2727815, "green": 0, "imagebytes": 1304286 },
 						"2022-04-12": { "CO2": 1.97, "bytes": 3275223, "green": 0, "imagebytes": 1387616 },
 						"2022-06-09": { "CO2": 1.91, "bytes": 3164391, "green": 0, "imagebytes": 1234671 },
-						"2022-09-06": { "CO2": 1.89, "bytes": 3134554, "green": 0, "imagebytes": 1085587 }
+						"2022-09-06": { "CO2": 1.89, "bytes": 3134554, "green": 0, "imagebytes": 1085587 },
+						"2023-12-07": { "CO2": 0.74, "bytes": 2957292, "green": 0, "imagebytes": 1445780 }
 					}
 				}
 			}
@@ -1540,7 +1616,7 @@
 			"active": true,
 			"name": "University of the Arts, London",
 			"urls": {
-				"http://www.arts.ac.uk/": {
+				"https://www.arts.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.05, "bytes": 5062434, "green": 0, "imagebytes": 3079534 },
 						"2021-06-30": { "CO2": 3.48, "bytes": 5765337, "green": 0, "imagebytes": 3723771 },
@@ -1551,7 +1627,8 @@
 						"2022-02-01": { "CO2": 4.26, "bytes": 7070510, "green": 0, "imagebytes": 5025680 },
 						"2022-04-12": { "CO2": 3.61, "bytes": 5984262, "green": 0, "imagebytes": 3904837 },
 						"2022-06-09": { "CO2": 2.92, "bytes": 4838443, "green": 0, "imagebytes": 2685555 },
-						"2022-09-06": { "CO2": 7.24, "bytes": 12016373, "green": 0, "imagebytes": 9805889 }
+						"2022-09-06": { "CO2": 7.24, "bytes": 12016373, "green": 0, "imagebytes": 9805889 },
+						"2023-12-07": { "CO2": 3.03, "bytes": 12048512, "green": 0, "imagebytes": 10760854 }
 					}
 				}
 			}
@@ -1560,7 +1637,7 @@
 			"active": true,
 			"name": "University of Warwick",
 			"urls": {
-				"http://www.warwick.ac.uk/": {
+				"https://www.warwick.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.13, "bytes": 1871965, "green": 0, "imagebytes": 616220 },
 						"2021-06-30": { "CO2": 1.15, "bytes": 1910335, "green": 0, "imagebytes": 691201 },
@@ -1571,7 +1648,8 @@
 						"2022-02-01": { "CO2": 11.5, "bytes": 19079268, "green": 0, "imagebytes": 17806607 },
 						"2022-04-12": { "CO2": 9.15, "bytes": 15173963, "green": 0, "imagebytes": 13853274 },
 						"2022-06-09": { "CO2": 6.8, "bytes": 11278456, "green": 0, "imagebytes": 9951310 },
-						"2022-09-06": { "CO2": 1.17, "bytes": 1945164, "green": 0, "imagebytes": 652165 }
+						"2022-09-06": { "CO2": 1.17, "bytes": 1945164, "green": 0, "imagebytes": 652165 },
+						"2023-12-07": { "CO2": 0.54, "bytes": 2160640, "green": 0, "imagebytes": 898216 }
 					}
 				}
 			}
@@ -1580,7 +1658,7 @@
 			"active": true,
 			"name": "University of the West of England, Bristol",
 			"urls": {
-				"http://www.uwe.ac.uk/": {
+				"https://www.uwe.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.63, "bytes": 1041199, "green": 0, "imagebytes": 216129 },
 						"2021-06-30": { "CO2": 0.81, "bytes": 1339032, "green": 0, "imagebytes": 551809 },
@@ -1591,7 +1669,8 @@
 						"2022-02-01": { "CO2": 0.58, "bytes": 970276, "green": 0, "imagebytes": 165428 },
 						"2022-04-12": { "CO2": 0.74, "bytes": 1222055, "green": 0, "imagebytes": 482653 },
 						"2022-06-09": { "CO2": 0.6, "bytes": 995871, "green": 0, "imagebytes": 252673 },
-						"2022-09-06": { "CO2": 0.49, "bytes": 820949, "green": 0, "imagebytes": 72288 }
+						"2022-09-06": { "CO2": 0.49, "bytes": 820949, "green": 0, "imagebytes": 72288 },
+						"2023-12-07": { "CO2": 0.54, "bytes": 2139331, "green": 0, "imagebytes": 88016 }
 					}
 				}
 			}
@@ -1600,7 +1679,7 @@
 			"active": true,
 			"name": "The University of Westminster",
 			"urls": {
-				"http://www.westminster.ac.uk/": {
+				"https://www.westminster.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.37, "bytes": 674888, "green": 1, "imagebytes": 144552 },
 						"2021-06-30": { "CO2": 0.44, "bytes": 801987, "green": 1, "imagebytes": 263990 },
@@ -1611,7 +1690,8 @@
 						"2022-02-01": { "CO2": 0.36, "bytes": 667341, "green": 1, "imagebytes": 311316 },
 						"2022-04-12": { "CO2": 0.37, "bytes": 672372, "green": 1, "imagebytes": 311240 },
 						"2022-06-09": { "CO2": 0.37, "bytes": 678171, "green": 1, "imagebytes": 312326 },
-						"2022-09-06": { "CO2": 0.41, "bytes": 756055, "green": 1, "imagebytes": 311690 }
+						"2022-09-06": { "CO2": 0.41, "bytes": 756055, "green": 1, "imagebytes": 311690 },
+						"2023-12-07": { "CO2": 0.17, "bytes": 763058, "green": 1, "imagebytes": 401746 }
 					}
 				}
 			}
@@ -1620,7 +1700,7 @@
 			"active": true,
 			"name": "University of Wolverhampton",
 			"urls": {
-				"http://www.wlv.ac.uk/": {
+				"https://www.wlv.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.96, "bytes": 1765133, "green": 1, "imagebytes": 614504 },
 						"2021-06-30": { "CO2": 1.13, "bytes": 2059839, "green": 1, "imagebytes": 900696 },
@@ -1631,7 +1711,8 @@
 						"2022-02-01": { "CO2": 1.19, "bytes": 2182971, "green": 1, "imagebytes": 948255 },
 						"2022-04-12": { "CO2": 0.95, "bytes": 1735504, "green": 1, "imagebytes": 757697 },
 						"2022-06-09": { "CO2": 0.89, "bytes": 1627896, "green": 1, "imagebytes": 637890 },
-						"2022-09-06": { "CO2": 0.81, "bytes": 1489402, "green": 1, "imagebytes": 510311 }
+						"2022-09-06": { "CO2": 0.81, "bytes": 1489402, "green": 1, "imagebytes": 510311 },
+						"2023-12-07": { "CO2": 0.36, "bytes": 1646369, "green": 1, "imagebytes": 530593 }
 					}
 				}
 			}
@@ -1640,7 +1721,7 @@
 			"active": true,
 			"name": "University of York",
 			"urls": {
-				"http://www.york.ac.uk/": {
+				"https://www.york.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.16, "bytes": 1926512, "green": 0, "imagebytes": 1026273 },
 						"2021-06-30": { "CO2": 1.18, "bytes": 1964605, "green": 0, "imagebytes": 1055057 },
@@ -1651,7 +1732,8 @@
 						"2022-02-01": { "CO2": 2.73, "bytes": 4531601, "green": 0, "imagebytes": 3565704 },
 						"2022-04-12": { "CO2": 1.25, "bytes": 2078395, "green": 0, "imagebytes": 1046875 },
 						"2022-06-09": { "CO2": 1.25, "bytes": 2076002, "green": 0, "imagebytes": 1234866 },
-						"2022-09-06": { "CO2": 1.11, "bytes": 1838459, "green": 0, "imagebytes": 1105948 }
+						"2022-09-06": { "CO2": 1.11, "bytes": 1838459, "green": 0, "imagebytes": 1105948 },
+						"2023-12-07": { "CO2": 0.47, "bytes": 1861596, "green": 0, "imagebytes": 961646 }
 					}
 				}
 			}
@@ -1660,7 +1742,7 @@
 			"active": true,
 			"name": "Writtle College",
 			"urls": {
-				"http://www.writtle.ac.uk/": {
+				"https://www.writtle.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 8.34, "bytes": 13837172, "green": 0, "imagebytes": 1329479 },
 						"2021-06-30": { "CO2": 7.89, "bytes": 13093645, "green": 0, "imagebytes": 1375671 },
@@ -1671,7 +1753,8 @@
 						"2022-02-01": { "CO2": 7.85, "bytes": 13019154, "green": 0, "imagebytes": 728457 },
 						"2022-04-12": { "CO2": 7.91, "bytes": 13128293, "green": 0, "imagebytes": 696830 },
 						"2022-06-09": { "CO2": 7.85, "bytes": 13017488, "green": 0, "imagebytes": 655857 },
-						"2022-09-06": { "CO2": 8.08, "bytes": 13398693, "green": 0, "imagebytes": 958534 }
+						"2022-09-06": { "CO2": 8.08, "bytes": 13398693, "green": 0, "imagebytes": 958534 },
+						"2023-12-07": { "CO2": 2.19, "bytes": 8700406, "green": 0, "imagebytes": 952764 }
 					}
 				}
 			}
@@ -1680,7 +1763,7 @@
 			"active": true,
 			"name": "York St John University",
 			"urls": {
-				"http://www.yorksj.ac.uk/": {
+				"https://www.yorksj.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1, "bytes": 1827528, "green": 1, "imagebytes": 452769 },
 						"2021-06-30": { "CO2": 1, "bytes": 1837563, "green": 1, "imagebytes": 420998 },
@@ -1691,7 +1774,8 @@
 						"2022-02-01": { "CO2": 1.06, "bytes": 1944606, "green": 1, "imagebytes": 443669 },
 						"2022-04-12": { "CO2": 1.1, "bytes": 2009753, "green": 1, "imagebytes": 411344 },
 						"2022-06-09": { "CO2": 0.96, "bytes": 1763695, "green": 1, "imagebytes": 467084 },
-						"2022-09-06": { "CO2": 0.96, "bytes": 1758520, "green": 1, "imagebytes": 417822 }
+						"2022-09-06": { "CO2": 0.96, "bytes": 1758520, "green": 1, "imagebytes": 417822 },
+						"2023-12-07": { "CO2": 0.58, "bytes": 2661427, "green": 1, "imagebytes": 1130116 }
 					}
 				}
 			}
@@ -1700,7 +1784,7 @@
 			"active": true,
 			"name": "Aston University",
 			"urls": {
-				"http://www.aston.ac.uk/": {
+				"https://www.aston.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.29, "bytes": 2145182, "green": 0, "imagebytes": 534672 },
 						"2021-06-30": { "CO2": 1.1, "bytes": 1832020, "green": 0, "imagebytes": 196363 },
@@ -1711,7 +1795,8 @@
 						"2022-02-01": { "CO2": 1.26, "bytes": 2090444, "green": 0, "imagebytes": 305163 },
 						"2022-04-12": { "CO2": 1.39, "bytes": 2299905, "green": 0, "imagebytes": 485375 },
 						"2022-06-09": { "CO2": 1.42, "bytes": 2360967, "green": 0, "imagebytes": 498765 },
-						"2022-09-06": { "CO2": 1.25, "bytes": 2066430, "green": 0, "imagebytes": 147876 }
+						"2022-09-06": { "CO2": 1.25, "bytes": 2066430, "green": 0, "imagebytes": 147876 },
+						"2023-12-07": { "CO2": 1.1, "bytes": 4383205, "green": 0, "imagebytes": 359039 }
 					}
 				}
 			}
@@ -1720,7 +1805,7 @@
 			"active": true,
 			"name": "Birkbeck College",
 			"urls": {
-				"http://www.bbk.ac.uk/": {
+				"https://www.bbk.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.96, "bytes": 1597829, "green": 0, "imagebytes": 1270607 },
 						"2021-06-30": { "CO2": 0.4, "bytes": 658540, "green": 0, "imagebytes": 330265 },
@@ -1731,7 +1816,8 @@
 						"2022-02-01": { "CO2": 0.4, "bytes": 664423, "green": 0, "imagebytes": 310794 },
 						"2022-04-12": { "CO2": 0.39, "bytes": 645143, "green": 0, "imagebytes": 287777 },
 						"2022-06-09": { "CO2": 0.4, "bytes": 665689, "green": 0, "imagebytes": 289042 },
-						"2022-09-06": { "CO2": 0.51, "bytes": 848156, "green": 0, "imagebytes": 468267 }
+						"2022-09-06": { "CO2": 0.51, "bytes": 848156, "green": 0, "imagebytes": 468267 },
+						"2023-12-07": { "CO2": 0.36, "bytes": 1416436, "green": 0, "imagebytes": 991186 }
 					}
 				}
 			}
@@ -1740,7 +1826,7 @@
 			"active": true,
 			"name": "Courtauld Institute of Art",
 			"urls": {
-				"http://www.courtauld.ac.uk/": {
+				"https://www.courtauld.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.73, "bytes": 1338609, "green": 1, "imagebytes": 619120 },
 						"2021-06-30": { "CO2": 0.67, "bytes": 1219803, "green": 1, "imagebytes": 617798 },
@@ -1751,7 +1837,8 @@
 						"2022-02-01": { "CO2": 2.17, "bytes": 3975657, "green": 1, "imagebytes": 3182498 },
 						"2022-04-12": { "CO2": 2.06, "bytes": 3775985, "green": 1, "imagebytes": 3178189 },
 						"2022-06-09": { "CO2": 2.21, "bytes": 4041151, "green": 1, "imagebytes": 3178171 },
-						"2022-09-06": { "CO2": 2.21, "bytes": 4040186, "green": 1, "imagebytes": 3178150 }
+						"2022-09-06": { "CO2": 2.21, "bytes": 4040186, "green": 1, "imagebytes": 3178150 },
+						"2023-12-07": { "CO2": 0.94, "bytes": 4287948, "green": 1, "imagebytes": 3179317 }
 					}
 				}
 			}
@@ -1760,7 +1847,7 @@
 			"active": true,
 			"name": "Glasgow Caledonian University",
 			"urls": {
-				"http://www.gcu.ac.uk/": {
+				"https://www.gcu.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 5.67, "bytes": 10368698, "green": 1, "imagebytes": 1701715 },
 						"2021-06-30": { "CO2": 4.72, "bytes": 8634229, "green": 1, "imagebytes": 3235610 },
@@ -1771,7 +1858,8 @@
 						"2022-02-01": { "CO2": 6.26, "bytes": 11466412, "green": 1, "imagebytes": 2306008 },
 						"2022-04-12": { "CO2": 5.78, "bytes": 10570650, "green": 1, "imagebytes": 1308964 },
 						"2022-06-09": { "CO2": 3.89, "bytes": 7120705, "green": 1, "imagebytes": 4754644 },
-						"2022-09-06": { "CO2": 2.75, "bytes": 5024884, "green": 1, "imagebytes": 2788279 }
+						"2022-09-06": { "CO2": 2.75, "bytes": 5024884, "green": 1, "imagebytes": 2788279 },
+						"2023-12-07": { "CO2": 2.34, "bytes": 10732104, "green": 1, "imagebytes": 7871614 }
 					}
 				}
 			}
@@ -1780,7 +1868,7 @@
 			"active": true,
 			"name": "Heriot-Watt University",
 			"urls": {
-				"http://www.hw.ac.uk/": {
+				"https://www.hw.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.28, "bytes": 2121458, "green": 0, "imagebytes": 872290 },
 						"2021-06-30": { "CO2": 0.93, "bytes": 1545316, "green": 0, "imagebytes": 294830 },
@@ -1791,7 +1879,8 @@
 						"2022-02-01": { "CO2": 1.11, "bytes": 1844922, "green": 0, "imagebytes": 478306 },
 						"2022-04-12": { "CO2": 1.01, "bytes": 1667285, "green": 0, "imagebytes": 308948 },
 						"2022-06-09": { "CO2": 1.16, "bytes": 1929509, "green": 0, "imagebytes": 486798 },
-						"2022-09-06": { "CO2": 1.17, "bytes": 1944695, "green": 0, "imagebytes": 497633 }
+						"2022-09-06": { "CO2": 1.17, "bytes": 1944695, "green": 0, "imagebytes": 497633 },
+						"2023-12-07": { "CO2": 0.22, "bytes": 872320, "green": 0, "imagebytes": 315473 }
 					}
 				}
 			}
@@ -1800,7 +1889,7 @@
 			"active": false,
 			"name": "Heythrop College",
 			"urls": {
-				"http://www.heythrop.ac.uk/": {
+				"https://www.heythrop.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.34, "bytes": 560707, "green": 0, "imagebytes": 381099 },
 						"2021-06-30": { "CO2": 0.34, "bytes": 560729, "green": 0, "imagebytes": 381099 },
@@ -1813,10 +1902,11 @@
 			}
 		},
 		"10007766": {
-			"active": true,
+			"active": false,
 			"name": "Institute of Education, University of London",
+			"replacedBy": { "date": "2021-04-01", "id": "10007784" },
 			"urls": {
-				"http://www.ioe.ac.uk/": {
+				"https://www.ioe.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.01, "bytes": 3330449, "green": 0, "imagebytes": 2502773 },
 						"2021-06-30": { "CO2": 1.79, "bytes": 2963996, "green": 0, "imagebytes": 2127183 },
@@ -1836,7 +1926,7 @@
 			"active": true,
 			"name": "University of Keele",
 			"urls": {
-				"http://www.keele.ac.uk/": {
+				"https://www.keele.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.94, "bytes": 3212273, "green": 0, "imagebytes": 2662607 },
 						"2021-06-30": { "CO2": 0.7, "bytes": 1168952, "green": 0, "imagebytes": 618912 },
@@ -1847,7 +1937,8 @@
 						"2022-02-01": { "CO2": 1, "bytes": 1659380, "green": 0, "imagebytes": 988598 },
 						"2022-04-12": { "CO2": 1.19, "bytes": 1975641, "green": 0, "imagebytes": 1292751 },
 						"2022-06-09": { "CO2": 1.24, "bytes": 2052990, "green": 0, "imagebytes": 1348919 },
-						"2022-09-06": { "CO2": 1.14, "bytes": 1895054, "green": 0, "imagebytes": 1189775 }
+						"2022-09-06": { "CO2": 1.14, "bytes": 1895054, "green": 0, "imagebytes": 1189775 },
+						"2023-12-07": { "CO2": 0.88, "bytes": 3493258, "green": 0, "imagebytes": 1626619 }
 					}
 				}
 			}
@@ -1856,7 +1947,7 @@
 			"active": true,
 			"name": "University of Lancaster",
 			"urls": {
-				"http://www.lancs.ac.uk/": {
+				"https://www.lancs.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.93, "bytes": 1537028, "green": 0, "imagebytes": 378155 },
 						"2021-06-30": { "CO2": 0.93, "bytes": 1549218, "green": 0, "imagebytes": 378166 },
@@ -1867,7 +1958,8 @@
 						"2022-02-01": { "CO2": 0.57, "bytes": 940209, "green": 0, "imagebytes": 335170 },
 						"2022-04-12": { "CO2": 0.53, "bytes": 881672, "green": 0, "imagebytes": 273602 },
 						"2022-06-09": { "CO2": 0.44, "bytes": 722594, "green": 0, "imagebytes": 201520 },
-						"2022-09-06": { "CO2": 0.51, "bytes": 847884, "green": 0, "imagebytes": 316299 }
+						"2022-09-06": { "CO2": 0.51, "bytes": 847884, "green": 0, "imagebytes": 316299 },
+						"2023-12-07": { "CO2": 0.25, "bytes": 1012262, "green": 0, "imagebytes": 570384 }
 					}
 				}
 			}
@@ -1876,7 +1968,7 @@
 			"active": true,
 			"name": "London Business School",
 			"urls": {
-				"http://www.london.edu/": {
+				"https://www.london.edu/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.59, "bytes": 5957525, "green": 0, "imagebytes": 236099 },
 						"2021-06-30": { "CO2": 1.65, "bytes": 2735984, "green": 0, "imagebytes": 213088 },
@@ -1887,7 +1979,8 @@
 						"2022-02-01": { "CO2": 3.38, "bytes": 6183500, "green": 1, "imagebytes": 215199 },
 						"2022-04-12": { "CO2": 3.36, "bytes": 6142046, "green": 1, "imagebytes": 218600 },
 						"2022-06-09": { "CO2": 0.55, "bytes": 999610, "green": 1, "imagebytes": 161880 },
-						"2022-09-06": { "CO2": 2.34, "bytes": 4284268, "green": 1, "imagebytes": 208052 }
+						"2022-09-06": { "CO2": 2.34, "bytes": 4284268, "green": 1, "imagebytes": 208052 },
+						"2023-12-07": { "CO2": 0.18, "bytes": 842009, "green": 1, "imagebytes": 178165 }
 					}
 				}
 			}
@@ -1896,7 +1989,7 @@
 			"active": true,
 			"name": "London School of Hygiene and Tropical Medicine",
 			"urls": {
-				"http://www.lshtm.ac.uk/": {
+				"https://www.lshtm.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.95, "bytes": 1730187, "green": 1, "imagebytes": 701547 },
 						"2021-06-30": { "CO2": 1.03, "bytes": 1882549, "green": 1, "imagebytes": 837593 },
@@ -1907,7 +2000,8 @@
 						"2022-02-01": { "CO2": 0.99, "bytes": 1810852, "green": 1, "imagebytes": 683357 },
 						"2022-04-12": { "CO2": 0.99, "bytes": 1809393, "green": 1, "imagebytes": 674115 },
 						"2022-06-09": { "CO2": 1, "bytes": 1830004, "green": 1, "imagebytes": 681675 },
-						"2022-09-06": { "CO2": 1.15, "bytes": 2107648, "green": 1, "imagebytes": 902206 }
+						"2022-09-06": { "CO2": 1.15, "bytes": 2107648, "green": 1, "imagebytes": 902206 },
+						"2023-12-07": { "CO2": 0.39, "bytes": 1773367, "green": 1, "imagebytes": 753459 }
 					}
 				}
 			}
@@ -1916,7 +2010,7 @@
 			"active": true,
 			"name": "Edinburgh Napier University",
 			"urls": {
-				"http://www.napier.ac.uk/": {
+				"https://www.napier.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.62, "bytes": 2680478, "green": 0, "imagebytes": 1958595 },
 						"2021-06-30": { "CO2": 1.82, "bytes": 3017709, "green": 0, "imagebytes": 2224674 },
@@ -1927,7 +2021,8 @@
 						"2022-02-01": { "CO2": 1.68, "bytes": 2780243, "green": 0, "imagebytes": 1907975 },
 						"2022-04-12": { "CO2": 1.63, "bytes": 2701017, "green": 0, "imagebytes": 1991141 },
 						"2022-06-09": { "CO2": 1.82, "bytes": 3023392, "green": 0, "imagebytes": 2086573 },
-						"2022-09-06": { "CO2": 1.86, "bytes": 3083918, "green": 0, "imagebytes": 2093855 }
+						"2022-09-06": { "CO2": 1.86, "bytes": 3083918, "green": 0, "imagebytes": 2093855 },
+						"2023-12-07": { "CO2": 0.61, "bytes": 2427121, "green": 0, "imagebytes": 1671319 }
 					}
 				}
 			}
@@ -1936,7 +2031,7 @@
 			"active": true,
 			"name": "Open University(The)",
 			"urls": {
-				"http://www.open.ac.uk/": {
+				"https://www.open.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.98, "bytes": 1618622, "green": 0, "imagebytes": 379398 },
 						"2021-06-30": { "CO2": 1.03, "bytes": 1709571, "green": 0, "imagebytes": 380243 },
@@ -1947,7 +2042,8 @@
 						"2022-02-01": { "CO2": 0.93, "bytes": 1546393, "green": 0, "imagebytes": 468293 },
 						"2022-04-12": { "CO2": 1.03, "bytes": 1701077, "green": 0, "imagebytes": 538652 },
 						"2022-06-09": { "CO2": 2.6, "bytes": 4312244, "green": 0, "imagebytes": 2920050 },
-						"2022-09-06": { "CO2": 5.63, "bytes": 9330891, "green": 0, "imagebytes": 2935883 }
+						"2022-09-06": { "CO2": 5.63, "bytes": 9330891, "green": 0, "imagebytes": 2935883 },
+						"2023-12-07": { "CO2": 0.89, "bytes": 3538966, "green": 0, "imagebytes": 2346555 }
 					}
 				}
 			}
@@ -1956,7 +2052,7 @@
 			"active": true,
 			"name": "University of Oxford",
 			"urls": {
-				"http://www.ox.ac.uk/": {
+				"https://www.ox.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.7, "bytes": 2825959, "green": 0, "imagebytes": 1694140 },
 						"2021-06-30": { "CO2": 2.53, "bytes": 4195181, "green": 0, "imagebytes": 1569612 },
@@ -1967,7 +2063,8 @@
 						"2022-02-01": { "CO2": 1.35, "bytes": 2236599, "green": 0, "imagebytes": 1102877 },
 						"2022-04-12": { "CO2": 1.38, "bytes": 2284279, "green": 0, "imagebytes": 1142942 },
 						"2022-06-09": { "CO2": 1.51, "bytes": 2507659, "green": 0, "imagebytes": 1346072 },
-						"2022-09-06": { "CO2": 2.5, "bytes": 4141207, "green": 0, "imagebytes": 1077682 }
+						"2022-09-06": { "CO2": 2.5, "bytes": 4141207, "green": 0, "imagebytes": 1077682 },
+						"2023-12-07": { "CO2": 0.78, "bytes": 3101645, "green": 0, "imagebytes": 1808862 }
 					}
 				}
 			}
@@ -1976,7 +2073,7 @@
 			"active": true,
 			"name": "Queen Mary and Westfield College, University of London",
 			"urls": {
-				"http://www.qmul.ac.uk/": {
+				"https://www.qmul.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 6.91, "bytes": 11458439, "green": 0, "imagebytes": 10733059 },
 						"2021-06-30": { "CO2": 6.33, "bytes": 10498147, "green": 0, "imagebytes": 9769869 },
@@ -1987,7 +2084,8 @@
 						"2022-02-01": { "CO2": 6.33, "bytes": 10504114, "green": 0, "imagebytes": 9741180 },
 						"2022-04-12": { "CO2": 1.74, "bytes": 2886263, "green": 0, "imagebytes": 2117976 },
 						"2022-06-09": { "CO2": 2.05, "bytes": 3403758, "green": 0, "imagebytes": 2634633 },
-						"2022-09-06": { "CO2": 2.21, "bytes": 3670237, "green": 0, "imagebytes": 2891422 }
+						"2022-09-06": { "CO2": 2.21, "bytes": 3670237, "green": 0, "imagebytes": 2891422 },
+						"2023-12-07": { "CO2": 0.8, "bytes": 3192975, "green": 0, "imagebytes": 1769868 }
 					}
 				}
 			}
@@ -1996,7 +2094,7 @@
 			"active": true,
 			"name": "Roehampton University",
 			"urls": {
-				"http://www.roehampton.ac.uk/": {
+				"https://www.roehampton.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.4, "bytes": 6222319, "green": 1, "imagebytes": 4876609 },
 						"2021-06-30": { "CO2": 2.96, "bytes": 5420445, "green": 1, "imagebytes": 4063297 },
@@ -2007,7 +2105,8 @@
 						"2022-02-01": { "CO2": 1.84, "bytes": 3361503, "green": 1, "imagebytes": 1545127 },
 						"2022-04-12": { "CO2": 1.59, "bytes": 2914827, "green": 1, "imagebytes": 1109520 },
 						"2022-06-09": { "CO2": 1.9, "bytes": 3478044, "green": 1, "imagebytes": 1646279 },
-						"2022-09-06": { "CO2": 1.7, "bytes": 3112015, "green": 1, "imagebytes": 1275008 }
+						"2022-09-06": { "CO2": 1.7, "bytes": 3112015, "green": 1, "imagebytes": 1275008 },
+						"2023-12-07": { "CO2": 1.27, "bytes": 5800988, "green": 1, "imagebytes": 3856248 }
 					}
 				}
 			}
@@ -2016,7 +2115,7 @@
 			"active": true,
 			"name": "Royal College of Art(The)",
 			"urls": {
-				"http://www.rca.ac.uk/": {
+				"https://www.rca.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.26, "bytes": 2299047, "green": 1, "imagebytes": 1509074 },
 						"2021-06-30": { "CO2": 0.68, "bytes": 1240487, "green": 1, "imagebytes": 626454 },
@@ -2027,7 +2126,8 @@
 						"2022-02-01": { "CO2": 1.56, "bytes": 2861769, "green": 1, "imagebytes": 630598 },
 						"2022-04-12": { "CO2": 0.99, "bytes": 1813805, "green": 1, "imagebytes": 1078201 },
 						"2022-06-09": { "CO2": 1.02, "bytes": 1865557, "green": 1, "imagebytes": 1127185 },
-						"2022-09-06": { "CO2": 1.56, "bytes": 2856395, "green": 1, "imagebytes": 2069085 }
+						"2022-09-06": { "CO2": 1.56, "bytes": 2856395, "green": 1, "imagebytes": 2069085 },
+						"2023-12-07": { "CO2": 0.47, "bytes": 2167356, "green": 1, "imagebytes": 1519047 }
 					}
 				}
 			}
@@ -2036,7 +2136,7 @@
 			"active": true,
 			"name": "Royal College of Music",
 			"urls": {
-				"http://www.rcm.ac.uk/": {
+				"https://www.rcm.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.2, "bytes": 3655175, "green": 0, "imagebytes": 2108113 },
 						"2021-06-30": { "CO2": 2.45, "bytes": 4068559, "green": 0, "imagebytes": 2496003 },
@@ -2047,7 +2147,8 @@
 						"2022-02-01": { "CO2": 9.58, "bytes": 15885546, "green": 0, "imagebytes": 15134544 },
 						"2022-04-12": { "CO2": 10.59, "bytes": 17562513, "green": 0, "imagebytes": 15851105 },
 						"2022-06-09": { "CO2": 10.46, "bytes": 17342665, "green": 0, "imagebytes": 15679532 },
-						"2022-09-06": { "CO2": 9.39, "bytes": 15570365, "green": 0, "imagebytes": 14645454 }
+						"2022-09-06": { "CO2": 9.39, "bytes": 15570365, "green": 0, "imagebytes": 14645454 },
+						"2023-12-07": { "CO2": 1.12, "bytes": 4440635, "green": 0, "imagebytes": 3090052 }
 					}
 				}
 			}
@@ -2056,7 +2157,7 @@
 			"active": true,
 			"name": "The Royal Veterinary College",
 			"urls": {
-				"http://www.rvc.ac.uk/": {
+				"https://www.rvc.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.75, "bytes": 7874213, "green": 0, "imagebytes": 5469060 },
 						"2021-06-30": { "CO2": 4, "bytes": 6628065, "green": 0, "imagebytes": 5370535 },
@@ -2067,7 +2168,8 @@
 						"2022-02-01": { "CO2": 3.43, "bytes": 5689898, "green": 0, "imagebytes": 4538483 },
 						"2022-04-12": { "CO2": 3.86, "bytes": 6409406, "green": 0, "imagebytes": 5256643 },
 						"2022-06-09": { "CO2": 4.15, "bytes": 6889004, "green": 0, "imagebytes": 5742035 },
-						"2022-09-06": { "CO2": 4.43, "bytes": 7349235, "green": 0, "imagebytes": 5571642 }
+						"2022-09-06": { "CO2": 4.43, "bytes": 7349235, "green": 0, "imagebytes": 5571642 },
+						"2023-12-07": { "CO2": 5.47, "bytes": 21729494, "green": 0, "imagebytes": 5770367 }
 					}
 				}
 			}
@@ -2076,7 +2178,7 @@
 			"active": true,
 			"name": "School of Oriental and African Studies",
 			"urls": {
-				"http://www.soas.ac.uk/": {
+				"https://www.soas.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.62, "bytes": 2680843, "green": 0, "imagebytes": 2178227 },
 						"2021-06-30": { "CO2": 1.54, "bytes": 2549630, "green": 0, "imagebytes": 1998114 },
@@ -2087,16 +2189,18 @@
 						"2022-02-01": { "CO2": 1.62, "bytes": 2681500, "green": 0, "imagebytes": 2070052 },
 						"2022-04-12": { "CO2": 2.09, "bytes": 3467150, "green": 0, "imagebytes": 2847399 },
 						"2022-06-09": { "CO2": 4.36, "bytes": 7232217, "green": 0, "imagebytes": 6620268 },
-						"2022-09-06": { "CO2": 0.92, "bytes": 1527986, "green": 0, "imagebytes": 1092924 }
+						"2022-09-06": { "CO2": 0.92, "bytes": 1527986, "green": 0, "imagebytes": 1092924 },
+						"2023-12-07": { "CO2": 0.82, "bytes": 3272295, "green": 0, "imagebytes": 1405761 }
 					}
 				}
 			}
 		},
 		"10007781": {
-			"active": true,
+			"active": false,
 			"name": "School of Pharmacy University of London(The)",
+			"replacedBy": { "date": "2021-04-01", "id": "10007784" },
 			"urls": {
-				"http://www.pharmacy.ac.uk/": {
+				"https://www.pharmacy.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.88, "bytes": 3121898, "green": 0, "imagebytes": 2271876 },
 						"2021-06-30": { "CO2": 1.55, "bytes": 2570325, "green": 0, "imagebytes": 1702547 },
@@ -2116,7 +2220,7 @@
 			"active": true,
 			"name": "St George's Hospital Medical School",
 			"urls": {
-				"http://www.sgul.ac.uk/": {
+				"https://www.sgul.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.72, "bytes": 4507019, "green": 0, "imagebytes": 2785216 },
 						"2021-06-30": { "CO2": 3.64, "bytes": 6036253, "green": 0, "imagebytes": 4161996 },
@@ -2127,7 +2231,8 @@
 						"2022-02-01": { "CO2": 2.23, "bytes": 3702633, "green": 0, "imagebytes": 1641084 },
 						"2022-04-12": { "CO2": 2.21, "bytes": 3668019, "green": 0, "imagebytes": 1568991 },
 						"2022-06-09": { "CO2": 2.69, "bytes": 4462564, "green": 0, "imagebytes": 2344711 },
-						"2022-09-06": { "CO2": 2.36, "bytes": 3919100, "green": 0, "imagebytes": 1678695 }
+						"2022-09-06": { "CO2": 2.36, "bytes": 3919100, "green": 0, "imagebytes": 1678695 },
+						"2023-12-07": { "CO2": 1.15, "bytes": 4552842, "green": 0, "imagebytes": 4048532 }
 					}
 				}
 			}
@@ -2136,7 +2241,7 @@
 			"active": true,
 			"name": "University of Aberdeen",
 			"urls": {
-				"http://www.abdn.ac.uk/": {
+				"https://www.abdn.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.14, "bytes": 6859988, "green": 0, "imagebytes": 2341963 },
 						"2021-06-30": { "CO2": 4.3, "bytes": 7135949, "green": 0, "imagebytes": 2495385 },
@@ -2147,7 +2252,8 @@
 						"2022-02-01": { "CO2": 7.11, "bytes": 11798629, "green": 0, "imagebytes": 2195247 },
 						"2022-04-12": { "CO2": 6.14, "bytes": 10179150, "green": 0, "imagebytes": 2209883 },
 						"2022-06-09": { "CO2": 7.17, "bytes": 11895078, "green": 0, "imagebytes": 2006615 },
-						"2022-09-06": { "CO2": 3.26, "bytes": 5414437, "green": 0, "imagebytes": 3268417 }
+						"2022-09-06": { "CO2": 3.26, "bytes": 5414437, "green": 0, "imagebytes": 3268417 },
+						"2023-12-07": { "CO2": 2.04, "bytes": 8090239, "green": 0, "imagebytes": 5637739 }
 					}
 				}
 			}
@@ -2156,7 +2262,7 @@
 			"active": true,
 			"name": "University College London",
 			"urls": {
-				"http://www.ucl.ac.uk/": {
+				"https://www.ucl.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 10.15, "bytes": 18584238, "green": 1, "imagebytes": 4745206 },
 						"2021-06-30": { "CO2": 9.73, "bytes": 17803889, "green": 1, "imagebytes": 3859169 },
@@ -2167,7 +2273,8 @@
 						"2022-02-01": { "CO2": 10.46, "bytes": 19141777, "green": 1, "imagebytes": 5562597 },
 						"2022-04-12": { "CO2": 7.2, "bytes": 13173749, "green": 1, "imagebytes": 6134475 },
 						"2022-06-09": { "CO2": 9.35, "bytes": 17114141, "green": 1, "imagebytes": 5333692 },
-						"2022-09-06": { "CO2": 10.09, "bytes": 18472528, "green": 1, "imagebytes": 4114835 }
+						"2022-09-06": { "CO2": 10.09, "bytes": 18472528, "green": 1, "imagebytes": 4114835 },
+						"2023-12-07": { "CO2": 1, "bytes": 4563373, "green": 1, "imagebytes": 3448861 }
 					}
 				}
 			}
@@ -2176,7 +2283,7 @@
 			"active": true,
 			"name": "University of Bradford",
 			"urls": {
-				"http://www.bradford.ac.uk/": {
+				"https://www.bradford.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.26, "bytes": 3752567, "green": 0, "imagebytes": 1003177 },
 						"2021-06-30": { "CO2": 1.91, "bytes": 3165382, "green": 0, "imagebytes": 1453308 },
@@ -2187,7 +2294,8 @@
 						"2022-02-01": { "CO2": 4.62, "bytes": 7658861, "green": 0, "imagebytes": 5177023 },
 						"2022-04-12": { "CO2": 1.14, "bytes": 1898645, "green": 0, "imagebytes": 1179881 },
 						"2022-06-09": { "CO2": 1.16, "bytes": 1922118, "green": 0, "imagebytes": 1200531 },
-						"2022-09-06": { "CO2": 0.94, "bytes": 1552829, "green": 0, "imagebytes": 1134814 }
+						"2022-09-06": { "CO2": 0.94, "bytes": 1552829, "green": 0, "imagebytes": 1134814 },
+						"2023-12-07": { "CO2": 0.59, "bytes": 2326227, "green": 0, "imagebytes": 1851149 }
 					}
 				}
 			}
@@ -2196,7 +2304,7 @@
 			"active": true,
 			"name": "University of Bristol",
 			"urls": {
-				"http://www.bristol.ac.uk/": {
+				"https://www.bristol.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.15, "bytes": 1913694, "green": 0, "imagebytes": 128725 },
 						"2021-06-30": { "CO2": 1.1, "bytes": 1828217, "green": 0, "imagebytes": 106678 },
@@ -2207,7 +2315,8 @@
 						"2022-02-01": { "CO2": 1.04, "bytes": 1727934, "green": 0, "imagebytes": 27049 },
 						"2022-04-12": { "CO2": 1.08, "bytes": 1785295, "green": 0, "imagebytes": 131090 },
 						"2022-06-09": { "CO2": 1.07, "bytes": 1775599, "green": 0, "imagebytes": 83476 },
-						"2022-09-06": { "CO2": 1.16, "bytes": 1923588, "green": 0, "imagebytes": 84635 }
+						"2022-09-06": { "CO2": 1.16, "bytes": 1923588, "green": 0, "imagebytes": 84635 },
+						"2023-12-07": { "CO2": 1.13, "bytes": 4480166, "green": 0, "imagebytes": 1173341 }
 					}
 				}
 			}
@@ -2216,7 +2325,7 @@
 			"active": true,
 			"name": "The University of Buckingham",
 			"urls": {
-				"http://www.buckingham.ac.uk/": {
+				"https://www.buckingham.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 5.17, "bytes": 9465499, "green": 1, "imagebytes": 4457760 },
 						"2021-06-30": { "CO2": 3.29, "bytes": 6029898, "green": 1, "imagebytes": 623603 },
@@ -2227,7 +2336,8 @@
 						"2022-02-01": { "CO2": 0.69, "bytes": 1254469, "green": 1, "imagebytes": 624223 },
 						"2022-04-12": { "CO2": 0.49, "bytes": 896896, "green": 1, "imagebytes": 570668 },
 						"2022-06-09": { "CO2": 0.5, "bytes": 922092, "green": 1, "imagebytes": 745997 },
-						"2022-09-06": { "CO2": 0.71, "bytes": 1298152, "green": 1, "imagebytes": 914610 }
+						"2022-09-06": { "CO2": 0.71, "bytes": 1298152, "green": 1, "imagebytes": 914610 },
+						"2023-12-07": { "CO2": 0.26, "bytes": 1190925, "green": 1, "imagebytes": 767346 }
 					}
 				}
 			}
@@ -2236,7 +2346,7 @@
 			"active": true,
 			"name": "University of Cambridge",
 			"urls": {
-				"http://www.cam.ac.uk/": {
+				"https://www.cam.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.43, "bytes": 4032835, "green": 0, "imagebytes": 1107205 },
 						"2021-06-30": { "CO2": 2.47, "bytes": 4093893, "green": 0, "imagebytes": 1081252 },
@@ -2247,7 +2357,8 @@
 						"2022-02-01": { "CO2": 2.69, "bytes": 4467153, "green": 0, "imagebytes": 1090519 },
 						"2022-04-12": { "CO2": 2.64, "bytes": 4384386, "green": 0, "imagebytes": 1030207 },
 						"2022-06-09": { "CO2": 2.92, "bytes": 4842699, "green": 0, "imagebytes": 1319734 },
-						"2022-09-06": { "CO2": 1.7, "bytes": 2813373, "green": 0, "imagebytes": 916075 }
+						"2022-09-06": { "CO2": 1.7, "bytes": 2813373, "green": 0, "imagebytes": 916075 },
+						"2023-12-07": { "CO2": 1.46, "bytes": 5793175, "green": 0, "imagebytes": 1121623 }
 					}
 				}
 			}
@@ -2256,7 +2367,7 @@
 			"active": true,
 			"name": "University of East Anglia",
 			"urls": {
-				"http://www.uea.ac.uk/": {
+				"https://www.uea.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 9.5, "bytes": 17389720, "green": 1, "imagebytes": 3913966 },
 						"2021-06-30": { "CO2": 9.65, "bytes": 17659565, "green": 1, "imagebytes": 3920111 },
@@ -2267,7 +2378,8 @@
 						"2022-02-01": { "CO2": 9.77, "bytes": 17878184, "green": 1, "imagebytes": 3607746 },
 						"2022-04-12": { "CO2": 18.7, "bytes": 34233605, "green": 1, "imagebytes": 6590194 },
 						"2022-06-09": { "CO2": 5.67, "bytes": 10370848, "green": 1, "imagebytes": 2198022 },
-						"2022-09-06": { "CO2": 5.01, "bytes": 9171583, "green": 1, "imagebytes": 2974545 }
+						"2022-09-06": { "CO2": 5.01, "bytes": 9171583, "green": 1, "imagebytes": 2974545 },
+						"2023-12-07": { "CO2": 2.78, "bytes": 12730223, "green": 1, "imagebytes": 4044079 }
 					}
 				}
 			}
@@ -2276,7 +2388,7 @@
 			"active": true,
 			"name": "University of Edinburgh",
 			"urls": {
-				"http://www.ed.ac.uk/": {
+				"https://www.ed.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.71, "bytes": 6146489, "green": 0, "imagebytes": 5664351 },
 						"2021-06-30": { "CO2": 3.37, "bytes": 5583134, "green": 0, "imagebytes": 5098269 },
@@ -2287,7 +2399,8 @@
 						"2022-02-01": { "CO2": 2.68, "bytes": 4446089, "green": 0, "imagebytes": 3924794 },
 						"2022-04-12": { "CO2": 3.27, "bytes": 5421326, "green": 0, "imagebytes": 4812053 },
 						"2022-06-09": { "CO2": 2.27, "bytes": 3769054, "green": 0, "imagebytes": 3148281 },
-						"2022-09-06": { "CO2": 2.74, "bytes": 4548937, "green": 0, "imagebytes": 3916517 }
+						"2022-09-06": { "CO2": 2.74, "bytes": 4548937, "green": 0, "imagebytes": 3916517 },
+						"2023-12-07": { "CO2": 1.32, "bytes": 5246510, "green": 0, "imagebytes": 4798222 }
 					}
 				}
 			}
@@ -2296,7 +2409,7 @@
 			"active": true,
 			"name": "University of Essex",
 			"urls": {
-				"http://www.essex.ac.uk/": {
+				"https://www.essex.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.7, "bytes": 6130709, "green": 0, "imagebytes": 512463 },
 						"2021-06-30": { "CO2": 3.71, "bytes": 6149880, "green": 0, "imagebytes": 548552 },
@@ -2307,7 +2420,8 @@
 						"2022-02-01": { "CO2": 6.38, "bytes": 10581582, "green": 0, "imagebytes": 592581 },
 						"2022-04-12": { "CO2": 3.77, "bytes": 6257005, "green": 0, "imagebytes": 577780 },
 						"2022-06-09": { "CO2": 3.83, "bytes": 6361229, "green": 0, "imagebytes": 588693 },
-						"2022-09-06": { "CO2": 6.07, "bytes": 10075805, "green": 0, "imagebytes": 576128 }
+						"2022-09-06": { "CO2": 6.07, "bytes": 10075805, "green": 0, "imagebytes": 576128 },
+						"2023-12-07": { "CO2": 1.65, "bytes": 6538743, "green": 0, "imagebytes": 667924 }
 					}
 				}
 			}
@@ -2316,7 +2430,7 @@
 			"active": true,
 			"name": "University of Exeter",
 			"urls": {
-				"http://www.exeter.ac.uk/": {
+				"https://www.exeter.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.79, "bytes": 2969535, "green": 0, "imagebytes": 1931108 },
 						"2021-06-30": { "CO2": 1.75, "bytes": 2910853, "green": 0, "imagebytes": 1842877 },
@@ -2327,7 +2441,8 @@
 						"2022-02-01": { "CO2": 1.76, "bytes": 2913555, "green": 0, "imagebytes": 1749348 },
 						"2022-04-12": { "CO2": 1.97, "bytes": 3272273, "green": 0, "imagebytes": 2083470 },
 						"2022-06-09": { "CO2": 2.47, "bytes": 4097447, "green": 0, "imagebytes": 2047860 },
-						"2022-09-06": { "CO2": 2.19, "bytes": 3632558, "green": 0, "imagebytes": 2424329 }
+						"2022-09-06": { "CO2": 2.19, "bytes": 3632558, "green": 0, "imagebytes": 2424329 },
+						"2023-12-07": { "CO2": 1.25, "bytes": 4952772, "green": 0, "imagebytes": 1818160 }
 					}
 				}
 			}
@@ -2336,7 +2451,7 @@
 			"active": true,
 			"name": "University of Glamorgan / Prifysgol Morgannwg",
 			"urls": {
-				"http://www.southwales.ac.uk/": {
+				"https://www.southwales.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.4, "bytes": 6225257, "green": 1, "imagebytes": 930963 },
 						"2021-06-30": { "CO2": 4.59, "bytes": 8408905, "green": 1, "imagebytes": 1164029 },
@@ -2347,7 +2462,8 @@
 						"2022-02-01": { "CO2": 1.66, "bytes": 3037532, "green": 1, "imagebytes": 1135129 },
 						"2022-04-12": { "CO2": 1.72, "bytes": 3145417, "green": 1, "imagebytes": 1185077 },
 						"2022-06-09": { "CO2": 1.66, "bytes": 3046313, "green": 1, "imagebytes": 1088658 },
-						"2022-09-06": { "CO2": 1.7, "bytes": 3115270, "green": 1, "imagebytes": 1142236 }
+						"2022-09-06": { "CO2": 1.7, "bytes": 3115270, "green": 1, "imagebytes": 1142236 },
+						"2023-12-07": { "CO2": 1.5, "bytes": 6890459, "green": 1, "imagebytes": 1463358 }
 					}
 				}
 			}
@@ -2356,7 +2472,7 @@
 			"active": true,
 			"name": "University of Glasgow",
 			"urls": {
-				"http://www.gla.ac.uk/": {
+				"https://www.gla.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.71, "bytes": 1170009, "green": 0, "imagebytes": 645831 },
 						"2021-06-30": { "CO2": 0.71, "bytes": 1178286, "green": 0, "imagebytes": 645880 },
@@ -2367,7 +2483,8 @@
 						"2022-02-01": { "CO2": 0.72, "bytes": 1188830, "green": 0, "imagebytes": 538984 },
 						"2022-04-12": { "CO2": 0.73, "bytes": 1218070, "green": 0, "imagebytes": 540274 },
 						"2022-06-09": { "CO2": 1.26, "bytes": 2094762, "green": 0, "imagebytes": 670382 },
-						"2022-09-06": { "CO2": 0.72, "bytes": 1191771, "green": 0, "imagebytes": 540277 }
+						"2022-09-06": { "CO2": 0.72, "bytes": 1191771, "green": 0, "imagebytes": 540277 },
+						"2023-12-07": { "CO2": 0.41, "bytes": 1638579, "green": 0, "imagebytes": 949389 }
 					}
 				}
 			}
@@ -2376,7 +2493,7 @@
 			"active": true,
 			"name": "University of Leeds",
 			"urls": {
-				"http://www.leeds.ac.uk/": {
+				"https://www.leeds.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.19, "bytes": 5298193, "green": 0, "imagebytes": 4614131 },
 						"2021-06-10": { "CO2": 2.61, "bytes": 4331168, "green": 0, "imagebytes": 3645604 },
@@ -2388,7 +2505,8 @@
 						"2022-02-01": { "CO2": 0.77, "bytes": 1275610, "green": 0, "imagebytes": 1013719 },
 						"2022-04-12": { "CO2": 0.78, "bytes": 1287317, "green": 0, "imagebytes": 1019191 },
 						"2022-06-09": { "CO2": 0.6, "bytes": 1001945, "green": 0, "imagebytes": 719358 },
-						"2022-09-06": { "CO2": 0.83, "bytes": 1371812, "green": 0, "imagebytes": 1089206 }
+						"2022-09-06": { "CO2": 0.83, "bytes": 1371812, "green": 0, "imagebytes": 1089206 },
+						"2023-12-07": { "CO2": 0.17, "bytes": 681430, "green": 0, "imagebytes": 392157 }
 					}
 				}
 			}
@@ -2397,7 +2515,7 @@
 			"active": true,
 			"name": "University of Leicester",
 			"urls": {
-				"http://www.le.ac.uk/": {
+				"https://www.le.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.59, "bytes": 2635721, "green": 0, "imagebytes": 1719350 },
 						"2021-06-30": { "CO2": 1.53, "bytes": 2545725, "green": 0, "imagebytes": 1623330 },
@@ -2408,7 +2526,8 @@
 						"2022-02-01": { "CO2": 1.72, "bytes": 2856740, "green": 0, "imagebytes": 1839130 },
 						"2022-04-12": { "CO2": 1.48, "bytes": 2450370, "green": 0, "imagebytes": 1507808 },
 						"2022-06-09": { "CO2": 1.87, "bytes": 3107272, "green": 0, "imagebytes": 2099099 },
-						"2022-09-06": { "CO2": 2.45, "bytes": 4060069, "green": 0, "imagebytes": 3223257 }
+						"2022-09-06": { "CO2": 2.45, "bytes": 4060069, "green": 0, "imagebytes": 3223257 },
+						"2023-12-07": { "CO2": 1.58, "bytes": 6273474, "green": 0, "imagebytes": 5479120 }
 					}
 				}
 			}
@@ -2417,7 +2536,7 @@
 			"active": true,
 			"name": "University of London",
 			"urls": {
-				"http://www.lon.ac.uk/": {
+				"https://www.london.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 9.2, "bytes": 15259215, "green": 0, "imagebytes": 611575 },
 						"2021-06-30": { "CO2": 0.93, "bytes": 1547004, "green": 0, "imagebytes": 412576 },
@@ -2428,7 +2547,8 @@
 						"2022-02-01": { "CO2": 0.81, "bytes": 1345777, "green": 0, "imagebytes": 322342 },
 						"2022-04-12": { "CO2": 0.6, "bytes": 991903, "green": 0, "imagebytes": 340103 },
 						"2022-06-09": { "CO2": 0.6, "bytes": 993348, "green": 0, "imagebytes": 340102 },
-						"2022-09-06": { "CO2": 5.57, "bytes": 9234738, "green": 0, "imagebytes": 504839 }
+						"2022-09-06": { "CO2": 5.57, "bytes": 9234738, "green": 0, "imagebytes": 504839 },
+						"2023-12-07": { "CO2": 3.66, "bytes": 14528841, "green": 0, "imagebytes": 364243 }
 					}
 				}
 			}
@@ -2437,7 +2557,7 @@
 			"active": true,
 			"name": "The University of Manchester",
 			"urls": {
-				"http://www.manchester.ac.uk/": {
+				"https://www.manchester.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.42, "bytes": 692537, "green": 0, "imagebytes": 132287 },
 						"2021-06-30": { "CO2": 0.4, "bytes": 655915, "green": 0, "imagebytes": 89528 },
@@ -2448,7 +2568,8 @@
 						"2022-02-01": { "CO2": 0.53, "bytes": 878959, "green": 0, "imagebytes": 185376 },
 						"2022-04-12": { "CO2": 0.54, "bytes": 892606, "green": 0, "imagebytes": 183966 },
 						"2022-06-09": { "CO2": 0.49, "bytes": 808665, "green": 0, "imagebytes": 85286 },
-						"2022-09-06": { "CO2": 0.48, "bytes": 788396, "green": 0, "imagebytes": 99022 }
+						"2022-09-06": { "CO2": 0.48, "bytes": 788396, "green": 0, "imagebytes": 99022 },
+						"2023-12-07": { "CO2": 0.32, "bytes": 1289718, "green": 0, "imagebytes": 188212 }
 					}
 				}
 			}
@@ -2457,7 +2578,7 @@
 			"active": true,
 			"name": "University of Newcastle Upon Tyne",
 			"urls": {
-				"http://www.ncl.ac.uk/": {
+				"https://www.ncl.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 6.45, "bytes": 10691706, "green": 0, "imagebytes": 8729780 },
 						"2021-06-30": { "CO2": 2.03, "bytes": 3367422, "green": 0, "imagebytes": 1473103 },
@@ -2468,7 +2589,8 @@
 						"2022-02-01": { "CO2": 2.22, "bytes": 3684627, "green": 0, "imagebytes": 2215283 },
 						"2022-04-12": { "CO2": 1.77, "bytes": 2942965, "green": 0, "imagebytes": 1412114 },
 						"2022-06-09": { "CO2": 1.75, "bytes": 2902953, "green": 0, "imagebytes": 1347883 },
-						"2022-09-06": { "CO2": 1.97, "bytes": 3266872, "green": 0, "imagebytes": 1758081 }
+						"2022-09-06": { "CO2": 1.97, "bytes": 3266872, "green": 0, "imagebytes": 1758081 },
+						"2023-12-07": { "CO2": 1.2, "bytes": 4764262, "green": 0, "imagebytes": 4191895 }
 					}
 				}
 			}
@@ -2477,7 +2599,7 @@
 			"active": true,
 			"name": "University of the West of Scotland",
 			"urls": {
-				"http://www.uws.ac.uk/": {
+				"https://www.uws.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.09, "bytes": 6784817, "green": 0, "imagebytes": 6016092 },
 						"2021-06-30": { "CO2": 5.29, "bytes": 8780781, "green": 0, "imagebytes": 8003962 },
@@ -2488,7 +2610,8 @@
 						"2022-02-01": { "CO2": 6.58, "bytes": 10912101, "green": 0, "imagebytes": 10017262 },
 						"2022-04-12": { "CO2": 6.91, "bytes": 11455192, "green": 0, "imagebytes": 10549459 },
 						"2022-06-09": { "CO2": 10.16, "bytes": 16858311, "green": 0, "imagebytes": 15769442 },
-						"2022-09-06": { "CO2": 9.17, "bytes": 15207061, "green": 0, "imagebytes": 14205867 }
+						"2022-09-06": { "CO2": 9.17, "bytes": 15207061, "green": 0, "imagebytes": 14205867 },
+						"2023-12-07": { "CO2": 1.68, "bytes": 6685366, "green": 0, "imagebytes": 5499858 }
 					}
 				}
 			}
@@ -2497,7 +2620,7 @@
 			"active": true,
 			"name": "University of Plymouth",
 			"urls": {
-				"http://www.plymouth.ac.uk/": {
+				"https://www.plymouth.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.13, "bytes": 3530247, "green": 0, "imagebytes": 2107349 },
 						"2021-06-30": { "CO2": 2.05, "bytes": 3402677, "green": 0, "imagebytes": 2055347 },
@@ -2508,7 +2631,8 @@
 						"2022-02-01": { "CO2": 2.24, "bytes": 3719807, "green": 0, "imagebytes": 2096356 },
 						"2022-04-12": { "CO2": 2.27, "bytes": 3763905, "green": 0, "imagebytes": 2018355 },
 						"2022-06-09": { "CO2": 2.39, "bytes": 3956226, "green": 0, "imagebytes": 2104497 },
-						"2022-09-06": { "CO2": 2.14, "bytes": 3556389, "green": 0, "imagebytes": 2104452 }
+						"2022-09-06": { "CO2": 2.14, "bytes": 3556389, "green": 0, "imagebytes": 2104452 },
+						"2023-12-07": { "CO2": 1.61, "bytes": 6394129, "green": 0, "imagebytes": 1108524 }
 					}
 				}
 			}
@@ -2517,7 +2641,7 @@
 			"active": true,
 			"name": "University of Reading",
 			"urls": {
-				"http://www.reading.ac.uk/": {
+				"https://www.reading.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.18, "bytes": 5281033, "green": 0, "imagebytes": 4041119 },
 						"2021-06-30": { "CO2": 2.56, "bytes": 4250467, "green": 0, "imagebytes": 3012136 },
@@ -2528,7 +2652,8 @@
 						"2022-02-01": { "CO2": 2.01, "bytes": 3334163, "green": 0, "imagebytes": 1997094 },
 						"2022-04-12": { "CO2": 2.27, "bytes": 3757517, "green": 0, "imagebytes": 2259199 },
 						"2022-06-09": { "CO2": 2.03, "bytes": 3360826, "green": 0, "imagebytes": 1804953 },
-						"2022-09-06": { "CO2": 2.04, "bytes": 3386021, "green": 0, "imagebytes": 1729208 }
+						"2022-09-06": { "CO2": 2.04, "bytes": 3386021, "green": 0, "imagebytes": 1729208 },
+						"2023-12-07": { "CO2": 1.24, "bytes": 4927151, "green": 0, "imagebytes": 3302340 }
 					}
 				}
 			}
@@ -2537,7 +2662,7 @@
 			"active": true,
 			"name": "University of St Andrews",
 			"urls": {
-				"http://www.st-andrews.ac.uk/": {
+				"https://www.st-andrews.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.6, "bytes": 987649, "green": 0, "imagebytes": 325275 },
 						"2021-06-30": { "CO2": 0.77, "bytes": 1269714, "green": 0, "imagebytes": 620645 },
@@ -2548,7 +2673,8 @@
 						"2022-02-01": { "CO2": 0.83, "bytes": 1380426, "green": 0, "imagebytes": 706117 },
 						"2022-04-12": { "CO2": 0.87, "bytes": 1446405, "green": 0, "imagebytes": 770060 },
 						"2022-06-09": { "CO2": 0.81, "bytes": 1337168, "green": 0, "imagebytes": 644082 },
-						"2022-09-06": { "CO2": 1, "bytes": 1666245, "green": 0, "imagebytes": 962754 }
+						"2022-09-06": { "CO2": 1, "bytes": 1666245, "green": 0, "imagebytes": 962754 },
+						"2023-12-07": { "CO2": 0.34, "bytes": 1368052, "green": 0, "imagebytes": 511589 }
 					}
 				}
 			}
@@ -2557,7 +2683,7 @@
 			"active": true,
 			"name": "University of Stirling",
 			"urls": {
-				"http://www.stir.ac.uk/": {
+				"https://www.stir.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.78, "bytes": 1285964, "green": 0, "imagebytes": 640304 },
 						"2021-06-30": { "CO2": 0.77, "bytes": 1278646, "green": 0, "imagebytes": 636062 },
@@ -2568,7 +2694,8 @@
 						"2022-02-01": { "CO2": 1.1, "bytes": 1827746, "green": 0, "imagebytes": 799244 },
 						"2022-04-12": { "CO2": 0.75, "bytes": 1236272, "green": 0, "imagebytes": 627255 },
 						"2022-06-09": { "CO2": 0.76, "bytes": 1265519, "green": 0, "imagebytes": 777062 },
-						"2022-09-06": { "CO2": 0.75, "bytes": 1247088, "green": 0, "imagebytes": 537252 }
+						"2022-09-06": { "CO2": 0.75, "bytes": 1247088, "green": 0, "imagebytes": 537252 },
+						"2023-12-07": { "CO2": 0.86, "bytes": 3414172, "green": 0, "imagebytes": 2493892 }
 					}
 				}
 			}
@@ -2577,7 +2704,7 @@
 			"active": true,
 			"name": "University of Strathclyde",
 			"urls": {
-				"http://www.strath.ac.uk/": {
+				"https://www.strath.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1, "bytes": 1655888, "green": 0, "imagebytes": 743934 },
 						"2021-06-30": { "CO2": 0.79, "bytes": 1303998, "green": 0, "imagebytes": 521389 },
@@ -2588,7 +2715,8 @@
 						"2022-02-01": { "CO2": 1.23, "bytes": 2035026, "green": 0, "imagebytes": 775188 },
 						"2022-04-12": { "CO2": 1.02, "bytes": 1687465, "green": 0, "imagebytes": 645736 },
 						"2022-06-09": { "CO2": 1.32, "bytes": 2185474, "green": 0, "imagebytes": 1116074 },
-						"2022-09-06": { "CO2": 1.16, "bytes": 1928022, "green": 0, "imagebytes": 709064 }
+						"2022-09-06": { "CO2": 1.16, "bytes": 1928022, "green": 0, "imagebytes": 709064 },
+						"2023-12-07": { "CO2": 0.32, "bytes": 1287832, "green": 0, "imagebytes": 541843 }
 					}
 				}
 			}
@@ -2597,7 +2725,7 @@
 			"active": true,
 			"name": "University of Sussex",
 			"urls": {
-				"http://www.sussex.ac.uk/": {
+				"https://www.sussex.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.76, "bytes": 1263934, "green": 0, "imagebytes": 876356 },
 						"2021-06-30": { "CO2": 0.76, "bytes": 1266238, "green": 0, "imagebytes": 876491 },
@@ -2608,7 +2736,8 @@
 						"2022-02-01": { "CO2": 0.67, "bytes": 1111790, "green": 0, "imagebytes": 668771 },
 						"2022-04-12": { "CO2": 0.72, "bytes": 1188621, "green": 0, "imagebytes": 672829 },
 						"2022-06-09": { "CO2": 0.73, "bytes": 1211265, "green": 0, "imagebytes": 678800 },
-						"2022-09-06": { "CO2": 0.72, "bytes": 1193677, "green": 0, "imagebytes": 654404 }
+						"2022-09-06": { "CO2": 0.72, "bytes": 1193677, "green": 0, "imagebytes": 654404 },
+						"2023-12-07": { "CO2": 0.37, "bytes": 1452640, "green": 0, "imagebytes": 889770 }
 					}
 				}
 			}
@@ -2617,7 +2746,7 @@
 			"active": true,
 			"name": "University of Ulster",
 			"urls": {
-				"http://www.ulster.ac.uk/": {
+				"https://www.ulster.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.05, "bytes": 1749525, "green": 0, "imagebytes": 345298 },
 						"2021-06-30": { "CO2": 1.23, "bytes": 2042747, "green": 0, "imagebytes": 632656 },
@@ -2628,7 +2757,8 @@
 						"2022-02-01": { "CO2": 2.26, "bytes": 3751285, "green": 0, "imagebytes": 1786821 },
 						"2022-04-12": { "CO2": 1.94, "bytes": 3225205, "green": 0, "imagebytes": 1778202 },
 						"2022-06-09": { "CO2": 3, "bytes": 4971765, "green": 0, "imagebytes": 3203751 },
-						"2022-09-06": { "CO2": 2.11, "bytes": 3498778, "green": 0, "imagebytes": 1692727 }
+						"2022-09-06": { "CO2": 2.11, "bytes": 3498778, "green": 0, "imagebytes": 1692727 },
+						"2023-12-07": { "CO2": 0.45, "bytes": 1781577, "green": 0, "imagebytes": 358754 }
 					}
 				}
 			}
@@ -2637,7 +2767,7 @@
 			"active": true,
 			"name": "Bishop Grosseteste University College Lincoln",
 			"urls": {
-				"http://www.bishopg.ac.uk/": {
+				"https://www.bishopg.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.19, "bytes": 3625982, "green": 0, "imagebytes": 2475480 },
 						"2021-06-30": { "CO2": 1.69, "bytes": 2798843, "green": 0, "imagebytes": 1629949 },
@@ -2648,7 +2778,8 @@
 						"2022-02-01": { "CO2": 2.14, "bytes": 3542210, "green": 0, "imagebytes": 2253939 },
 						"2022-04-12": { "CO2": 1.62, "bytes": 2681302, "green": 0, "imagebytes": 1381855 },
 						"2022-06-09": { "CO2": 1.5, "bytes": 2489911, "green": 0, "imagebytes": 1097338 },
-						"2022-09-06": { "CO2": 1.62, "bytes": 2685360, "green": 0, "imagebytes": 1170258 }
+						"2022-09-06": { "CO2": 1.62, "bytes": 2685360, "green": 0, "imagebytes": 1170258 },
+						"2023-12-07": { "CO2": 2.29, "bytes": 9097808, "green": 0, "imagebytes": 427299 }
 					}
 				}
 			}
@@ -2657,7 +2788,7 @@
 			"active": true,
 			"name": "Cardiff University",
 			"urls": {
-				"http://www.cardiff.ac.uk/": {
+				"https://www.cardiff.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.71, "bytes": 1175480, "green": 0, "imagebytes": 613046 },
 						"2021-06-30": { "CO2": 0.52, "bytes": 861152, "green": 0, "imagebytes": 289957 },
@@ -2668,7 +2799,8 @@
 						"2022-02-01": { "CO2": 0.64, "bytes": 1066140, "green": 0, "imagebytes": 478689 },
 						"2022-04-12": { "CO2": 0.74, "bytes": 1225194, "green": 0, "imagebytes": 582688 },
 						"2022-06-09": { "CO2": 0.75, "bytes": 1249754, "green": 0, "imagebytes": 277778 },
-						"2022-09-06": { "CO2": 0.87, "bytes": 1448808, "green": 0, "imagebytes": 306081 }
+						"2022-09-06": { "CO2": 0.87, "bytes": 1448808, "green": 0, "imagebytes": 306081 },
+						"2023-12-07": { "CO2": 0.37, "bytes": 1467685, "green": 0, "imagebytes": 303206 }
 					}
 				}
 			}
@@ -2677,7 +2809,7 @@
 			"active": true,
 			"name": "Central School of Speech and Drama(The)",
 			"urls": {
-				"http://www.cssd.ac.uk/": {
+				"https://www.cssd.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.51, "bytes": 4600129, "green": 1, "imagebytes": 2210809 },
 						"2021-06-30": { "CO2": 1.8, "bytes": 3302257, "green": 1, "imagebytes": 894047 },
@@ -2688,7 +2820,8 @@
 						"2022-02-01": { "CO2": 2.66, "bytes": 4859536, "green": 1, "imagebytes": 877892 },
 						"2022-04-12": { "CO2": 0.99, "bytes": 1820387, "green": 1, "imagebytes": 941047 },
 						"2022-06-09": { "CO2": 1.14, "bytes": 2084932, "green": 1, "imagebytes": 1322913 },
-						"2022-09-06": { "CO2": 1.01, "bytes": 1857005, "green": 1, "imagebytes": 1052913 }
+						"2022-09-06": { "CO2": 1.01, "bytes": 1857005, "green": 1, "imagebytes": 1052913 },
+						"2023-12-07": { "CO2": 0.38, "bytes": 1732841, "green": 1, "imagebytes": 852524 }
 					}
 				}
 			}
@@ -2697,7 +2830,7 @@
 			"active": true,
 			"name": "Cranfield University",
 			"urls": {
-				"http://www.cranfield.ac.uk/": {
+				"https://www.cranfield.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 5, "bytes": 8296228, "green": 0, "imagebytes": 6596438 },
 						"2021-06-30": { "CO2": 5.31, "bytes": 8808946, "green": 0, "imagebytes": 7098655 },
@@ -2717,7 +2850,7 @@
 			"active": true,
 			"name": "Edge Hill University",
 			"urls": {
-				"http://www.edgehill.ac.uk/": {
+				"https://www.edgehill.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 6.48, "bytes": 10748880, "green": 0, "imagebytes": 8181285 },
 						"2021-06-30": { "CO2": 2.78, "bytes": 4614902, "green": 0, "imagebytes": 2052294 },
@@ -2728,7 +2861,8 @@
 						"2022-02-01": { "CO2": 1.92, "bytes": 3514257, "green": 1, "imagebytes": 2004575 },
 						"2022-04-12": { "CO2": 3.09, "bytes": 5653651, "green": 1, "imagebytes": 3972935 },
 						"2022-06-09": { "CO2": 2.22, "bytes": 4054615, "green": 1, "imagebytes": 2426074 },
-						"2022-09-06": { "CO2": 3.51, "bytes": 6428265, "green": 1, "imagebytes": 3956407 }
+						"2022-09-06": { "CO2": 3.51, "bytes": 6428265, "green": 1, "imagebytes": 3956407 },
+						"2023-12-07": { "CO2": 1.33, "bytes": 6078223, "green": 1, "imagebytes": 3855574 }
 					}
 				}
 			}
@@ -2737,7 +2871,7 @@
 			"active": true,
 			"name": "Guildhall School of Music and Drama",
 			"urls": {
-				"http://www.gsmd.ac.uk/": {
+				"https://www.gsmd.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.4, "bytes": 8053328, "green": 1, "imagebytes": 7073541 },
 						"2021-06-30": { "CO2": 4.65, "bytes": 8516823, "green": 1, "imagebytes": 7536353 },
@@ -2748,7 +2882,8 @@
 						"2022-02-01": { "CO2": 9.57, "bytes": 17518395, "green": 1, "imagebytes": 16374155 },
 						"2022-04-12": { "CO2": 11.3, "bytes": 20685699, "green": 1, "imagebytes": 19557923 },
 						"2022-06-09": { "CO2": 0.77, "bytes": 1401072, "green": 1, "imagebytes": 399065 },
-						"2022-09-06": { "CO2": 0.83, "bytes": 1513935, "green": 1, "imagebytes": 399008 }
+						"2022-09-06": { "CO2": 0.83, "bytes": 1513935, "green": 1, "imagebytes": 399008 },
+						"2023-12-07": { "CO2": 0.36, "bytes": 1665544, "green": 1, "imagebytes": 398080 }
 					}
 				}
 			}
@@ -2757,7 +2892,7 @@
 			"active": true,
 			"name": "Newman University College",
 			"urls": {
-				"http://www.newman.ac.uk/": {
+				"https://www.newman.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.24, "bytes": 2273221, "green": 1, "imagebytes": 1487954 },
 						"2021-06-30": { "CO2": 1.21, "bytes": 2209916, "green": 1, "imagebytes": 1422746 },
@@ -2768,7 +2903,8 @@
 						"2022-02-01": { "CO2": 1.49, "bytes": 2734681, "green": 1, "imagebytes": 1911654 },
 						"2022-04-12": { "CO2": 1.16, "bytes": 2128620, "green": 1, "imagebytes": 1324065 },
 						"2022-06-09": { "CO2": 1.29, "bytes": 2370002, "green": 1, "imagebytes": 1553493 },
-						"2022-09-06": { "CO2": 1.07, "bytes": 1952828, "green": 1, "imagebytes": 1131090 }
+						"2022-09-06": { "CO2": 1.07, "bytes": 1952828, "green": 1, "imagebytes": 1131090 },
+						"2023-12-07": { "CO2": 1, "bytes": 4591800, "green": 1, "imagebytes": 2095967 }
 					}
 				}
 			}
@@ -2777,7 +2913,7 @@
 			"active": true,
 			"name": "Glyndwr University",
 			"urls": {
-				"http://www.glyndwr.ac.uk/": {
+				"https://www.glyndwr.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.35, "bytes": 3902783, "green": 0, "imagebytes": 2482988 },
 						"2021-06-30": { "CO2": 2.3, "bytes": 3810937, "green": 0, "imagebytes": 2549122 },
@@ -2788,7 +2924,8 @@
 						"2022-02-01": { "CO2": 3.19, "bytes": 5290694, "green": 0, "imagebytes": 4353142 },
 						"2022-04-12": { "CO2": 3.42, "bytes": 5670436, "green": 0, "imagebytes": 4353644 },
 						"2022-06-09": { "CO2": 3.66, "bytes": 6076807, "green": 0, "imagebytes": 4674394 },
-						"2022-09-06": { "CO2": 3.32, "bytes": 5513710, "green": 0, "imagebytes": 4097126 }
+						"2022-09-06": { "CO2": 3.32, "bytes": 5513710, "green": 0, "imagebytes": 4097126 },
+						"2023-12-07": { "CO2": 1.58, "bytes": 6273017, "green": 0, "imagebytes": 4678405 }
 					}
 				}
 			}
@@ -2797,7 +2934,7 @@
 			"active": true,
 			"name": "Royal Academy of Music",
 			"urls": {
-				"http://www.ram.ac.uk/": {
+				"https://www.ram.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 11.11, "bytes": 20326695, "green": 1, "imagebytes": 2488593 },
 						"2021-06-30": { "CO2": 11.26, "bytes": 20608375, "green": 1, "imagebytes": 2572261 },
@@ -2808,7 +2945,8 @@
 						"2022-02-01": { "CO2": 11.56, "bytes": 21163611, "green": 1, "imagebytes": 2413676 },
 						"2022-04-12": { "CO2": 10.75, "bytes": 19670245, "green": 1, "imagebytes": 2285703 },
 						"2022-06-09": { "CO2": 11.04, "bytes": 20210736, "green": 1, "imagebytes": 1809496 },
-						"2022-09-06": { "CO2": 5.92, "bytes": 10841167, "green": 1, "imagebytes": 2293489 }
+						"2022-09-06": { "CO2": 5.92, "bytes": 10841167, "green": 1, "imagebytes": 2293489 },
+						"2023-12-07": { "CO2": 2.85, "bytes": 13074137, "green": 1, "imagebytes": 33462 }
 					}
 				}
 			}
@@ -2817,7 +2955,7 @@
 			"active": true,
 			"name": "Royal Northern College of Music",
 			"urls": {
-				"http://www.rncm.ac.uk/": {
+				"https://www.rncm.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.15, "bytes": 5218133, "green": 0, "imagebytes": 3712409 },
 						"2021-06-30": { "CO2": 2.89, "bytes": 4802011, "green": 0, "imagebytes": 3838250 },
@@ -2828,7 +2966,8 @@
 						"2022-02-01": { "CO2": 1.49, "bytes": 2469435, "green": 0, "imagebytes": 1803763 },
 						"2022-04-12": { "CO2": 1.46, "bytes": 2421082, "green": 0, "imagebytes": 1763426 },
 						"2022-06-09": { "CO2": 1.57, "bytes": 2598595, "green": 0, "imagebytes": 1909758 },
-						"2022-09-06": { "CO2": 1.03, "bytes": 1713407, "green": 0, "imagebytes": 1057140 }
+						"2022-09-06": { "CO2": 1.03, "bytes": 1713407, "green": 0, "imagebytes": 1057140 },
+						"2023-12-07": { "CO2": 0.69, "bytes": 2750064, "green": 0, "imagebytes": 2125277 }
 					}
 				}
 			}
@@ -2837,7 +2976,7 @@
 			"active": true,
 			"name": "Royal Welsh College of Music and Drama Limited",
 			"urls": {
-				"http://www.rwcmd.ac.uk/": {
+				"https://www.rwcmd.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.98, "bytes": 8256667, "green": 0, "imagebytes": 2956941 },
 						"2021-06-30": { "CO2": 5.63, "bytes": 9344986, "green": 0, "imagebytes": 2543229 },
@@ -2848,7 +2987,8 @@
 						"2022-02-01": { "CO2": 5.96, "bytes": 9880759, "green": 0, "imagebytes": 2984742 },
 						"2022-04-12": { "CO2": 5.68, "bytes": 9424523, "green": 0, "imagebytes": 2527963 },
 						"2022-06-09": { "CO2": 5.92, "bytes": 9816850, "green": 0, "imagebytes": 2894647 },
-						"2022-09-06": { "CO2": 6.49, "bytes": 10773234, "green": 0, "imagebytes": 3819695 }
+						"2022-09-06": { "CO2": 6.49, "bytes": 10773234, "green": 0, "imagebytes": 3819695 },
+						"2023-12-07": { "CO2": 0.78, "bytes": 3109928, "green": 0, "imagebytes": 2098702 }
 					}
 				}
 			}
@@ -2857,7 +2997,7 @@
 			"active": true,
 			"name": "The University of Cumbria",
 			"urls": {
-				"http://www.cumbria.ac.uk/": {
+				"https://www.cumbria.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.69, "bytes": 8577134, "green": 1, "imagebytes": 451336 },
 						"2021-06-30": { "CO2": 4.75, "bytes": 8698130, "green": 1, "imagebytes": 426035 },
@@ -2868,7 +3008,8 @@
 						"2022-02-01": { "CO2": 4.6, "bytes": 8423917, "green": 1, "imagebytes": 426042 },
 						"2022-04-12": { "CO2": 4.66, "bytes": 8527642, "green": 1, "imagebytes": 427020 },
 						"2022-06-09": { "CO2": 4.69, "bytes": 8583839, "green": 1, "imagebytes": 426943 },
-						"2022-09-06": { "CO2": 17.89, "bytes": 32734532, "green": 1, "imagebytes": 27478057 }
+						"2022-09-06": { "CO2": 17.89, "bytes": 32734532, "green": 1, "imagebytes": 27478057 },
+						"2023-12-07": { "CO2": 1.47, "bytes": 6753910, "green": 1, "imagebytes": 1204431 }
 					}
 				}
 			}
@@ -2877,7 +3018,7 @@
 			"active": true,
 			"name": "St Mary's University College, Twickenham",
 			"urls": {
-				"http://www.smuc.ac.uk/": {
+				"https://www.smuc.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.31, "bytes": 5487977, "green": 0, "imagebytes": 3463131 },
 						"2021-06-30": { "CO2": 3.22, "bytes": 5339206, "green": 0, "imagebytes": 3185813 },
@@ -2888,7 +3029,8 @@
 						"2022-02-01": { "CO2": 3.03, "bytes": 5032629, "green": 0, "imagebytes": 2934460 },
 						"2022-04-12": { "CO2": 2.83, "bytes": 4697327, "green": 0, "imagebytes": 2608387 },
 						"2022-06-09": { "CO2": 3.22, "bytes": 5346112, "green": 0, "imagebytes": 3193145 },
-						"2022-09-06": { "CO2": 3.46, "bytes": 5737924, "green": 0, "imagebytes": 3402044 }
+						"2022-09-06": { "CO2": 3.46, "bytes": 5737924, "green": 0, "imagebytes": 3402044 },
+						"2023-12-07": { "CO2": 1.5, "bytes": 5974036, "green": 0, "imagebytes": 4054649 }
 					}
 				}
 			}
@@ -2898,7 +3040,7 @@
 			"name": "Swansea Metropolitan University",
 			"replacedBy": { "date": "2013-08-01", "id": "10007858" },
 			"urls": {
-				"http://www.smu.ac.uk/": {
+				"https://www.smu.ac.uk/": {
 					"values": {}
 				}
 			}
@@ -2907,7 +3049,7 @@
 			"active": true,
 			"name": "University of Chester",
 			"urls": {
-				"http://www.chester.ac.uk/": {
+				"https://www.chester.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.91, "bytes": 6483116, "green": 0, "imagebytes": 5712555 },
 						"2021-06-30": { "CO2": 3.39, "bytes": 5623236, "green": 0, "imagebytes": 4855136 },
@@ -2918,7 +3060,8 @@
 						"2022-02-01": { "CO2": 3.37, "bytes": 5595728, "green": 0, "imagebytes": 4817927 },
 						"2022-04-12": { "CO2": 2.76, "bytes": 4578562, "green": 0, "imagebytes": 3629160 },
 						"2022-06-09": { "CO2": 2.39, "bytes": 3960993, "green": 0, "imagebytes": 3170905 },
-						"2022-09-06": { "CO2": 2.06, "bytes": 3412647, "green": 0, "imagebytes": 2566553 }
+						"2022-09-06": { "CO2": 2.06, "bytes": 3412647, "green": 0, "imagebytes": 2566553 },
+						"2023-12-07": { "CO2": 0.97, "bytes": 3842852, "green": 0, "imagebytes": 2355897 }
 					}
 				}
 			}
@@ -2927,7 +3070,7 @@
 			"active": true,
 			"name": "University of Abertay Dundee",
 			"urls": {
-				"http://www.abertay.ac.uk/": {
+				"https://www.abertay.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.78, "bytes": 2950108, "green": 0, "imagebytes": 2049763 },
 						"2021-06-30": { "CO2": 2.27, "bytes": 3770092, "green": 0, "imagebytes": 2276258 },
@@ -2938,7 +3081,8 @@
 						"2022-02-01": { "CO2": 1.44, "bytes": 2384475, "green": 0, "imagebytes": 1018013 },
 						"2022-04-12": { "CO2": 1.62, "bytes": 2684458, "green": 0, "imagebytes": 1277354 },
 						"2022-06-09": { "CO2": 1.6, "bytes": 2662227, "green": 0, "imagebytes": 1259593 },
-						"2022-09-06": { "CO2": 1.3, "bytes": 2150216, "green": 0, "imagebytes": 734342 }
+						"2022-09-06": { "CO2": 1.3, "bytes": 2150216, "green": 0, "imagebytes": 734342 },
+						"2023-12-07": { "CO2": 0.68, "bytes": 2703877, "green": 0, "imagebytes": 804607 }
 					}
 				}
 			}
@@ -2947,7 +3091,7 @@
 			"active": true,
 			"name": "University of Bath (The)",
 			"urls": {
-				"http://www.bath.ac.uk/": {
+				"https://www.bath.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.58, "bytes": 4275780, "green": 0, "imagebytes": 3191802 },
 						"2021-06-30": { "CO2": 2.2, "bytes": 3651560, "green": 0, "imagebytes": 2688649 },
@@ -2958,7 +3102,8 @@
 						"2022-02-01": { "CO2": 3.86, "bytes": 6406280, "green": 0, "imagebytes": 4978758 },
 						"2022-04-12": { "CO2": 2.97, "bytes": 4931788, "green": 0, "imagebytes": 3419524 },
 						"2022-06-09": { "CO2": 3.3, "bytes": 5468483, "green": 0, "imagebytes": 4034156 },
-						"2022-09-06": { "CO2": 3.06, "bytes": 5068460, "green": 0, "imagebytes": 3603760 }
+						"2022-09-06": { "CO2": 3.06, "bytes": 5068460, "green": 0, "imagebytes": 3603760 },
+						"2023-12-07": { "CO2": 2.92, "bytes": 11590401, "green": 0, "imagebytes": 9480351 }
 					}
 				}
 			}
@@ -2967,7 +3112,7 @@
 			"active": true,
 			"name": "University of Derby",
 			"urls": {
-				"http://www.derby.ac.uk/": {
+				"https://www.derby.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 3.59, "bytes": 6564374, "green": 1, "imagebytes": 4839777 },
 						"2021-06-30": { "CO2": 2.96, "bytes": 5424790, "green": 1, "imagebytes": 3690345 },
@@ -2978,7 +3123,8 @@
 						"2022-02-01": { "CO2": 3.95, "bytes": 7234022, "green": 1, "imagebytes": 4297024 },
 						"2022-04-12": { "CO2": 3.08, "bytes": 5643962, "green": 1, "imagebytes": 3912770 },
 						"2022-06-09": { "CO2": 1.65, "bytes": 3012679, "green": 1, "imagebytes": 1273480 },
-						"2022-09-06": { "CO2": 1.56, "bytes": 2855634, "green": 1, "imagebytes": 1208614 }
+						"2022-09-06": { "CO2": 1.56, "bytes": 2855634, "green": 1, "imagebytes": 1208614 },
+						"2023-12-07": { "CO2": 1.03, "bytes": 4728681, "green": 1, "imagebytes": 3266272 }
 					}
 				}
 			}
@@ -2987,7 +3133,7 @@
 			"active": true,
 			"name": "University of Dundee",
 			"urls": {
-				"http://www.dundee.ac.uk/": {
+				"https://www.dundee.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.05, "bytes": 1740731, "green": 0, "imagebytes": 1131270 },
 						"2021-06-30": { "CO2": 1.38, "bytes": 2296155, "green": 0, "imagebytes": 1676519 },
@@ -2998,7 +3144,8 @@
 						"2022-02-01": { "CO2": 0.57, "bytes": 946429, "green": 0, "imagebytes": 401737 },
 						"2022-04-12": { "CO2": 0.48, "bytes": 798467, "green": 0, "imagebytes": 213520 },
 						"2022-06-09": { "CO2": 0.46, "bytes": 757479, "green": 0, "imagebytes": 259851 },
-						"2022-09-06": { "CO2": 0.77, "bytes": 1276519, "green": 0, "imagebytes": 605049 }
+						"2022-09-06": { "CO2": 0.77, "bytes": 1276519, "green": 0, "imagebytes": 605049 },
+						"2023-12-07": { "CO2": 0.46, "bytes": 1817376, "green": 0, "imagebytes": 909681 }
 					}
 				}
 			}
@@ -3007,7 +3154,7 @@
 			"active": true,
 			"name": "Cardiff Metropolitan University",
 			"urls": {
-				"http://www.cardiffmet.ac.uk/": {
+				"https://www.cardiffmet.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.68, "bytes": 4448411, "green": 0, "imagebytes": 1476774 },
 						"2021-06-30": { "CO2": 2.24, "bytes": 3714904, "green": 0, "imagebytes": 1257194 },
@@ -3018,7 +3165,8 @@
 						"2022-02-01": { "CO2": 3.47, "bytes": 5758025, "green": 0, "imagebytes": 2268199 },
 						"2022-04-12": { "CO2": 3.39, "bytes": 5619785, "green": 0, "imagebytes": 2207467 },
 						"2022-06-09": { "CO2": 2.99, "bytes": 4953910, "green": 0, "imagebytes": 1518336 },
-						"2022-09-06": { "CO2": 2.39, "bytes": 3965933, "green": 0, "imagebytes": 1100888 }
+						"2022-09-06": { "CO2": 2.39, "bytes": 3965933, "green": 0, "imagebytes": 1100888 },
+						"2023-12-07": { "CO2": 3.36, "bytes": 13352187, "green": 0, "imagebytes": 2865681 }
 					}
 				}
 			}
@@ -3027,7 +3175,7 @@
 			"active": true,
 			"name": "Swansea University",
 			"urls": {
-				"http://www.swan.ac.uk/": {
+				"https://www.swan.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.32, "bytes": 2197601, "green": 0, "imagebytes": 751429 },
 						"2021-06-30": { "CO2": 1.31, "bytes": 2169957, "green": 0, "imagebytes": 646741 },
@@ -3038,7 +3186,8 @@
 						"2022-02-01": { "CO2": 1.75, "bytes": 2910416, "green": 0, "imagebytes": 1333385 },
 						"2022-04-12": { "CO2": 1.81, "bytes": 3005660, "green": 0, "imagebytes": 1330242 },
 						"2022-06-09": { "CO2": 2.08, "bytes": 3456296, "green": 0, "imagebytes": 1382398 },
-						"2022-09-06": { "CO2": 2, "bytes": 3319439, "green": 0, "imagebytes": 1268586 }
+						"2022-09-06": { "CO2": 2, "bytes": 3319439, "green": 0, "imagebytes": 1268586 },
+						"2023-12-07": { "CO2": 0.74, "bytes": 2924562, "green": 0, "imagebytes": 1037125 }
 					}
 				}
 			}
@@ -3047,7 +3196,7 @@
 			"active": true,
 			"name": "Prifysgol Aberystwyth",
 			"urls": {
-				"http://www.aber.ac.uk/": {
+				"https://www.aber.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 0.97, "bytes": 1610401, "green": 0, "imagebytes": 1201928 },
 						"2021-06-30": { "CO2": 0.98, "bytes": 1624802, "green": 0, "imagebytes": 1112027 },
@@ -3058,7 +3207,8 @@
 						"2022-02-01": { "CO2": 0.8, "bytes": 1331990, "green": 0, "imagebytes": 712785 },
 						"2022-04-12": { "CO2": 0.99, "bytes": 1648284, "green": 0, "imagebytes": 720056 },
 						"2022-06-09": { "CO2": 1.04, "bytes": 1717109, "green": 0, "imagebytes": 795282 },
-						"2022-09-06": { "CO2": 1.22, "bytes": 2024856, "green": 0, "imagebytes": 950094 }
+						"2022-09-06": { "CO2": 1.22, "bytes": 2024856, "green": 0, "imagebytes": 950094 },
+						"2023-12-07": { "CO2": 0.31, "bytes": 1224593, "green": 0, "imagebytes": 837991 }
 					}
 				}
 			}
@@ -3067,7 +3217,7 @@
 			"active": true,
 			"name": "Bangor University",
 			"urls": {
-				"http://www.bangor.ac.uk/": {
+				"https://www.bangor.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.75, "bytes": 8689962, "green": 1, "imagebytes": 1972053 },
 						"2021-06-30": { "CO2": 4.71, "bytes": 8624279, "green": 1, "imagebytes": 1874037 },
@@ -3078,7 +3228,8 @@
 						"2022-02-01": { "CO2": 2.82, "bytes": 5163881, "green": 1, "imagebytes": 3394870 },
 						"2022-04-12": { "CO2": 1.31, "bytes": 2403861, "green": 1, "imagebytes": 613132 },
 						"2022-06-09": { "CO2": 1.45, "bytes": 2655674, "green": 1, "imagebytes": 794573 },
-						"2022-09-06": { "CO2": 7.39, "bytes": 13528536, "green": 1, "imagebytes": 11655746 }
+						"2022-09-06": { "CO2": 7.39, "bytes": 13528536, "green": 1, "imagebytes": 11655746 },
+						"2023-12-07": { "CO2": 0.49, "bytes": 2249500, "green": 1, "imagebytes": 555728 }
 					}
 				}
 			}
@@ -3087,7 +3238,7 @@
 			"active": true,
 			"name": "University of Wales: Trinity Saint David",
 			"urls": {
-				"http://www.trinitysaintdavid.ac.uk/": {
+				"https://www.uwtsd.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.57, "bytes": 2609311, "green": 0, "imagebytes": 1286188 },
 						"2021-06-30": { "CO2": 1.75, "bytes": 2900985, "green": 0, "imagebytes": 1584758 },
@@ -3098,7 +3249,8 @@
 						"2022-02-01": { "CO2": 1.79, "bytes": 2966311, "green": 0, "imagebytes": 1307685 },
 						"2022-04-12": { "CO2": 2.14, "bytes": 3556187, "green": 0, "imagebytes": 1770600 },
 						"2022-06-09": { "CO2": 1.83, "bytes": 3037817, "green": 0, "imagebytes": 1311213 },
-						"2022-09-06": { "CO2": 2.04, "bytes": 3391037, "green": 0, "imagebytes": 1577971 }
+						"2022-09-06": { "CO2": 2.04, "bytes": 3391037, "green": 0, "imagebytes": 1577971 },
+						"2023-12-07": { "CO2": 0.99, "bytes": 3925254, "green": 0, "imagebytes": 1868022 }
 					}
 				}
 			}
@@ -3107,7 +3259,7 @@
 			"active": true,
 			"name": "Stranmillis University College",
 			"urls": {
-				"http://www.stran.ac.uk/": {
+				"https://www.stran.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.93, "bytes": 4864609, "green": 0, "imagebytes": 4417736 },
 						"2021-06-30": { "CO2": 2.93, "bytes": 4866355, "green": 0, "imagebytes": 4417737 },
@@ -3118,7 +3270,8 @@
 						"2022-02-01": { "CO2": 1.11, "bytes": 1837613, "green": 0, "imagebytes": 1261887 },
 						"2022-04-12": { "CO2": 1.11, "bytes": 1843721, "green": 0, "imagebytes": 1261887 },
 						"2022-06-09": { "CO2": 1.04, "bytes": 1731346, "green": 0, "imagebytes": 1295804 },
-						"2022-09-06": { "CO2": 0.89, "bytes": 1479780, "green": 0, "imagebytes": 1072271 }
+						"2022-09-06": { "CO2": 0.89, "bytes": 1479780, "green": 0, "imagebytes": 1072271 },
+						"2023-12-07": { "CO2": 0.49, "bytes": 1965563, "green": 0, "imagebytes": 1053314 }
 					}
 				}
 			}
@@ -3127,7 +3280,7 @@
 			"active": true,
 			"name": "Trinity Laban Conservatoire of Music and Dance Ltd",
 			"urls": {
-				"http://www.trinitylaban.ac.uk/": {
+				"https://www.trinitylaban.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.09, "bytes": 2000119, "green": 1, "imagebytes": 1105183 },
 						"2021-06-30": { "CO2": 1.1, "bytes": 2009899, "green": 1, "imagebytes": 1105249 },
@@ -3138,7 +3291,8 @@
 						"2022-02-01": { "CO2": 1.29, "bytes": 2367777, "green": 1, "imagebytes": 1350799 },
 						"2022-04-12": { "CO2": 1.19, "bytes": 2178222, "green": 1, "imagebytes": 1127665 },
 						"2022-06-09": { "CO2": 1.51, "bytes": 2754657, "green": 1, "imagebytes": 1705847 },
-						"2022-09-06": { "CO2": 1.64, "bytes": 2996564, "green": 1, "imagebytes": 1879687 }
+						"2022-09-06": { "CO2": 1.64, "bytes": 2996564, "green": 1, "imagebytes": 1879687 },
+						"2023-12-07": { "CO2": 3.15, "bytes": 14415518, "green": 1, "imagebytes": 6461597 }
 					}
 				}
 			}
@@ -3147,7 +3301,7 @@
 			"active": true,
 			"name": "St Mary's University College",
 			"urls": {
-				"http://www.stmarys-belfast.ac.uk/": {
+				"https://www.stmarys-belfast.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 1.99, "bytes": 3303764, "green": 0, "imagebytes": 3286798 },
 						"2021-06-30": { "CO2": 2.05, "bytes": 3408129, "green": 0, "imagebytes": 3391161 },
@@ -3158,7 +3312,8 @@
 						"2022-02-01": { "CO2": 2.24, "bytes": 3720524, "green": 0, "imagebytes": 3489495 },
 						"2022-04-12": { "CO2": 2.02, "bytes": 3342799, "green": 0, "imagebytes": 3108350 },
 						"2022-06-09": { "CO2": 2.01, "bytes": 3342221, "green": 0, "imagebytes": 3110057 },
-						"2022-09-06": { "CO2": 2.18, "bytes": 3622790, "green": 0, "imagebytes": 3388548 }
+						"2022-09-06": { "CO2": 2.18, "bytes": 3622790, "green": 0, "imagebytes": 3388548 },
+						"2023-12-07": { "CO2": 0.91, "bytes": 3598999, "green": 0, "imagebytes": 3255621 }
 					}
 				}
 			}
@@ -3178,7 +3333,8 @@
 						"2022-02-01": { "CO2": 0.44, "bytes": 733952, "green": 0, "imagebytes": 616167 },
 						"2022-04-12": { "CO2": 0.44, "bytes": 730053, "green": 0, "imagebytes": 628559 },
 						"2022-06-09": { "CO2": 0.33, "bytes": 539280, "green": 0, "imagebytes": 317915 },
-						"2022-09-06": { "CO2": 0.34, "bytes": 567080, "green": 0, "imagebytes": 463284 }
+						"2022-09-06": { "CO2": 0.34, "bytes": 567080, "green": 0, "imagebytes": 463284 },
+						"2023-12-07": { "CO2": 0.22, "bytes": 874031, "green": 0, "imagebytes": 582862 }
 					}
 				}
 			}
@@ -3187,7 +3343,7 @@
 			"active": true,
 			"name": "University College Falmouth",
 			"urls": {
-				"http://www.falmouth.ac.uk/": {
+				"https://www.falmouth.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 4.43, "bytes": 8108162, "green": 1, "imagebytes": 1509205 },
 						"2021-06-30": { "CO2": 4.41, "bytes": 8063863, "green": 1, "imagebytes": 1330969 },
@@ -3198,7 +3354,8 @@
 						"2022-02-01": { "CO2": 7.01, "bytes": 12837766, "green": 1, "imagebytes": 1910839 },
 						"2022-04-12": { "CO2": 2.02, "bytes": 3704832, "green": 1, "imagebytes": 1002122 },
 						"2022-06-09": { "CO2": 4.17, "bytes": 7627018, "green": 1, "imagebytes": 1243085 },
-						"2022-09-06": { "CO2": 7.63, "bytes": 13971195, "green": 1, "imagebytes": 1130312 }
+						"2022-09-06": { "CO2": 7.63, "bytes": 13971195, "green": 1, "imagebytes": 1130312 },
+						"2023-12-07": { "CO2": 2.52, "bytes": 11533427, "green": 1, "imagebytes": 1185000 }
 					}
 				}
 			}
@@ -3207,7 +3364,7 @@
 			"active": true,
 			"name": "Northern School of Contemporary Dance",
 			"urls": {
-				"http://www.nscd.ac.uk/": {
+				"https://www.nscd.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.27, "bytes": 3772234, "green": 0, "imagebytes": 786408 },
 						"2021-06-30": { "CO2": 2.34, "bytes": 3878888, "green": 0, "imagebytes": 786482 },
@@ -3218,7 +3375,8 @@
 						"2022-02-01": { "CO2": 2.5, "bytes": 4145050, "green": 0, "imagebytes": 786434 },
 						"2022-04-12": { "CO2": 1.65, "bytes": 2739214, "green": 0, "imagebytes": 786443 },
 						"2022-06-09": { "CO2": 1.9, "bytes": 3149369, "green": 0, "imagebytes": 786434 },
-						"2022-09-06": { "CO2": 2.72, "bytes": 4510687, "green": 0, "imagebytes": 786522 }
+						"2022-09-06": { "CO2": 2.72, "bytes": 4510687, "green": 0, "imagebytes": 786522 },
+						"2023-12-07": { "CO2": 1.01, "bytes": 4009165, "green": 0, "imagebytes": 476524 }
 					}
 				}
 			}
@@ -3227,7 +3385,7 @@
 			"active": true,
 			"name": "University Campus Suffolk Ltd",
 			"urls": {
-				"http://www.ucs.ac.uk/": {
+				"https://www.ucs.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2.72, "bytes": 4515122, "green": 0, "imagebytes": 2990940 },
 						"2021-06-30": { "CO2": 2.89, "bytes": 4791551, "green": 0, "imagebytes": 3214136 },
@@ -3238,7 +3396,8 @@
 						"2022-02-01": { "CO2": 4.47, "bytes": 7419475, "green": 0, "imagebytes": 5791628 },
 						"2022-04-12": { "CO2": 3.59, "bytes": 5949019, "green": 0, "imagebytes": 4301047 },
 						"2022-06-09": { "CO2": 5.24, "bytes": 8694544, "green": 0, "imagebytes": 7033102 },
-						"2022-09-06": { "CO2": 5.57, "bytes": 9245323, "green": 0, "imagebytes": 7556617 }
+						"2022-09-06": { "CO2": 5.57, "bytes": 9245323, "green": 0, "imagebytes": 7556617 },
+						"2023-12-07": { "CO2": 1.37, "bytes": 5431252, "green": 0, "imagebytes": 4254420 }
 					}
 				}
 			}
@@ -3247,7 +3406,7 @@
 			"active": true,
 			"name": "Leeds College of Music",
 			"urls": {
-				"http://www.lcm.ac.uk/": {
+				"https://www.lcm.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 5.43, "bytes": 9937150, "green": 1, "imagebytes": 3231906 },
 						"2021-06-30": { "CO2": 3.16, "bytes": 5777777, "green": 1, "imagebytes": 3236674 },
@@ -3258,7 +3417,8 @@
 						"2022-02-01": { "CO2": 13.66, "bytes": 25004592, "green": 1, "imagebytes": 3396430 },
 						"2022-04-12": { "CO2": 10.23, "bytes": 18722478, "green": 1, "imagebytes": 3498984 },
 						"2022-06-09": { "CO2": 10.14, "bytes": 18552013, "green": 1, "imagebytes": 3247955 },
-						"2022-09-06": { "CO2": 11.38, "bytes": 20829158, "green": 1, "imagebytes": 3231860 }
+						"2022-09-06": { "CO2": 11.38, "bytes": 20829158, "green": 1, "imagebytes": 3231860 },
+						"2023-12-07": { "CO2": 2.28, "bytes": 10430175, "green": 1, "imagebytes": 3221360 }
 					}
 				}
 			}
@@ -3278,7 +3438,8 @@
 						"2022-02-01": { "CO2": 0.85, "bytes": 1555697, "green": 1, "imagebytes": 1078837 },
 						"2022-04-12": { "CO2": 0.59, "bytes": 1078672, "green": 1, "imagebytes": 482002 },
 						"2022-06-09": { "CO2": 0.74, "bytes": 1352573, "green": 1, "imagebytes": 482816 },
-						"2022-09-06": { "CO2": 0.54, "bytes": 993451, "green": 1, "imagebytes": 499467 }
+						"2022-09-06": { "CO2": 0.54, "bytes": 993451, "green": 1, "imagebytes": 499467 },
+						"2023-12-07": { "CO2": 0.21, "bytes": 966007, "green": 1, "imagebytes": 442811 }
 					}
 				}
 			}
@@ -3287,7 +3448,7 @@
 			"active": true,
 			"name": "Harper Adams University",
 			"urls": {
-				"http://www.harper-adams.ac.uk/": {
+				"https://www.harper-adams.ac.uk/": {
 					"values": {
 						"2021-06-01": { "CO2": 2, "bytes": 3316494, "green": 0, "imagebytes": 2337938 },
 						"2021-06-30": { "CO2": 1.57, "bytes": 2602269, "green": 0, "imagebytes": 1734233 },
@@ -3298,7 +3459,8 @@
 						"2022-02-01": { "CO2": 2.14, "bytes": 3542200, "green": 0, "imagebytes": 2571448 },
 						"2022-04-12": { "CO2": 2.24, "bytes": 3722638, "green": 0, "imagebytes": 2760763 },
 						"2022-06-09": { "CO2": 1.7, "bytes": 2817814, "green": 0, "imagebytes": 1690733 },
-						"2022-09-06": { "CO2": 2.04, "bytes": 3378477, "green": 0, "imagebytes": 2237264 }
+						"2022-09-06": { "CO2": 2.04, "bytes": 3378477, "green": 0, "imagebytes": 2237264 },
+						"2023-12-07": { "CO2": 2.46, "bytes": 9755785, "green": 0, "imagebytes": 1786663 }
 					}
 				}
 			}

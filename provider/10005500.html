@@ -12,7 +12,7 @@
 	<meta name="twitter:site" content="@ODILeeds">
 	<meta name="twitter:url" property="og:url" content="https://open-innovations.github.io/learning-provider-website-emissions/areas/10005500">
 	<meta name="twitter:title" property="og:title" content="The Robert Gordon University website emissions">
-	<meta name="twitter:description" property="og:description" content="The Robert Gordon University's homepage produces 1.53g of CO2 emissions per visit (as of 2022-09-06).">
+	<meta name="twitter:description" property="og:description" content="The Robert Gordon University's homepage produces 0.88g of CO2 emissions per visit (as of 2023-12-07).">
 	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/resources/images/logos/oi-square-5.png">
 </head>
 <body class="b1-bg">
@@ -35,10 +35,11 @@
 				<ul class="emissions">
 					<li>
 					<div>
-						<p><strong>URL:</strong> <a href="http://www.rgu.ac.uk/">http://www.rgu.ac.uk/</a></p>
-						<p><strong>Time to load:</strong> 1.3 seconds</p>
+						<p><strong>URL:</strong> <a href="https://www.rgu.ac.uk/">https://www.rgu.ac.uk/</a></p>
+						<p><strong>Time to load:</strong> 4.2 seconds</p>
 						<table>
 							<tr><th>Date checked</th><th class="cen">CO2 / grams</th><th class="cen">Page size</th><th class="cen"><a href="https://www.thegreenwebfoundation.org/directory/">Energy</a></th></tr>
+							<tr><td>2023-12-07</td><td class="cen">0.88</td><td class="cen" data="3484137">3.5MB</td><td class="cen ">GRID?</td></tr>
 							<tr><td>2022-09-06</td><td class="cen">1.53</td><td class="cen" data="2542558">2.5MB</td><td class="cen ">GRID?</td></tr>
 							<tr><td>2022-06-09</td><td class="cen">1.35</td><td class="cen" data="2236335">2.2MB</td><td class="cen ">GRID?</td></tr>
 							<tr><td>2022-04-12</td><td class="cen">1.20</td><td class="cen" data="1989992">2.0MB</td><td class="cen ">GRID?</td></tr>
@@ -52,13 +53,14 @@
 						</table>
 						<div class="tip">
 							<h4>Tip: Optimise images</h4>
+							<p>We estimate potential to save at least 12kB* by optimising images:</p>
 							<ol>
 								<li><a href="https://www.rgu.ac.uk/images/stories/flexicontent/mediaman/l_Web_Project_photography_PT2_564-1920b.jpg">l_Web_Project_photog...</a> is 219kB</li>
+								<li><a href="https://www.rgu.ac.uk/images/Full_Width_Hero/Graduation_2023_By_Rhea-29-1920.jpg">Graduation_2023_By_R...</a> is 215kB and could be 12kB smaller</li>
 								<li><a href="https://www.rgu.ac.uk/images/stories/flexicontent/mediaman/l_Web_Project_photography_PT2_255-1920b.jpg">l_Web_Project_photog...</a> is 188kB</li>
+								<li><a href="https://www.rgu.ac.uk/images/Full_Width_Hero/RGU_Student_Ambassadors_277-ZF-2512-42872-1-001-1920.jpg">RGU_Student_Ambassad...</a> is 168kB</li>
 								<li><a href="https://www.rgu.ac.uk/images/stories/flexicontent/mediaman/l_International-students.jpg">l_International-stud...</a> is 128kB</li>
 								<li><a href="https://www.rgu.ac.uk/images/stories/flexicontent/mediaman/l_Alumni-main-image.jpg">l_Alumni-main-image....</a> is 118kB</li>
-								<li><a href="https://www.rgu.ac.uk/images/Full_Width_Hero/Prospectus-2018-_1171-ZF-0253-68504-1-029-1920.jpg">Prospectus-2018-_117...</a> is 116kB</li>
-								<li><a href="https://www.rgu.ac.uk/images/Full_Width_Hero/RGU-Postgraduate-Prospectus-_999_160-ZF-3888-30378-1-003-1920.jpg">RGU-Postgraduate-Pro...</a> is 106kB</li>
 								<li><a href="https://www.rgu.ac.uk/images/stories/flexicontent/mediaman/l_Forensic-Imaging-Suite-ZF-7524-32634-1-006.jpg">l_Forensic-Imaging-S...</a> is 104kB</li>
 							</ol>
 							<p>First, check that images are appropriately sized - you most likely don't need a 6000x4000 pixel image straight from a digital camera. In Windows, the Photos software will let you quickly shrink huge images and will give you an improvement.</p>
@@ -68,14 +70,22 @@
 							<h4>Tip: Large files</h4>
 							<p>Aside from images, here are the biggest resources:</p>
 							<ol>
-								<li><a href="https://www.youtube.com/s/player/c16db54a/player_ias.vflset/en_US/base.js">base.js</a> is 587kB</li>
-								<li><a href="https://www.rgu.ac.uk/templates/rgu/assets/font-awesome/webfonts/fa-solid-900.woff">fa-solid-900.woff</a> is 99kB</li>
-								<li><a href="https://www.youtube.com/s/player/c16db54a/www-embed-player.vflset/www-embed-player.js">www-embed-player.js</a> is 98kB</li>
+								<li><a href="https://www.youtube.com/s/player/31e0b6d9/player_ias.vflset/en_US/base.js">base.js</a> is 784kB</li>
+								<li><a href="https://www.rgu.ac.uk/media/templates/site/robertgordon/assets/font-awesome/webfonts/fa-solid-900.woff2">fa-solid-900.woff2</a> is 150kB</li>
+								<li><a href="https://www.youtube.com/s/player/31e0b6d9/www-embed-player.vflset/www-embed-player.js">www-embed-player.js</a> is 99kB</li>
 							</ol>
+							<p>The page uses 1 font which requires 150kB. Could system fonts be used instead?</p>
+						</div>
+						<div class="tip">
+							<h4>Tip: Limit third-party code</h4>
+							<p>Here are the largest sources of third-party code:</p>
+							<ol>
+								<li>YouTube uses 994kB</li>								<li>Other Google APIs/SDKs uses 64kB</li>							</ol>
+							<p>Third-party code can significantly impact load performance. Limit the number of redundant third-party providers and try to load third-party code after your page has primarily finished loading.</p>
 						</div>
 					</div>
 					<div>
-						<a href="http://www.rgu.ac.uk/"><img src="10005500.webp" alt="Screenshot" class="screenshot" /></a>
+						<a href="https://www.rgu.ac.uk/"><img src="10005500.webp" alt="Screenshot" class="screenshot" /></a>
 					</div>
 					</li>
 				</ul>
